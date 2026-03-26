@@ -1,0 +1,32 @@
+look
+north
+east
+open window
+west
+west
+take lantern
+take sword
+turn on lantern
+east
+up
+take rope
+down
+west
+move rug
+open trapdoor
+down
+east
+attack troll with sword
+north
+north
+west
+east
+tie rope to railing
+down
+take torch
+turn on torch
+turn off lantern
+look
+down
+south
+northwest

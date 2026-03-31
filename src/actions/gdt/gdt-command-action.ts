@@ -7,7 +7,7 @@
 
 import { Action, ActionContext, ValidationResult } from '@sharpee/stdlib';
 import { ISemanticEvent } from '@sharpee/core';
-import { GDT_COMMAND_ACTION_ID, GDTCommandCode } from './types';
+import { GDT_COMMAND_ACTION_ID, GDTCommandCode, GDTCommandResult } from './types';
 import { isGDTActive, createGDTContext } from './gdt-context';
 import { parseGDTCommand } from './gdt-parser';
 import { executeCommand } from './commands';
@@ -19,6 +19,7 @@ interface GDTCommandSharedData {
   code?: GDTCommandCode;
   args?: string[];
   rawInput?: string;
+  result?: GDTCommandResult;
 }
 
 function getSharedData(context: ActionContext): GDTCommandSharedData {
@@ -70,38 +71,33 @@ export const gdtCommandAction: Action = {
     const result = executeCommand(code, gdtContext, args);
 
     // Store result for report phase
-    (sharedData as any).result = result;
+    sharedData.result = result;
   },
 
   blocked(context: ActionContext, result: ValidationResult): ISemanticEvent[] {
     if (result.error === 'not_in_gdt_mode') {
       // This shouldn't happen if parser routing is correct
-      return [context.event('action.blocked', {
-        actionId: GDT_COMMAND_ACTION_ID,
-        messageId: 'not_in_gdt_mode',
-        message: 'GDT mode is not active.',
-        params: {}
+      return [context.event('dungeo.event.gdt_command_blocked', {
+        messageId: `${GDT_COMMAND_ACTION_ID}.not_in_gdt_mode`,
+        message: 'GDT mode is not active.'
       })];
     }
 
     // Unknown command in GDT mode
-    return [context.event('action.blocked', {
-      actionId: GDT_COMMAND_ACTION_ID,
-      messageId: 'invalid_gdt_command',
-      message: 'Unknown GDT command. Type HE for help.',
-      params: {}
+    return [context.event('dungeo.event.gdt_command_blocked', {
+      messageId: `${GDT_COMMAND_ACTION_ID}.invalid_gdt_command`,
+      message: 'Unknown GDT command. Type HE for help.'
     })];
   },
 
   report(context: ActionContext): ISemanticEvent[] {
     const sharedData = getSharedData(context);
-    const result = (sharedData as any).result;
+    const result = sharedData.result!;
     const code = sharedData.code!;
 
-    // Emit action.success with pre-rendered message for text service
-    return [context.event('action.success', {
-      actionId: GDT_COMMAND_ACTION_ID,
-      messageId: `gdt_${code.toLowerCase()}`,
+    // Emit domain event with pre-rendered message for text service
+    return [context.event('dungeo.event.gdt_command', {
+      messageId: `${GDT_COMMAND_ACTION_ID}.gdt_${code.toLowerCase()}`,
       message: result.output.join('\n')
     })];
   }

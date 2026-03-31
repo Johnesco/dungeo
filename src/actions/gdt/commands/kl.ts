@@ -6,7 +6,7 @@
  */
 
 import { GDTCommandHandler, GDTContext, GDTCommandResult } from '../types';
-import { IdentityTrait, CombatantTrait, TraitType } from '@sharpee/world-model';
+import { IdentityTrait, NpcTrait, CombatantTrait, TraitType } from '@sharpee/world-model';
 import { ISemanticEvent } from '@sharpee/core';
 
 // Store engine reference for event processing
@@ -86,27 +86,11 @@ export const klHandler: GDTCommandHandler = {
     const identity = targetEntity.get(IdentityTrait);
     const entityName = identity?.name || targetEntity.id;
 
-    // Check if entity has a death handler
-    const entityOn = (targetEntity as any).on;
-    const hasDeathHandler = entityOn && typeof entityOn['if.event.death'] === 'function';
-
-    // Create death event
-    const deathEvent: ISemanticEvent = {
-      id: `gdt-kill-${targetEntity.id}-${Date.now()}`,
-      type: 'if.event.death',
-      timestamp: Date.now(),
-      entities: { target: targetEntity.id },
-      data: {
-        entityId: targetEntity.id,
-        entityName,
-        cause: 'gdt',
-        killedBy: 'GDT command'
-      }
-    };
-
-    // Mark entity as dead
-    (targetEntity as any).isDead = true;
-    (targetEntity as any).isAlive = false;
+    // Mark entity as dead via NpcTrait
+    const npcTrait = targetEntity.get(NpcTrait);
+    if (npcTrait) {
+      npcTrait.kill();
+    }
 
     // Also update CombatantTrait if present
     const combatant = targetEntity.get<CombatantTrait>(TraitType.COMBATANT);
@@ -117,37 +101,32 @@ export const klHandler: GDTCommandHandler = {
       combatant.isConscious = false;
     }
 
-    // Process through event processor if engine is available
+    // Emit death event through event processor for story-level handlers
+    // (Entity `on` death handlers removed — ISSUE-068)
     if (storedEngine) {
       try {
         const eventProcessor = storedEngine.getEventProcessor();
         if (eventProcessor) {
-          // Process the death event which will trigger entity-level handlers
+          const deathEvent: ISemanticEvent = {
+            id: `gdt-kill-${targetEntity.id}-${Date.now()}`,
+            type: 'if.event.death',
+            timestamp: Date.now(),
+            entities: { target: targetEntity.id },
+            data: {
+              entityId: targetEntity.id,
+              entityName,
+              cause: 'gdt',
+              killedBy: 'GDT command'
+            }
+          };
           eventProcessor.process([deathEvent], world, context.player);
         }
       } catch (e) {
-        // Fallback: directly call the death handler
-        if (hasDeathHandler) {
-          try {
-            entityOn['if.event.death'](deathEvent, world);
-          } catch (handlerError) {
-            // Ignore handler errors
-          }
-        }
-      }
-    } else if (hasDeathHandler) {
-      // Fallback: directly call the death handler
-      try {
-        entityOn['if.event.death'](deathEvent, world);
-      } catch (handlerError) {
-        // Ignore handler errors
+        // Event processor unavailable — kill already applied via traits above
       }
     }
 
     output.push(`Killed: ${entityName} (${targetEntity.id})`);
-    if (hasDeathHandler) {
-      output.push('Death handler triggered.');
-    }
 
     return {
       success: true,

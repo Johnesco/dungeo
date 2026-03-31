@@ -13,7 +13,7 @@
 
 import { Action, ActionContext, ValidationResult } from '@sharpee/stdlib';
 import { ISemanticEvent } from '@sharpee/core';
-import { IdentityTrait, NpcTrait, RoomTrait, RoomBehavior, Direction } from '@sharpee/world-model';
+import { IdentityTrait, NpcTrait, RoomTrait, RoomBehavior, Direction, TraitType } from '@sharpee/world-model';
 import { CommandingMessages, COMMANDING_ACTION_ID } from './commanding-messages';
 import { RobotMessages } from '../../npcs/robot/robot-messages';
 import { getRobotProps, makeRobotPushButton } from '../../npcs/robot/robot-entity';
@@ -193,8 +193,8 @@ function executeRobotTake(
       return handleRobotTakeSphere(context, robot);
     }
 
-    // Check if portable
-    const isPortable = (targetObject as any).portable !== false;
+    // Check if portable (everything is portable unless it has SceneryTrait)
+    const isPortable = !targetObject.hasTrait(TraitType.SCENERY);
     if (isPortable) {
       // Move object to robot (robot "carries" it)
       context.world.moveEntity(targetObject.id, robot.id);
@@ -363,8 +363,7 @@ function handleRobotCommand(
   const events: ISemanticEvent[] = [];
   const props = getRobotProps(robot);
   if (!props) {
-    return [context.event('action.blocked', {
-      actionId: COMMANDING_ACTION_ID,
+    return [context.event('dungeo.event.commanding_blocked', {
       messageId: CommandingMessages.CANT_COMMAND
     })];
   }
@@ -516,8 +515,7 @@ export const commandingAction: Action = {
   },
 
   blocked(context: ActionContext, result: ValidationResult): ISemanticEvent[] {
-    return [context.event('game.message', {
-      actionId: COMMANDING_ACTION_ID,
+    return [context.event('dungeo.event.commanding_blocked', {
       messageId: result.error || CommandingMessages.CANT_COMMAND
     })];
   },

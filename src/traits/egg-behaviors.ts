@@ -19,7 +19,8 @@ import {
   IFEntity,
   WorldModel,
   ActorTrait,
-  TraitType
+  TraitType,
+  OpenableTrait
 } from '@sharpee/world-model';
 
 import { EggTrait } from './egg-trait';
@@ -83,9 +84,9 @@ export const EggOpeningBehavior: CapabilityBehavior = {
   ): void {
     // Open the egg - the OpenableTrait handles the actual state change
     // through the standard opening action's execute phase
-    const openable = entity.get(TraitType.OPENABLE);
+    const openable = entity.get(OpenableTrait);
     if (openable) {
-      (openable as any).isOpen = true;
+      openable.isOpen = true;
     }
 
     // Mark that the egg has been opened
@@ -112,15 +113,6 @@ export const EggOpeningBehavior: CapabilityBehavior = {
       })
     );
 
-    // Emit action.success for language rendering
-    effects.push(
-      createEffect('action.success', {
-        actionId: 'if.action.opening',
-        messageId: EggMessages.OPENED,
-        params: { item: entity.name }
-      })
-    );
-
     return effects;
   },
 
@@ -132,8 +124,7 @@ export const EggOpeningBehavior: CapabilityBehavior = {
     sharedData: CapabilitySharedData
   ): CapabilityEffect[] {
     return [
-      createEffect('action.blocked', {
-        actionId: 'if.action.opening',
+      createEffect('dungeo.event.egg_open_blocked', {
         messageId: error,
         params: { target: entity.name }
       })

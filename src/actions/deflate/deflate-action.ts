@@ -104,16 +104,19 @@ export const deflateAction: Action = {
       inflatableTrait.isInflated = false;
     }
 
-    // Update name and description to reflect deflated state
+    // Update name to reflect deflated state (name mutation stays — ISSUE-070 scope)
     const identity = boat.get(IdentityTrait);
     if (identity) {
       identity.name = 'pile of plastic';
       identity.article = 'a';
-      identity.description = 'There is a folded pile of plastic here which has a small valve attached.';
+      // Description sourced from InflatableTrait field (ISSUE-070)
+      if (inflatableTrait) {
+        identity.description = inflatableTrait.deflatedDescription ?? 'There is a folded pile of plastic here which has a small valve attached.';
+      }
     }
 
     // Also update displayName attribute (used by entity.name getter)
-    (boat as any).attributes.displayName = 'pile of plastic';
+    boat.attributes.displayName = 'pile of plastic';
 
     // Remove traits when deflating - boat is no longer enterable/vehicle
     if (boat.has(TraitType.ENTERABLE)) {
@@ -125,10 +128,8 @@ export const deflateAction: Action = {
   },
 
   blocked(context: ActionContext, result: ValidationResult): ISemanticEvent[] {
-    return [context.event('action.blocked', {
-      actionId: DEFLATE_ACTION_ID,
-      messageId: result.error || DeflateMessages.NOT_DEFLATABLE,
-      reason: result.error
+    return [context.event('dungeo.event.deflate_blocked', {
+      messageId: result.error || DeflateMessages.NOT_DEFLATABLE
     })];
   },
 

@@ -44,7 +44,7 @@ function getDialValue(context: ActionContext): number | null {
   }
 
   // Fallback: extract from raw input
-  const rawInput = (command as any).rawInput || '';
+  const rawInput = command.parsed.rawInput || '';
   const match = rawInput.match(/(?:set|turn)\s+(?:dial|indicator)\s+to\s+(\d+)/i);
   if (match) {
     const num = parseInt(match[1], 10);
@@ -99,7 +99,7 @@ export const setDialAction: Action = {
 
   blocked(context: ActionContext, result: ValidationResult): ISemanticEvent[] {
     return [
-      context.event('action.blocked', {
+      context.event('dungeo.event.set_dial_blocked', {
         messageId: result.error || SetDialMessages.NOT_AT_PARAPET
       })
     ];

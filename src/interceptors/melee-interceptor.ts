@@ -23,6 +23,7 @@ import {
   WorldModel,
   IdentityTrait,
   TraitType,
+  NpcTrait,
   CombatantTrait,
   RoomBehavior,
   RoomTrait,
@@ -58,6 +59,10 @@ import {
 } from '../combat/melee-messages';
 import { MELEE_STATE, getBaseOstrength } from '../combat/melee-state';
 import { createEmptyFrame } from '../objects/thiefs-canvas-objects';
+
+// Troll knockout constants (from MDL act1.254, dung.355)
+const TROLL_UNCONSCIOUS_DESC = 'An unconscious troll is sprawled on the floor. All passages out of the room are open.';
+const TROLL_RECOVERY_TURNS = 4;
 
 /**
  * Get the villain key for message lookup.
@@ -107,6 +112,43 @@ function getVillainOstrength(villain: IFEntity): number {
   const base = getBaseOstrength(villain);
   villain.attributes[MELEE_STATE.VILLAIN_OSTRENGTH] = base;
   return base;
+}
+
+/**
+ * Handle villain-specific knockout side effects.
+ *
+ * Called when a villain is knocked unconscious. Applies villain-specific
+ * mutations (description, exit unblocking, recovery turns) that were
+ * previously handled by entity `on` handlers (ISSUE-068).
+ */
+function handleVillainKnockout(
+  villainKey: string,
+  villain: IFEntity,
+  world: WorldModel
+): void {
+  switch (villainKey) {
+    case 'troll': {
+      // Update description to TROLLOUT (MDL act1.254)
+      const identity = villain.get(TraitType.IDENTITY) as IdentityTrait | undefined;
+      if (identity) {
+        identity.description = TROLL_UNCONSCIOUS_DESC;
+      }
+
+      // Unblock north exit — troll no longer blocks passage
+      const villainRoomId = world.getLocation(villain.id);
+      const room = villainRoomId ? world.getEntity(villainRoomId) : undefined;
+      if (room) {
+        RoomBehavior.unblockExit(room, Direction.NORTH);
+      }
+
+      // Set recovery turns for the troll recovery daemon
+      const combatant = villain.get(TraitType.COMBATANT) as CombatantTrait | undefined;
+      if (combatant) {
+        combatant.recoveryTurns = TROLL_RECOVERY_TURNS;
+      }
+      break;
+    }
+  }
 }
 
 /**
@@ -170,10 +212,11 @@ function handleVillainDeath(
 
       // 3. Spawn empty frame in the Treasure Room (thief's lair)
       // The lair ID is stored in the thief's NPC custom properties
-      const npcTrait = villain.get(TraitType.NPC) as any;
-      const lairRoomId = npcTrait?.customProperties?.lairRoomId ?? villainRoomId;
+      const npcTrait = villain.get(NpcTrait);
+      const storedLairId = npcTrait?.customProperties?.lairRoomId;
+      const lairRoomId = typeof storedLairId === 'string' ? storedLairId : villainRoomId;
       const frame = createEmptyFrame(world);
-      world.moveEntity(frame.id, lairRoomId);
+      world.moveEntity(frame.id, lairRoomId ?? null);
 
       // 4. Reveal all concealed treasures in the lair (MDL: OVISON restored on death)
       if (lairRoomId) {
@@ -361,6 +404,22 @@ export const MeleeInterceptor: ActionInterceptor = {
           droppedItems.push(item.id);
         }
       }
+    }
+
+    // Handle knockout outcomes (ISSUE-068: moved from entity `on` handler)
+    if (targetKnockedOut) {
+      const combatant = villain.get(TraitType.COMBATANT) as CombatantTrait | undefined;
+      if (combatant) {
+        // Direct assignment — same reason as kill path above
+        combatant.isConscious = false;
+      }
+      // Sync NpcTrait consciousness (NPC service checks NpcTrait.canAct separately)
+      const npcTrait = villain.get(NpcTrait);
+      if (npcTrait) {
+        npcTrait.isConscious = false;
+      }
+      // Villain-specific knockout side effects (description, exits, recovery)
+      handleVillainKnockout(villainKey, villain, world);
     }
 
     // --- Get the combat message ---

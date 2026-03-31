@@ -62,13 +62,13 @@ function updateClothBagState(world: IWorldModel, isInflated: boolean): void {
     const inflatableTrait = clothBag.get(InflatableTrait);
     if (inflatableTrait) {
       inflatableTrait.isInflated = isInflated;
-    }
-    const identity = clothBag.get(IdentityTrait);
-    if (identity) {
-      if (isInflated) {
-        identity.description = 'The silk bag billows overhead, filled with hot air.';
-      } else {
-        identity.description = 'The cloth bag is draped over the basket.';
+      // Description sourced from InflatableTrait fields (ISSUE-070)
+      const identity = clothBag.get(IdentityTrait);
+      if (identity) {
+        const desc = isInflated ? inflatableTrait.inflatedDescription : inflatableTrait.deflatedDescription;
+        if (desc) {
+          identity.description = desc;
+        }
       }
     }
   }
@@ -326,16 +326,13 @@ export const balloonExitAction: Action = {
 
   blocked(context: ActionContext, result: ValidationResult): ISemanticEvent[] {
     if (result.error === BalloonExitMessages.EXIT_BLOCKED_MIDAIR) {
-      return [context.event('action.blocked', {
-        actionId: BALLOON_EXIT_ACTION_ID,
-        messageId: BalloonExitMessages.EXIT_BLOCKED_MIDAIR,
-        reason: 'You are too high in the air to exit safely!'
+      return [context.event('dungeo.event.balloon_exit_blocked', {
+        messageId: BalloonExitMessages.EXIT_BLOCKED_MIDAIR
       })];
     }
 
-    return [context.event('action.blocked', {
-      actionId: BALLOON_EXIT_ACTION_ID,
-      messageId: result.error || 'action_failed'
+    return [context.event('dungeo.event.balloon_exit_blocked', {
+      messageId: `${BALLOON_EXIT_ACTION_ID}.${result.error || 'action_failed'}`
     })];
   },
 
@@ -356,8 +353,7 @@ export const balloonExitAction: Action = {
     // Success message — include room name for the ledge
     const destRoom = context.world.getEntity(context.sharedData.exitedToRoom);
     const roomName = destRoom?.get(IdentityTrait)?.name || 'the ledge';
-    events.push(context.event('action.success', {
-      actionId: BALLOON_EXIT_ACTION_ID,
+    events.push(context.event('dungeo.event.balloon_exited', {
       messageId: BalloonExitMessages.EXIT_TO_LEDGE,
       params: { roomName }
     }));

@@ -13,6 +13,7 @@ import { LanguageProvider } from '@sharpee/lang-en-us';
 import { PerceptionService } from '@sharpee/stdlib';
 import {
   BrowserClient,
+  ThemeManager,
   BrowserClientInterface,
 } from '@sharpee/platform-browser';
 import { story, config } from './index';
@@ -21,8 +22,8 @@ import { STORY_VERSION, ENGINE_VERSION, BUILD_DATE } from './version';
 // Storage key for theme
 const THEME_STORAGE_KEY = 'dungeo-theme';
 
-// Apply saved theme immediately (inlined — esbuild IIFE loses the ThemeManager export ref, see ifhub#52)
-try { const t = localStorage.getItem(THEME_STORAGE_KEY); if (t) document.documentElement.setAttribute('data-theme', t); } catch {}
+// Apply saved theme immediately to prevent flash of default theme
+ThemeManager.applyEarlyTheme(THEME_STORAGE_KEY);
 
 // Game metadata from story config
 const GAME_TITLE = config.title;

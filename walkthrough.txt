@@ -283,11 +283,19 @@ put pot in trophy case
 drop stick
 inventory
 look
-look
+east
+east
+north
+north
+up
 take egg
 inventory
 examine egg
-look
+down
+south
+east
+west
+west
 open trophy case
 put egg in trophy case
 inventory
@@ -295,6 +303,12 @@ look
 east
 take bottle
 west
+open trap door
+down
+east
+north
+east
+south
 look
 southeast
 answer "a well"
@@ -326,7 +340,21 @@ take sphere
 tell robot to raise cage
 take sphere
 inventory
-look
+north
+west
+southeast
+west
+enter bucket
+fill bottle
+exit bucket
+west
+west
+up
+north
+west
+west
+west
+up
 open trophy case
 put necklace in trophy case
 put spices in trophy case
@@ -547,18 +575,40 @@ take frame piece
 down
 north
 east
-look
+east
+east
+north
+north
 wind canary
 take bauble
+south
+east
+west
+west
 open trophy case
 put canary in trophy case
 put bauble in trophy case
 put chalice in trophy case
 put egg in trophy case
+open trap door
+down
+east
+south
+east
+west
+up
+southwest
+east
+south
+northeast
+up
 take grail
 take trident
 take bag of coins
 take jade figurine
+down
+north
+east
 open trophy case
 put grail in trophy case
 put trident in trophy case
@@ -749,8 +799,23 @@ south
 burn incense
 pray
 drop frame piece
+north
+west
+west
+north
+south
+south
+west
+east
+south
+northwest
 look
 take canvas
+south
+north
+east
+west
+up
 open trophy case
 put canvas in trophy case
 score

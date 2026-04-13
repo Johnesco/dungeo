@@ -1,8 +1,8 @@
-> look
+>look
 DUNGEON
 
-Story v0.9.92-beta (built 2026-03-23)
-Sharpee v0.9.92-beta
+Story v0.9.107 (built 2026-04-13)
+Sharpee v0.9.107
 
 A port of Mainframe Zork (1981)
 By Tim Anderson, Marc Blank, Bruce Daniels, and Dave Lebling
@@ -16,84 +16,85 @@ This is an open field west of a white house with a boarded front door.
 
 You can see small mailbox, front door, welcome mat, white house here.
 
-> north
+>north
 North of House
 
 You are facing the north side of a white house. There is no door here, and all the windows are barred.
 
 You can see white house here.
 
-> east
+>east
 Behind House
 
 You are behind the white house. In one corner of the house there is a small window which is slightly ajar.
 
 You can see window, white house here.
 
-> open window
-With great effort, you open the window far enough to allow entry.
+>open window
+You open window.
 
-> west
+>west
 Kitchen
 
 This is the kitchen of the white house. A table seems to have been used recently for the preparation of food. A passage leads to the west, and a dark staircase can be seen leading upward. To the east is a small window which is open.
 
 You can see kitchen table, elongated brown sack, glass bottle here.
 
-> west
+>west
 Living Room
 
 This is the living room. There is a door to the east. To the west is a wooden door with strange gothic lettering, which appears to be nailed shut.
 
 You can see trophy case, elvish sword, brass lantern, large oriental rug, wooden door here.
 
-> take lantern
+>take lantern
 Taken.
 
-> take sword
+>take sword
 Taken.
 
-> turn on lantern
+>turn on lantern
 The brass lantern switches on, banishing the darkness.
 
-> east
+>east
 Kitchen
 
 This is the kitchen of the white house. A table seems to have been used recently for the preparation of food. A passage leads to the west, and a dark staircase can be seen leading upward. To the east is a small window which is open.
 
 You can see kitchen table, elongated brown sack, glass bottle here.
 
-> up
+>up
 Attic
 
 This is the attic. The only exit is stairs that lead down.
 
 You can see table, large coil of rope, nasty knife, brick, shiny wire here.
 
-> take rope
+>take rope
 Taken.
 
-> down
+>down
 Kitchen
 
 This is the kitchen of the white house. A table seems to have been used recently for the preparation of food. A passage leads to the west, and a dark staircase can be seen leading upward. To the east is a small window which is open.
 
 You can see kitchen table, elongated brown sack, glass bottle here.
 
-> west
+>west
 Living Room
 
 This is the living room. There is a door to the east. To the west is a wooden door with strange gothic lettering, which appears to be nailed shut.
 
 You can see trophy case, large oriental rug, wooden door here.
 
-> move rug
+>move rug
+You give large oriental rug a push, but it doesn't move far.
 Moving the rug reveals a trap door.
 
-> open trapdoor
-The door reluctantly opens to reveal a rickety staircase descending into darkness.
+>open trapdoor
+You open trap door.
 
-> down
+>down
 Cellar
 
 This is a dark and damp cellar with a narrow passageway leading east, and a crawlway to the south. To the west is the bottom of a steep metal ramp which is unclimbable.
@@ -102,165 +103,166 @@ You can see steep metal ramp here.
 The door crashes shut, and you hear someone barring it.
 Your sword is glowing with a faint blue glow.
 
-> east
+>east
 Troll Room
 
 This is a small room with passages off in all directions. Bloodstains and deep scratches (perhaps made by an axe) mar the walls.
 
 You can see nasty-looking troll here.
-
-The troll swings his axe, and it nicks your arm as you dodge.
-
+The troll's axe barely misses your ear.
 Your sword has begun to glow very brightly.
 
-> attack troll with sword
-The troll is battered into unconsciousness.
+>attack troll with sword
+The troll's weapon is knocked to the floor, leaving him unarmed.
+The troll, now worried about this encounter, recovers his bloody axe.
+Your sword has begun to glow very brightly.
 
-> north
+>attack troll with sword
+It's curtains for the troll as your sword removes his head.
+
+Almost as soon as the troll breathes his last, a cloud of sinister black smoke envelops him, and when the fog lifts, the carcass has disappeared.
+With the troll dispatched, the passage to the north is now clear.
+
+Your sword is no longer glowing.
+
+>north
 East-West Passage
 
 This is a narrow east-west passageway. There is a narrow stairway leading down at the north end of the room.
 
-Your sword is glowing with a faint blue glow.
-
-> north
+>north
 Deep Ravine
 
 You are in a deep ravine at a point where a crack opens to the east. A passage leads south, and a steep trail leads down.
 
-Your sword is no longer glowing.
-
-> west
+>west
 Rocky Crawl
 
 This is a crawlway with a low ceiling. A passage goes to the east, and a narrow opening leads west.
 
-> east
+>east
 Dome Room
 
 This is the periphery of a large dome, which forms the ceiling of another room below. Protecting you from a precipitous drop is a wooden railing which circles the dome.
 
 You can see railing here.
 
-> tie rope to railing
+>tie rope to railing
 The rope is now securely fastened to the railing, dangling down into the darkness below.
 
-> down
+>down
 Torch Room
 
 This is a large room with a prominent doorway leading to a down staircase. To the west is a narrow twisting tunnel, covered with a thin layer of dust. Above you is a large dome painted with scenes depicting elfin hacking rites. Up around the edge of the dome (20 feet up) is a wooden railing. In the center of the room there is a white marble pedestal.
 
 You can see ivory torch here.
 
-> take torch
+>take torch
 Taken.
 
-> turn on torch
+>turn on torch
 ivory torch isn't something you can switch on.
 
-> turn off lantern
+>turn off lantern
 You switch off brass lantern, plunging the area into darkness.
 
-> look
+>look
 Torch Room
 
 This is a large room with a prominent doorway leading to a down staircase. To the west is a narrow twisting tunnel, covered with a thin layer of dust. Above you is a large dome painted with scenes depicting elfin hacking rites. Up around the edge of the dome (20 feet up) is a wooden railing. In the center of the room there is a white marble pedestal.
 
-> down
+>down
 North/South Crawlway
 
 This is a north-south crawlway; a passage also goes to the east. There is a hole above, but it provides no opportunities for climbing.
 
-Your sword is glowing with a faint blue glow.
-
-> south
+>south
 Studio
 
 This is what appears to have been an artist's studio. The walls and floors are splattered with paints of 69 different colors. Strangely enough, nothing of value is hanging here. At the north and northwest of the room are open doors (also covered with paint). An extremely dark and narrow chimney leads up from a fireplace; although you might be able to get up it, it seems unlikely you could get back down.
 
 You can see chimney, paint here.
-Your sword is no longer glowing.
 
-> northwest
+>northwest
 Gallery
 
 This is an art gallery. Most of the paintings have been stolen by vandals with exceptional taste. The vandals left through either the north or west exits.
 
 You can see painting here.
 
-> west
+>west
 Bank Entrance
 
 You are in the grand entrance hall of the Bank of Zork. Marble columns rise to a vaulted ceiling decorated with gold leaf. A brass plaque on the wall reads "BANK OF ZORK - Securing Your Treasures Since 668 GUE". The main lobby lies to the south.
 
 You can see brass plaque here.
 
-> northeast
+>northeast
 East Teller
 
 You are behind the eastern teller window. This area is much like the western side, with a dusty counter and abandoned paperwork. A passage leads west, and a door to the south leads to the back offices.
 
-> south
+>south
 Chairman's Office
 
 You are in the opulent office of the Bank's former chairman. A massive mahogany desk dominates the room, and the walls are lined with bookshelves containing leather-bound volumes. A painting hangs on the north wall. Doors lead north and east.
 
 You can see portrait, mahogany desk here.
 
-> take portrait
+>take portrait
 Taken.
 
-> north
+>north
 East Teller
 
 You are behind the eastern teller window. This area is much like the western side, with a dusty counter and abandoned paperwork. A passage leads west, and a door to the south leads to the back offices.
 
-> west
+>west
 West Teller's Room
 
 This is a small square room, which was used by a bank officer whose job it was to retrieve safety deposit boxes for the customer. On the north side of the room is a sign which reads "Viewing Room". On the west side of the room, above an open door, is a sign reading
 
             BANK PERSONNEL ONLY
 
-> west
+>west
 Safety Depository
 
 This is a large rectangular room. The east and west walls here were used for storing safety deposit boxes. As might be expected, all have been carefully removed by evil persons. To the east, west, and south of the room are large doorways. The northern "wall" of the room is a shimmering curtain of light. In the center of the room is a large stone cube, about 10 feet on a side. Engraved on the side of the cube is some lettering.
 
 You can see stone cube, shimmering curtain, vault door, north wall here.
 
-> walk through curtain
+>walk through curtain
 Small Room
 
 This is a small bare room with no distinguishing features. There are no exits from this room.
 
 You feel somewhat disoriented as you pass through...
 
-> walk through south wall
+>walk through south wall
 Safety Depository
 
 This is a large rectangular room. The east and west walls here were used for storing safety deposit boxes. As might be expected, all have been carefully removed by evil persons. To the east, west, and south of the room are large doorways. The northern "wall" of the room is a shimmering curtain of light. In the center of the room is a large stone cube, about 10 feet on a side. Engraved on the side of the cube is some lettering.
 
 You feel somewhat disoriented as you pass through...
 
-> walk through north wall
+>walk through north wall
 Vault
 
 This is the Vault of the Bank of Zork, in which there are no doors.
 
 You feel somewhat disoriented as you pass through...
 
-> take zorkmid bills
+>take zorkmid bills
 Taken.
 
-> walk through north wall
+>walk through north wall
 Safety Depository
 
 This is a large rectangular room. The east and west walls here were used for storing safety deposit boxes. As might be expected, all have been carefully removed by evil persons. To the east, west, and south of the room are large doorways. The northern "wall" of the room is a shimmering curtain of light. In the center of the room is a large stone cube, about 10 feet on a side. Engraved on the side of the cube is some lettering.
 
 You feel somewhat disoriented as you pass through...
 
-> walk through curtain
+>walk through curtain
 Viewing Room
 
 This is a room used by holders of safety deposit boxes to view their contents. On the north side of the room is a sign which says
@@ -273,317 +275,314 @@ Thank you for banking at the Zork!
 
 You feel somewhat disoriented as you pass through...
 
-> south
+>south
 Bank Entrance
 
 You are in the grand entrance hall of the Bank of Zork. Marble columns rise to a vaulted ceiling decorated with gold leaf. A brass plaque on the wall reads "BANK OF ZORK - Securing Your Treasures Since 668 GUE". The main lobby lies to the south.
 
 You can see brass plaque here.
 
-> east
+>east
 Gallery
 
 This is an art gallery. Most of the paintings have been stolen by vandals with exceptional taste. The vandals left through either the north or west exits.
 
 You can see painting here.
 
-> inventory
+>inventory
 You are carrying:
   brass lantern, elvish sword, ivory torch, portrait, stack of zorkmid bills
 
-> take painting
+>take painting
 Taken.
 
-> south
+>south
 Studio
 
 This is what appears to have been an artist's studio. The walls and floors are splattered with paints of 69 different colors. Strangely enough, nothing of value is hanging here. At the north and northwest of the room are open doors (also covered with paint). An extremely dark and narrow chimney leads up from a fireplace; although you might be able to get up it, it seems unlikely you could get back down.
 
 You can see chimney, paint here.
 
-> north
+>north
 North/South Crawlway
 
 This is a north-south crawlway; a passage also goes to the east. There is a hole above, but it provides no opportunities for climbing.
 
-Your sword is glowing with a faint blue glow.
-
-> east
+>east
 Troll Room
 
 This is a small room with passages off in all directions. Bloodstains and deep scratches (perhaps made by an axe) mar the walls.
 
-You can see nasty-looking troll here.
-Your sword has begun to glow very brightly.
-
-> drop sword
+>drop sword
 Dropped.
 
-> south
+>south
 Maze
 
 You are in a maze of twisty little passages, all alike.
 
-> east
+>east
 Maze
 
 You are in a maze of twisty little passages, all alike.
 
-> west
+>west
 Maze
 
 You are in a maze of twisty little passages, all alike.
 
-> up
+>up
 Maze
 
 You are in a maze of twisty little passages, all alike.
 
 You can see skeleton, leather bag of coins, skeleton key, rusty knife, incense here.
 
-> take incense
+>take incense
 Taken.
 
-> take key
+>take key
 Taken.
 
-> southwest
+>southwest
 Maze
 
 You are in a maze of twisty little passages, all alike.
 
-> east
+You can see seedy-looking thief here.
+"My, what a lovely stack of zorkmid bills!" The thief snatches it away.
+
+>east
 Maze
 
 You are in a maze of twisty little passages, all alike.
 
-> south
+>south
 Maze
 
 You are in a maze of twisty little passages, all alike.
 
-> northeast
+>northeast
 Cyclops Room
 
 This room has an exit on the northwest, and a staircase leading up.
 
 You can see huge cyclops here.
-The cyclops growls menacingly.
 
-> say odysseus
+>say odysseus
 The cyclops, hearing that dreaded name, panics!
 The cyclops runs away in terror, revealing a hidden passage!
 A passage north to the Strange Passage is now clear.
 
-> north
+>north
 Strange Passage
 
 This is a long passage. To the south is one entrance. On the east there is an old wooden door, with a large hole in it (about cyclops sized).
 
-> east
+>east
 Living Room
 
 This is the living room. There is a door to the east. To the west is a wooden door with strange gothic lettering, which appears to be nailed shut.
 
 You can see trophy case, large oriental rug, wooden door, trap door here.
 
-> look
+>look
 Living Room
 
 This is the living room. There is a door to the east. To the west is a wooden door with strange gothic lettering, which appears to be nailed shut.
 
 You can see trophy case, trap door, large oriental rug, wooden door here.
 
-> inventory
+>inventory
 You are carrying:
-  brass lantern, ivory torch, portrait, stack of zorkmid bills, painting, incense, skeleton key
+  brass lantern, ivory torch, portrait, painting, incense, skeleton key
 
-> open trophy case
+>open trophy case
 You open trophy case, which is empty.
 
-> put portrait in trophy case
+>put portrait in trophy case
 You put portrait in trophy case.
 
-> put painting in trophy case
+>put painting in trophy case
 You put painting in trophy case.
 
-> put zorkmid bills in trophy case
-You put stack of zorkmid bills in trophy case.
+>put zorkmid bills in trophy case
+You can't see any such thing.
 
-> drop lantern
+>drop lantern
 Dropped.
 
-> drop incense
+>drop incense
 Dropped.
 
-> drop key
+>drop key
 Dropped.
 
-> inventory
+>inventory
 You are carrying:
   ivory torch
 
-> take lantern
+>take lantern
 Taken.
 
-> open trap door
-The door reluctantly opens to reveal a rickety staircase descending into darkness.
+>open trap door
+You open trap door.
 
-> down
+>down
 Cellar
 
 This is a dark and damp cellar with a narrow passageway leading east, and a crawlway to the south. To the west is the bottom of a steep metal ramp which is unclimbable.
 
 You can see steep metal ramp here.
 
-> east
+>east
 Troll Room
 
 This is a small room with passages off in all directions. Bloodstains and deep scratches (perhaps made by an axe) mar the walls.
 
-You can see nasty-looking troll, elvish sword here.
+You can see elvish sword here.
 
-> north
+>north
 East-West Passage
 
 This is a narrow east-west passageway. There is a narrow stairway leading down at the north end of the room.
 
-> north
+>north
 Deep Ravine
 
 You are in a deep ravine at a point where a crack opens to the east. A passage leads south, and a steep trail leads down.
 
-> east
+>east
 Chasm
 
 A chasm runs southwest to northeast. You are on the east edge.
 
-> east
+>east
 North/South Passage
 
 This is a wide passage running north and south. The walls are damp and cold.
 
-> northeast
+>northeast
 Loud Room
 
 This is a large room with a ceiling which cannot be detected from the ground. A narrow passage leads east; a stairway leads up. The room is extremely noisy.
 
 You can see platinum bar here.
 
-> echo
+>echo
 The platinum bar seems to absorb the sound, preventing dangerous reverberations. The acoustics of the room cause your voice to echo: "echo...echo...echo..."
 
-> take bar
+>take bar
 Taken.
 
-> up
+>up
 Damp Cave
 
 This cave is extremely damp. A stairway leads down.
 
-> east
+>east
 Flood Control Dam #3
 
 You are standing on the top of the Flood Control Dam #3, which was quite a tourist attraction in times far distant. From here, a wide passage leads north and south.
 
 You can see bolt here.
 
-> north
+>north
 Dam Lobby
 
 This is a large, echoing hall. A passage leads south, and doors lead north and east.
 
 You can see guidebook, matchbook here.
 
-> take guidebook
+>take guidebook
 Taken.
 
-> take matchbook
+>take matchbook
 Taken.
 
-> north
+>north
 Maintenance Room
 
 This is a small maintenance room. Various tools line the walls.
 
 You can see control panel, wrench, screwdriver, yellow button, brown button, red button, blue button here.
 
-> press yellow button
+>press yellow button
 Click.
 
-> take wrench
+>take wrench
 Taken.
 
-> take screwdriver
+>take screwdriver
 Taken.
 
-> south
+>south
 Dam Lobby
 
 This is a large, echoing hall. A passage leads south, and doors lead north and east.
 
-> south
+>south
 Flood Control Dam #3
 
 You are standing on the top of the Flood Control Dam #3, which was quite a tourist attraction in times far distant. From here, a wide passage leads north and south.
 
 You can see bolt here.
 
-> turn bolt
+>turn bolt
 The sluice gates open and water pours through the dam.
 
-> east
+>east
 Damp Cave
 
 This cave is extremely damp. A stairway leads down.
 
-> south
+>south
 Loud Room
 
 This is a large room with a ceiling which cannot be detected from the ground. A narrow passage leads east; a stairway leads up. The room is extremely noisy.
 
-> west
+>west
 North/South Passage
 
 This is a wide passage running north and south. The walls are damp and cold.
 
-> north
+>north
 Chasm
 
 A chasm runs southwest to northeast. You are on the east edge.
 
-> south
+>south
 Deep Ravine
 
 You are in a deep ravine at a point where a crack opens to the east. A passage leads south, and a steep trail leads down.
 
-> south
+>south
 East-West Passage
 
 This is a narrow east-west passageway. There is a narrow stairway leading down at the north end of the room.
 
-> west
+>west
 Troll Room
 
 This is a small room with passages off in all directions. Bloodstains and deep scratches (perhaps made by an axe) mar the walls.
 
-You can see nasty-looking troll, elvish sword here.
+You can see elvish sword here.
 
-> west
+>west
 Cellar
 
 This is a dark and damp cellar with a narrow passageway leading east, and a crawlway to the south. To the west is the bottom of a steep metal ramp which is unclimbable.
 
 You can see steep metal ramp here.
 
-> up
+>up
 Living Room
 
 This is the living room. There is a door to the east. To the west is a wooden door with strange gothic lettering, which appears to be nailed shut.
 
 You can see trophy case, large oriental rug, wooden door, trap door, incense, skeleton key here.
 
-> read matchbook
+>read matchbook
 Matchbook reads:
    *** MIT TECH CORRESPONDENCE SCHOOL ***
 
@@ -595,425 +594,485 @@ Straddling the cutting edge of nothing! Earn your MDL degree at home!
 
        *** SEND FOR OUR FREE BROCHURE TODAY! ***
 
-> send for brochure
+>send for brochure
 Ok, but you know the postal service...
 
-> east
+>east
 Kitchen
 
 This is the kitchen of the white house. A table seems to have been used recently for the preparation of food. A passage leads to the west, and a dark staircase can be seen leading upward. To the east is a small window which is open.
 
 You can see kitchen table, elongated brown sack, glass bottle here.
 
-> wait
+>wait
 Time passes...
 
-> wait
+>wait
 Time passes...
 
-> wait
+>wait
 Time passes...
 There is a knocking sound from the front of the house.
 
-> east
+>east
 Behind House
 
 You are behind the white house. In one corner of the house there is a small window which is slightly ajar.
 
 You can see window, white house here.
 
-> south
+>south
 South of House
 
 You are facing the south side of a white house. There is no door here, and all the windows are barred.
 
 You can see white house here.
 
-> west
+>west
 West of House
 
 This is an open field west of a white house with a boarded front door.
 
 You can see small mailbox, front door, welcome mat, white house here.
 
-> open mailbox
+>open mailbox
 You open small mailbox.
 Inside the small mailbox you see leaflet, large brochure.
 
-> take brochure
+>take brochure
 Taken.
 
-> take stamp
+>take stamp
 Taken.
 
-> north
+>north
 North of House
 
 You are facing the north side of a white house. There is no door here, and all the windows are barred.
 
 You can see white house here.
 
-> east
+>east
 Behind House
 
 You are behind the white house. In one corner of the house there is a small window which is slightly ajar.
 
 You can see window, white house here.
 
-> west
+>west
 Kitchen
 
 This is the kitchen of the white house. A table seems to have been used recently for the preparation of food. A passage leads to the west, and a dark staircase can be seen leading upward. To the east is a small window which is open.
 
 You can see kitchen table, elongated brown sack, glass bottle here.
 
-> west
+>west
 Living Room
 
 This is the living room. There is a door to the east. To the west is a wooden door with strange gothic lettering, which appears to be nailed shut.
 
 You can see trophy case, large oriental rug, wooden door, trap door, incense, skeleton key here.
 
-> open trophy case
+>open trophy case
 trophy case is already open.
 
-> put bar in trophy case
+>put bar in trophy case
 You put platinum bar in trophy case.
 
-> put stamp in trophy case
+>put stamp in trophy case
 You put Don Woods stamp in trophy case.
 
-> drop guidebook
+>drop guidebook
 Dropped.
 
-> drop matchbook
+>drop matchbook
 Dropped.
 
-> drop brochure
+>drop brochure
 Dropped.
 
-> drop wrench
+>drop wrench
 Dropped.
 
-> drop screwdriver
+>drop screwdriver
 Dropped.
 
-> inventory
+>inventory
 You are carrying:
   ivory torch, brass lantern
 
-> look
+>look
 Living Room
 
 This is the living room. There is a door to the east. To the west is a wooden door with strange gothic lettering, which appears to be nailed shut.
 
 You can see trophy case, trap door, large oriental rug, wooden door, guidebook, matchbook, wrench, screwdriver, skeleton key, incense, large brochure here.
-In trophy case you see portrait, painting, stack of zorkmid bills, platinum bar, Don Woods stamp.
+In trophy case you see portrait, painting, platinum bar, Don Woods stamp.
 
-> down
+>down
 Cellar
 
 This is a dark and damp cellar with a narrow passageway leading east, and a crawlway to the south. To the west is the bottom of a steep metal ramp which is unclimbable.
 
 You can see steep metal ramp here.
 
-> east
+>east
 Troll Room
 
 This is a small room with passages off in all directions. Bloodstains and deep scratches (perhaps made by an axe) mar the walls.
 
-You can see nasty-looking troll, elvish sword here.
+You can see elvish sword here.
 
-> north
+>north
 East-West Passage
 
 This is a narrow east-west passageway. There is a narrow stairway leading down at the north end of the room.
 
-> north
+>north
 Deep Ravine
 
 You are in a deep ravine at a point where a crack opens to the east. A passage leads south, and a steep trail leads down.
 
-> east
+>east
 Chasm
 
 A chasm runs southwest to northeast. You are on the east edge.
 
-> east
+>east
 North/South Passage
 
 This is a wide passage running north and south. The walls are damp and cold.
 
-> northeast
+>northeast
 Loud Room
 
 This is a large room with a ceiling which cannot be detected from the ground. A narrow passage leads east; a stairway leads up. The room is extremely noisy.
 
-> up
+>up
 Damp Cave
 
 This cave is extremely damp. A stairway leads down.
 
-> east
+>east
 Flood Control Dam #3
 
 You are standing on the top of the Flood Control Dam #3, which was quite a tourist attraction in times far distant. From here, a wide passage leads north and south.
 
 You can see bolt here.
 
-> south
+>south
 Deep Canyon
 
 You are in a deep canyon with sheer walls rising on all sides. A narrow path leads north.
 
-> northwest
+>northwest
 Reservoir South
 
 You are on the southern edge of what was once a reservoir. The water has drained away, leaving a muddy expanse stretching north. A path leads south.
 
-> north
+>north
 Reservoir
 
 You are on the muddy bottom of a drained reservoir. The exposed lake bed stretches in all directions. Various objects that were once submerged are now visible.
 
 You can see trunk here.
 
-> take trunk
+>take trunk
 Taken.
 
-> north
+>north
 Reservoir North
 
 You are at the north end of a drained reservoir. The muddy bottom extends to the south, and a dark passage leads north.
 
 You can see hand pump here.
 
-> take pump
+>take pump
 Taken.
 
-> south
+>south
 Reservoir
 
 You are on the muddy bottom of a drained reservoir. The exposed lake bed stretches in all directions. Various objects that were once submerged are now visible.
 
-> south
+>south
 Reservoir South
 
 You are on the southern edge of what was once a reservoir. The water has drained away, leaving a muddy expanse stretching north. A path leads south.
 
-> up
+>up
 Deep Canyon
 
 You are in a deep canyon with sheer walls rising on all sides. A narrow path leads north.
 
-> east
+>east
 Flood Control Dam #3
 
 You are standing on the top of the Flood Control Dam #3, which was quite a tourist attraction in times far distant. From here, a wide passage leads north and south.
 
 You can see bolt here.
 
-> east
+>east
 Damp Cave
 
 This cave is extremely damp. A stairway leads down.
 
-> south
+>south
 Loud Room
 
 This is a large room with a ceiling which cannot be detected from the ground. A narrow passage leads east; a stairway leads up. The room is extremely noisy.
 
-> west
+>west
 North/South Passage
 
 This is a wide passage running north and south. The walls are damp and cold.
 
-> north
+>north
 Chasm
 
 A chasm runs southwest to northeast. You are on the east edge.
 
-> south
+>south
 Deep Ravine
 
 You are in a deep ravine at a point where a crack opens to the east. A passage leads south, and a steep trail leads down.
 
-> south
+>south
 East-West Passage
 
 This is a narrow east-west passageway. There is a narrow stairway leading down at the north end of the room.
 
-> west
+>west
 Troll Room
 
 This is a small room with passages off in all directions. Bloodstains and deep scratches (perhaps made by an axe) mar the walls.
 
-You can see nasty-looking troll, elvish sword here.
+You can see elvish sword here.
 
-> west
+>west
 Cellar
 
 This is a dark and damp cellar with a narrow passageway leading east, and a crawlway to the south. To the west is the bottom of a steep metal ramp which is unclimbable.
 
 You can see steep metal ramp here.
 
-> up
+>up
 Living Room
 
 This is the living room. There is a door to the east. To the west is a wooden door with strange gothic lettering, which appears to be nailed shut.
 
 You can see trophy case, large oriental rug, wooden door, trap door, incense, skeleton key, guidebook, matchbook, large brochure, wrench, screwdriver here.
 
-> drop trunk
+>drop trunk
 Dropped.
 
-> drop pump
+>drop pump
 Dropped.
 
-> inventory
+>inventory
 You are carrying:
   ivory torch, brass lantern
 
-> look
+>look
 Living Room
 
 This is the living room. There is a door to the east. To the west is a wooden door with strange gothic lettering, which appears to be nailed shut.
 
 You can see trophy case, trap door, large oriental rug, wooden door, guidebook, matchbook, wrench, screwdriver, trunk, hand pump, skeleton key, incense, large brochure here.
-In trophy case you see portrait, painting, stack of zorkmid bills, platinum bar, Don Woods stamp.
+In trophy case you see portrait, painting, platinum bar, Don Woods stamp.
 
-> down
+>down
 Cellar
 
 This is a dark and damp cellar with a narrow passageway leading east, and a crawlway to the south. To the west is the bottom of a steep metal ramp which is unclimbable.
 
 You can see steep metal ramp here.
 
-> east
+>east
 Troll Room
 
 This is a small room with passages off in all directions. Bloodstains and deep scratches (perhaps made by an axe) mar the walls.
 
-You can see nasty-looking troll, elvish sword here.
+You can see elvish sword here.
 
-> north
+>north
 East-West Passage
 
 This is a narrow east-west passageway. There is a narrow stairway leading down at the north end of the room.
 
-> north
+>north
 Deep Ravine
 
 You are in a deep ravine at a point where a crack opens to the east. A passage leads south, and a steep trail leads down.
 
-> west
+>west
 Rocky Crawl
 
 This is a crawlway with a low ceiling. A passage goes to the east, and a narrow opening leads west.
 
-> northwest
+>northwest
 Egyptian Room
 
 This is a room which looks like an Egyptian tomb. There is an ascending staircase in the room as well as doors, east and south.
 
 You can see gold coffin here.
 
-> take coffin
+>take coffin
 Taken.
 
-> east
+>east
 Rocky Crawl
 
 This is a crawlway with a low ceiling. A passage goes to the east, and a narrow opening leads west.
 
-> west
+>west
 Deep Ravine
 
 You are in a deep ravine at a point where a crack opens to the east. A passage leads south, and a steep trail leads down.
 
-> south
+>south
 East-West Passage
 
 This is a narrow east-west passageway. There is a narrow stairway leading down at the north end of the room.
 
-> west
+>west
 Troll Room
 
 This is a small room with passages off in all directions. Bloodstains and deep scratches (perhaps made by an axe) mar the walls.
 
-You can see nasty-looking troll, elvish sword here.
+You can see elvish sword here.
 
-> west
+>west
 Cellar
 
 This is a dark and damp cellar with a narrow passageway leading east, and a crawlway to the south. To the west is the bottom of a steep metal ramp which is unclimbable.
 
 You can see steep metal ramp here.
 
-> up
+>up
 Living Room
 
 This is the living room. There is a door to the east. To the west is a wooden door with strange gothic lettering, which appears to be nailed shut.
 
 You can see trophy case, large oriental rug, wooden door, trap door, incense, skeleton key, guidebook, matchbook, large brochure, wrench, screwdriver, trunk, hand pump here.
 
-> open trophy case
+>open trophy case
 trophy case is already open.
 
-> put coffin in trophy case
+>put coffin in trophy case
 You put gold coffin in trophy case.
 
-> inventory
+>inventory
 You are carrying:
   ivory torch, brass lantern
 
-> look
+>look
 Living Room
 
 This is the living room. There is a door to the east. To the west is a wooden door with strange gothic lettering, which appears to be nailed shut.
 
 You can see trophy case, trap door, large oriental rug, wooden door, guidebook, matchbook, wrench, screwdriver, trunk, hand pump, skeleton key, incense, large brochure here.
-In trophy case you see portrait, painting, stack of zorkmid bills, platinum bar, Don Woods stamp, gold coffin.
+In trophy case you see portrait, painting, platinum bar, Don Woods stamp, gold coffin.
 
-> look
+>look
 Living Room
 
 This is the living room. There is a door to the east. To the west is a wooden door with strange gothic lettering, which appears to be nailed shut.
 
 You can see trophy case, trap door, large oriental rug, wooden door, guidebook, matchbook, wrench, screwdriver, trunk, hand pump, skeleton key, incense, large brochure here.
-In trophy case you see portrait, painting, stack of zorkmid bills, platinum bar, Don Woods stamp, gold coffin.
+In trophy case you see portrait, painting, platinum bar, Don Woods stamp, gold coffin.
 
-> inventory
+>inventory
 You are carrying:
   ivory torch, brass lantern
 
-> down
+>down
 Cellar
 
 This is a dark and damp cellar with a narrow passageway leading east, and a crawlway to the south. To the west is the bottom of a steep metal ramp which is unclimbable.
 
 You can see steep metal ramp here.
 
-> east
+>east
 Troll Room
 
 This is a small room with passages off in all directions. Bloodstains and deep scratches (perhaps made by an axe) mar the walls.
 
-You can see nasty-looking troll, elvish sword here.
+You can see elvish sword here.
 
-> north
+>north
 East-West Passage
 
 This is a narrow east-west passageway. There is a narrow stairway leading down at the north end of the room.
 
-> east
+>east
 Round Room
 
 You are in a circular room with passages off in eight directions.
 
 You can see steel box here.
 
-> south
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+North/South Passage
+
+This is a wide passage running north and south. The walls are damp and cold.
+
+>southwest
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+North/South Passage
+
+This is a wide passage running north and south. The walls are damp and cold.
+
+>southwest
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+>north
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+North/South Passage
+
+This is a wide passage running north and south. The walls are damp and cold.
+
+>southwest
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
 Engravings Cave
 
 You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
@@ -1022,127 +1081,14 @@ Winding Passage
 
 This is a winding passage through the rock. It leads northwest and east.
 
-> east
-Mirror Room
-
-You are in a large room with a great mirror on the wall. Passages lead northeast and west.
-
-You can see enormous mirror here.
-
-> southeast
-You can't go that way.
-
-> southwest
-You can't go that way.
-
-> northwest
-You can't go that way.
-
-> north
-Narrow Crawlway
-
-This is a narrow crawlway. Passages lead north, south, and southwest.
-
-> northeast
-You can't go that way.
-
-> up
-You can't go that way.
-
-> east
-You can't go that way.
-
-> take bell
-You can't see any such thing.
-
-> take book
-You can't see any such thing.
-
-> take candles
-You can't see any such thing.
-
-> west
-Grail Room
-
-You are in a small chamber with walls of granite. A narrow passage exits to the west.
-
-You can see stone pedestal, grail here.
-
-> down
-You can't go that way.
-
-> east
-Narrow Crawlway
-
-This is a narrow crawlway. Passages lead north, south, and southwest.
-
-> southwest
-Mirror Room
-
-You are in a large room with a great mirror on the wall. Passages lead northeast and west.
-
-You can see enormous mirror here.
-
-> east
-Cave
-
-This is a tiny cave with entrances west and north, and a dark, forbidding staircase leading down.
-
-> down
-Entrance to Hades
-
-You are at the entrance to Hades, the land of the dead. An eerie mist swirls around you. Ghostly figures seem to hover in the air, blocking passage to the east. A corridor leads north.
-
-> ring bell
-Ring what?
-
-> read book
-You can't see any such thing.
-
-> turn on candles
-You can't see any such thing.
-
-> wait
-Time passes...
-
-> east
-dungeo.exorcism.spirits_block
-
-> west
-You can't go that way.
-
-> up
-Cave
-
-This is a tiny cave with entrances west and north, and a dark, forbidding staircase leading down.
-
-> west
-Mirror Room
-
-You are in a large room with a great mirror on the wall. Passages lead northeast and west.
-
-You can see enormous mirror here.
-
-> northeast
-Narrow Crawlway
-
-This is a narrow crawlway. Passages lead north, south, and southwest.
-
-> west
-Grail Room
-
-You are in a small chamber with walls of granite. A narrow passage exits to the west.
-
-You can see stone pedestal, grail here.
-
-> west
+>northwest
 Round Room
 
 You are in a circular room with passages off in eight directions.
 
 You can see steel box here.
 
-> south
+>south
 Engravings Cave
 
 You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
@@ -1151,2249 +1097,3416 @@ Deep Canyon
 
 You are in a deep canyon with sheer walls rising on all sides. A narrow path leads north.
 
-> east
-Flood Control Dam #3
-
-You are standing on the top of the Flood Control Dam #3, which was quite a tourist attraction in times far distant. From here, a wide passage leads north and south.
-
-You can see bolt here.
-
-> southeast
-You can't go that way.
-
-> southwest
-You can't go that way.
-
-> northwest
-You can't go that way.
-
-> north
-Dam Lobby
-
-This is a large, echoing hall. A passage leads south, and doors lead north and east.
-
-> west
-You can't go that way.
-
-> west
-You can't go that way.
-
-> west
-You can't go that way.
-
-> up
-You can't go that way.
-
-> inventory
-You are carrying:
-  ivory torch, brass lantern
-
-> look
-Dam Lobby
-
-This is a large, echoing hall. A passage leads south, and doors lead north and east.
-
-> drop lantern
-Dropped.
-
-> drop bell
-You can't see any such thing.
-
-> drop book
-You can't see any such thing.
-
-> drop candles
-You can't see any such thing.
-
-> take pump
-You can't see any such thing.
-
-> inventory
-You are carrying:
-  ivory torch
-
-> down
-You can't go that way.
-
-> east
-Maintenance Room
-
-This is a small maintenance room. Various tools line the walls.
-
-You can see control panel, yellow button, brown button, red button, blue button here.
-
-> north
-You can't go that way.
-
-> north
-You can't go that way.
-
-> east
-You can't go that way.
-
-> east
-You can't go that way.
-
-> northeast
-You can't go that way.
-
-> up
-You can't go that way.
-
-> east
-You can't go that way.
-
-> down
-You can't go that way.
-
-> inflate boat with pump
-You can't see any such thing.
-
-> drop pump
-You can't see any such thing.
-
-> put stick in boat
-You can't see any such thing.
-
-> board boat
-You can't see any such thing.
-
-> launch
-You're not in a boat.
-
-> down
-You can't go that way.
-
-> take buoy
-You can't see any such thing.
-
-> open buoy
-You can't see any such thing.
-
-> take emerald
-You can't see any such thing.
-
-> drop buoy
-You can't see any such thing.
-
-> look
-Maintenance Room
-
-This is a small maintenance room. Various tools line the walls.
-
-You can see control panel, yellow button, brown button, red button, blue button here.
-
-> down
-You can't go that way.
-
-> west
-Dam Lobby
-
-This is a large, echoing hall. A passage leads south, and doors lead north and east.
-
-You can see brass lantern here.
-
-> disembark
-You're not inside anything.
-
-> northwest
-You can't go that way.
-
-> take shovel
-You can't see any such thing.
-
-> south
-Flood Control Dam #3
-
-You are standing on the top of the Flood Control Dam #3, which was quite a tourist attraction in times far distant. From here, a wide passage leads north and south.
-
-You can see bolt here.
-
-> board boat
-You can't see any such thing.
-
-> launch
-You're not in a boat.
-
-> down
-Dam Base
-
-You are at the base of the dam. A stairway leads up.
-
-You can see pile of plastic, sharp stick, Frigid River here.
-
-> west
-You can't go that way.
-
-> disembark
-You're not inside anything.
-
-> take stick
-Taken.
-
-> dig
-You have nothing to dig with.
-
-> dig
-You have nothing to dig with.
-
-> dig
-You have nothing to dig with.
-
-> dig
-You have nothing to dig with.
-
-> take statue
-You can't see any such thing.
-
-> drop shovel
-You can't see any such thing.
-
-> south
-You can't go that way.
-
-> south
-You can't go that way.
-
-> wave stick
-You wave the sharp stick, but nothing happens.
-
-> east
-You can't go that way.
-
-> east
-You can't go that way.
-
-> take pot
-You can't see any such thing.
-
-> southeast
-You can't go that way.
-
-> up
-Flood Control Dam #3
-
-You are standing on the top of the Flood Control Dam #3, which was quite a tourist attraction in times far distant. From here, a wide passage leads north and south.
-
-You can see bolt here.
-
-> up
-You can't go that way.
-
-> west
-You can't go that way.
-
-> west
-You can't go that way.
-
-> west
-You can't go that way.
-
-> south
-Deep Canyon
-
-You are in a deep canyon with sheer walls rising on all sides. A narrow path leads north.
-
-> south
-You can't go that way.
-
-> east
-Flood Control Dam #3
-
-You are standing on the top of the Flood Control Dam #3, which was quite a tourist attraction in times far distant. From here, a wide passage leads north and south.
-
-You can see bolt here.
-
-> west
-You can't go that way.
-
-> west
-You can't go that way.
-
-> open trophy case
-You can't see any such thing.
-
-> put emerald in trophy case
-You can't see any such thing.
-
-> put statue in trophy case
-You can't see any such thing.
-
-> put pot in trophy case
-You can't see any such thing.
-
-> drop stick
-Dropped.
-
-> inventory
-You are carrying:
-  ivory torch
-
-> look
-Flood Control Dam #3
-
-You are standing on the top of the Flood Control Dam #3, which was quite a tourist attraction in times far distant. From here, a wide passage leads north and south.
-
-You can see bolt, sharp stick here.
-
-> look
-Flood Control Dam #3
-
-You are standing on the top of the Flood Control Dam #3, which was quite a tourist attraction in times far distant. From here, a wide passage leads north and south.
-
-You can see bolt, sharp stick here.
-
-> take egg
-You can't see any such thing.
-
-> inventory
-You are carrying:
-  ivory torch
-
-> examine egg
-You can't see any such thing.
-
-> look
-Flood Control Dam #3
-
-You are standing on the top of the Flood Control Dam #3, which was quite a tourist attraction in times far distant. From here, a wide passage leads north and south.
-
-You can see bolt, sharp stick here.
-
-> open trophy case
-You can't see any such thing.
-
-> put egg in trophy case
-You can't see any such thing.
-
-> inventory
-You are carrying:
-  ivory torch
-
-> look
-Flood Control Dam #3
-
-You are standing on the top of the Flood Control Dam #3, which was quite a tourist attraction in times far distant. From here, a wide passage leads north and south.
-
-You can see bolt, sharp stick here.
-
-> east
-Damp Cave
-
-This cave is extremely damp. A stairway leads down.
-
-> take bottle
-You can't see any such thing.
-
-> west
-You can't go that way.
-
-> look
-Damp Cave
-
-This cave is extremely damp. A stairway leads down.
-
-> southeast
-You can't go that way.
-
-> answer "a well"
-You must first knock on the door to begin the challenge.
-
-> east
-Flood Control Dam #3
-
-You are standing on the top of the Flood Control Dam #3, which was quite a tourist attraction in times far distant. From here, a wide passage leads north and south.
-
-You can see bolt, sharp stick here.
-
-> take necklace
-You can't see any such thing.
-
-> east
-Damp Cave
-
-This cave is extremely damp. A stairway leads down.
-
-> enter bucket
-You can't see any such thing.
-
-> pour water
-You don't have any water to pour.
-
-> look
-Damp Cave
-
-This cave is extremely damp. A stairway leads down.
-
-> exit bucket
-You can't see any such thing.
-
-> east
-Flood Control Dam #3
-
-You are standing on the top of the Flood Control Dam #3, which was quite a tourist attraction in times far distant. From here, a wide passage leads north and south.
-
-You can see bolt, sharp stick here.
-
-> take blue cake
-You can't see any such thing.
-
-> take red cake
-You can't see any such thing.
-
-> eat eat-me cake
-You can't see any such thing.
-
-> look
-Flood Control Dam #3
-
-You are standing on the top of the Flood Control Dam #3, which was quite a tourist attraction in times far distant. From here, a wide passage leads north and south.
-
-You can see bolt, sharp stick here.
-
-> east
-Damp Cave
-
-This cave is extremely damp. A stairway leads down.
-
-> throw red cake at pool
-You can't see any such thing.
-
-> take spices
-You can't see any such thing.
-
-> west
-You can't go that way.
-
-> eat blue cake
-You can't see any such thing.
-
-> look
-Damp Cave
-
-This cave is extremely damp. A stairway leads down.
-
-> northwest
-You can't go that way.
-
-> tell robot to go east
-You can't see any such thing.
-
-> east
-Flood Control Dam #3
-
-You are standing on the top of the Flood Control Dam #3, which was quite a tourist attraction in times far distant. From here, a wide passage leads north and south.
-
-You can see bolt, sharp stick here.
-
-> tell robot to push button
-You can't see any such thing.
-
-> tell robot to go south
-You can't see any such thing.
-
-> south
-Deep Canyon
-
-You are in a deep canyon with sheer walls rising on all sides. A narrow path leads north.
-
-> take sphere
-You can't see any such thing.
-
-> tell robot to raise cage
-You can't see any such thing.
-
-> take sphere
-You can't see any such thing.
-
-> inventory
-You are carrying:
-  ivory torch
-
-> look
-Deep Canyon
-
-You are in a deep canyon with sheer walls rising on all sides. A narrow path leads north.
-
-> open trophy case
-You can't see any such thing.
-
-> put necklace in trophy case
-You can't see any such thing.
-
-> put spices in trophy case
-You can't see any such thing.
-
-> put sphere in trophy case
-You can't see any such thing.
-
-> inventory
-You are carrying:
-  ivory torch
-
-> look
-Deep Canyon
-
-You are in a deep canyon with sheer walls rising on all sides. A narrow path leads north.
-
-> take lantern
-You can't see any such thing.
-
-> down
-You can't go that way.
-
-> east
-Flood Control Dam #3
-
-You are standing on the top of the Flood Control Dam #3, which was quite a tourist attraction in times far distant. From here, a wide passage leads north and south.
-
-You can see bolt, sharp stick here.
-
-> north
-Dam Lobby
-
-This is a large, echoing hall. A passage leads south, and doors lead north and east.
-
-You can see brass lantern here.
-
-> east
-Maintenance Room
-
-This is a small maintenance room. Various tools line the walls.
-
-You can see control panel, yellow button, brown button, red button, blue button here.
-
-> southeast
-You can't go that way.
-
-> east
-You can't go that way.
-
-> rub mirror
-You can't see any such thing.
-
-> west
-Dam Lobby
-
-This is a large, echoing hall. A passage leads south, and doors lead north and east.
-
-You can see brass lantern here.
-
-> west
-You can't go that way.
-
-> north
-Maintenance Room
-
-This is a small maintenance room. Various tools line the walls.
-
-You can see control panel, yellow button, brown button, red button, blue button here.
-
-> northeast
-You can't go that way.
-
-> north
-You can't go that way.
-
-> west
-Dam Lobby
-
-This is a large, echoing hall. A passage leads south, and doors lead north and east.
-
-You can see brass lantern here.
-
-> drop torch
-Dropped.
-
-> turn on lantern
-The brass lantern switches on, banishing the darkness.
-
-> down
-You can't go that way.
-
-> take bracelet
-You can't see any such thing.
-
-> up
-You can't go that way.
-
-> take torch
-Taken.
-
-> turn off lantern
-You switch off brass lantern, plunging the area into darkness.
-
-> east
-Maintenance Room
-
-This is a small maintenance room. Various tools line the walls.
-
-You can see control panel, yellow button, brown button, red button, blue button here.
-
-> northeast
-You can't go that way.
-
-> north
-You can't go that way.
-
-> northeast
-You can't go that way.
-
-> northwest
-You can't go that way.
-
-> down
-You can't go that way.
-
-> down
-You can't go that way.
-
-> northeast
-You can't go that way.
-
-> take coal
-You can't see any such thing.
-
-> south
-Dam Lobby
-
-This is a large, echoing hall. A passage leads south, and doors lead north and east.
-
-You can see brass lantern here.
-
-> south
-Flood Control Dam #3
-
-You are standing on the top of the Flood Control Dam #3, which was quite a tourist attraction in times far distant. From here, a wide passage leads north and south.
-
-You can see bolt, sharp stick here.
-
-> southwest
-You can't go that way.
-
-> east
-Damp Cave
-
-This cave is extremely damp. A stairway leads down.
-
-> put coal in machine
-You can't see any such thing.
-
-> turn switch
-There's no switch here.
-
-> take diamond
-You can't see any such thing.
-
-> northwest
-You can't go that way.
-
-> northeast
-You can't go that way.
-
-> north
-You can't go that way.
-
-> up
-You can't go that way.
-
-> up
-You can't go that way.
-
-> east
-Flood Control Dam #3
-
-You are standing on the top of the Flood Control Dam #3, which was quite a tourist attraction in times far distant. From here, a wide passage leads north and south.
-
-You can see bolt, sharp stick here.
-
-> east
-Damp Cave
-
-This cave is extremely damp. A stairway leads down.
-
-> south
-Loud Room
-
-This is a large room with a ceiling which cannot be detected from the ground. A narrow passage leads east; a stairway leads up. The room is extremely noisy.
-
-> west
-North/South Passage
-
-This is a wide passage running north and south. The walls are damp and cold.
-
-> south
-You can't go that way.
-
-> east
-You can't go that way.
-
-> east
-You can't go that way.
-
-> rub mirror
-You can't see any such thing.
-
-> west
-You can't go that way.
-
-> northwest
-You can't go that way.
-
-> west
-You can't go that way.
-
-> west
-You can't go that way.
-
-> west
-You can't go that way.
-
-> up
-You can't go that way.
-
-> inventory
-You are carrying:
-  ivory torch
-
-> open trophy case
-You can't see any such thing.
-
-> put diamond in trophy case
-You can't see any such thing.
-
-> put bracelet in trophy case
-You can't see any such thing.
-
-> inventory
-You are carrying:
-  ivory torch
-
-> look
-North/South Passage
-
-This is a wide passage running north and south. The walls are damp and cold.
-
-> east
-You can't go that way.
-
-> take brown sack
-You can't see any such thing.
-
-> west
-You can't go that way.
-
-> take screwdriver
-You can't see any such thing.
-
-> down
-You can't go that way.
-
-> east
-You can't go that way.
-
-> north
-Chasm
-
-A chasm runs southwest to northeast. You are on the east edge.
-
-> east
-North/South Passage
-
-This is a wide passage running north and south. The walls are damp and cold.
-
-> open box
-You can't see any such thing.
-
-> take violin
-You can't see any such thing.
-
-> east
-You can't go that way.
-
-> take grail
-You can't see any such thing.
-
-> west
-You can't go that way.
-
-> northwest
-You can't go that way.
-
-> northwest
-You can't go that way.
-
-> north
-Chasm
-
-A chasm runs southwest to northeast. You are on the east edge.
-
-> north
-You can't go that way.
-
-> north
-You can't go that way.
-
-> take trident
-You can't see any such thing.
-
-> southeast
-You can't go that way.
-
-> south
-Deep Ravine
-
-You are in a deep ravine at a point where a crack opens to the east. A passage leads south, and a steep trail leads down.
-
-> south
-East-West Passage
-
-This is a narrow east-west passageway. There is a narrow stairway leading down at the north end of the room.
-
-> up
-You can't go that way.
-
-> southeast
-You can't go that way.
-
-> west
-Troll Room
-
-This is a small room with passages off in all directions. Bloodstains and deep scratches (perhaps made by an axe) mar the walls.
-
-You can see nasty-looking troll, elvish sword here.
-
-> west
-Cellar
-
-This is a dark and damp cellar with a narrow passageway leading east, and a crawlway to the south. To the west is the bottom of a steep metal ramp which is unclimbable.
-
-You can see steep metal ramp here.
-
-> west
-You can't go that way.
-
-> up
-Living Room
-
-This is the living room. There is a door to the east. To the west is a wooden door with strange gothic lettering, which appears to be nailed shut.
-
-You can see trophy case, large oriental rug, wooden door, trap door, incense, skeleton key, guidebook, matchbook, large brochure, wrench, screwdriver, trunk, hand pump here.
-
-> open trophy case
-trophy case is already open.
-
-> put violin in trophy case
-You can't see any such thing.
-
-> put grail in trophy case
-You can't see any such thing.
-
-> put trident in trophy case
-You can't see any such thing.
-
-> down
-Cellar
-
-This is a dark and damp cellar with a narrow passageway leading east, and a crawlway to the south. To the west is the bottom of a steep metal ramp which is unclimbable.
-
-You can see steep metal ramp here.
-
-> east
-Troll Room
-
-This is a small room with passages off in all directions. Bloodstains and deep scratches (perhaps made by an axe) mar the walls.
-
-You can see nasty-looking troll, elvish sword here.
-
-> south
-Maze
-
-You are in a maze of twisty little passages, all alike.
-
-> east
-Maze
-
-You are in a maze of twisty little passages, all alike.
-
-> west
-Maze
-
-You are in a maze of twisty little passages, all alike.
-
-> up
-Maze
-
-You are in a maze of twisty little passages, all alike.
-
-You can see skeleton, leather bag of coins, rusty knife here.
-
-> take bag of coins
-Taken.
-
-> north
-Maze
-
-You are in a maze of twisty little passages, all alike.
-
-> west
-Maze
-
-You are in a maze of twisty little passages, all alike.
-
-> south
-Maze
-
-You are in a maze of twisty little passages, all alike.
-
-> west
-Troll Room
-
-This is a small room with passages off in all directions. Bloodstains and deep scratches (perhaps made by an axe) mar the walls.
-
-You can see nasty-looking troll, elvish sword here.
-
-> west
-Cellar
-
-This is a dark and damp cellar with a narrow passageway leading east, and a crawlway to the south. To the west is the bottom of a steep metal ramp which is unclimbable.
-
-You can see steep metal ramp here.
-
-> up
-Living Room
-
-This is the living room. There is a door to the east. To the west is a wooden door with strange gothic lettering, which appears to be nailed shut.
-
-You can see trophy case, large oriental rug, wooden door, trap door, incense, skeleton key, guidebook, matchbook, large brochure, wrench, screwdriver, trunk, hand pump here.
-
-> put bag of coins in trophy case
-You put leather bag of coins in trophy case.
-
-> east
-Kitchen
-
-This is the kitchen of the white house. A table seems to have been used recently for the preparation of food. A passage leads to the west, and a dark staircase can be seen leading upward. To the east is a small window which is open.
-
-You can see kitchen table, elongated brown sack, glass bottle here.
-
-> east
-Behind House
-
-You are behind the white house. In one corner of the house there is a small window which is slightly ajar.
-
-You can see window, white house here.
-
-> north
-North of House
-
-You are facing the north side of a white house. There is no door here, and all the windows are barred.
-
-You can see white house here.
-
-> west
-West of House
-
-This is an open field west of a white house with a boarded front door.
-
-You can see small mailbox, front door, welcome mat, white house here.
-
-> take welcome mat
-Taken.
-
-> south
-South of House
-
-You are facing the south side of a white house. There is no door here, and all the windows are barred.
-
-You can see white house here.
-
-> east
-Behind House
-
-You are behind the white house. In one corner of the house there is a small window which is slightly ajar.
-
-You can see window, white house here.
-
-> west
-Kitchen
-
-This is the kitchen of the white house. A table seems to have been used recently for the preparation of food. A passage leads to the west, and a dark staircase can be seen leading upward. To the east is a small window which is open.
-
-You can see kitchen table, elongated brown sack, glass bottle here.
-
-> west
-Living Room
-
-This is the living room. There is a door to the east. To the west is a wooden door with strange gothic lettering, which appears to be nailed shut.
-
-You can see trophy case, large oriental rug, wooden door, trap door, incense, skeleton key, guidebook, matchbook, large brochure, wrench, screwdriver, trunk, hand pump here.
-
-> down
-Cellar
-
-This is a dark and damp cellar with a narrow passageway leading east, and a crawlway to the south. To the west is the bottom of a steep metal ramp which is unclimbable.
-
-You can see steep metal ramp here.
-
-> east
-Troll Room
-
-This is a small room with passages off in all directions. Bloodstains and deep scratches (perhaps made by an axe) mar the walls.
-
-You can see nasty-looking troll, elvish sword here.
-
-> east
-North/South Crawlway
-
-This is a north-south crawlway; a passage also goes to the east. There is a hole above, but it provides no opportunities for climbing.
-
-> up
-Torch Room
-
-This is a large room with a prominent doorway leading to a down staircase. To the west is a narrow twisting tunnel, covered with a thin layer of dust. Above you is a large dome painted with scenes depicting elfin hacking rites. Up around the edge of the dome (20 feet up) is a wooden railing. In the center of the room there is a white marble pedestal.
-
-> west
-Tiny Room
-
-This is a tiny room with passages leading east and west.
-
-You can see small door, small key here.
-
-> look
-Tiny Room
-
-This is a tiny room with passages leading east and west.
-
-You can see small door, small key here.
-
-> north
-The door is locked, and there is no keyhole on this side.
-
-> put mat under door
-You slide the mat under the door.
-
-> push key with screwdriver
-You don't have anything suitable to push the key out.
-
-> take mat
-You pull the mat back from under the door.
-
-> unlock door with key
-You unlock small door with small key.
-
-> open door
-You open small door.
-
-> north
-Dreary Room
-
-This is a dreary room with passages leading north and east.
-
-You can see blue crystal sphere here.
-
-> look
-Dreary Room
-
-This is a dreary room with passages leading north and east.
-
-You can see blue crystal sphere here.
-
-> drop screwdriver
-You can't see any such thing.
-
-> drop mat
-Dropped.
-
-> drop key
-You can't see any such thing.
-
-> take blue crystal sphere
-Taken.
-
-> south
-Tiny Room
-
-This is a tiny room with passages leading east and west.
-
-You can see small door, small key here.
-
-> east
-Torch Room
-
-This is a large room with a prominent doorway leading to a down staircase. To the west is a narrow twisting tunnel, covered with a thin layer of dust. Above you is a large dome painted with scenes depicting elfin hacking rites. Up around the edge of the dome (20 feet up) is a wooden railing. In the center of the room there is a white marble pedestal.
-
-> down
-North/South Crawlway
-
-This is a north-south crawlway; a passage also goes to the east. There is a hole above, but it provides no opportunities for climbing.
-
-> east
-Troll Room
-
-This is a small room with passages off in all directions. Bloodstains and deep scratches (perhaps made by an axe) mar the walls.
-
-You can see nasty-looking troll, elvish sword here.
-
-> north
-East-West Passage
-
-This is a narrow east-west passageway. There is a narrow stairway leading down at the north end of the room.
-
-> east
+>southeast
 Round Room
 
 You are in a circular room with passages off in eight directions.
 
 You can see steel box here.
 
-> southeast
-Winding Passage
+>south
+Engravings Cave
 
-This is a winding passage through the rock. It leads northwest and east.
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
 
-East-West Passage
-
-This is a narrow east-west passageway. There is a narrow stairway leading down at the north end of the room.
-
-> east
-Round Room
-
-You are in a circular room with passages off in eight directions.
-
-You can see steel box here.
-
-> rub mirror
-You can't see any such thing.
-
-> west
-East-West Passage
-
-This is a narrow east-west passageway. There is a narrow stairway leading down at the north end of the room.
-
-Maze
-
-You are in a maze of twisty little passages, all alike.
-
-> west
-Troll Room
-
-This is a small room with passages off in all directions. Bloodstains and deep scratches (perhaps made by an axe) mar the walls.
-
-You can see nasty-looking troll, elvish sword here.
-
-> north
-East-West Passage
-
-This is a narrow east-west passageway. There is a narrow stairway leading down at the north end of the room.
-
-> northwest
-You can't go that way.
-
-> take jade figurine
-You can't see any such thing.
-
-> south
-You can't go that way.
-
-> south
-You can't go that way.
-
-> down
-Deep Ravine
-
-You are in a deep ravine at a point where a crack opens to the east. A passage leads south, and a steep trail leads down.
-
-> down
-You can't go that way.
-
-> down
-You can't go that way.
-
-> east
-Chasm
-
-A chasm runs southwest to northeast. You are on the east edge.
-
-> south
-Deep Ravine
-
-You are in a deep ravine at a point where a crack opens to the east. A passage leads south, and a steep trail leads down.
-
-> take red sphere
-You already have blue crystal sphere.
-
-> north
-You can't go that way.
-
-> up
-You can't go that way.
-
-> down
-You can't go that way.
-
-> down
-You can't go that way.
-
-> up
-You can't go that way.
-
-> put blue crystal sphere in trophy case
-You can't see any such thing.
-
-> put jade in trophy case
-You can't see any such thing.
-
-> put red crystal sphere in trophy case
-You can't see any such thing.
-
-> inventory
-You are carrying:
-  ivory torch, blue crystal sphere
-
-> look
-Deep Ravine
-
-You are in a deep ravine at a point where a crack opens to the east. A passage leads south, and a steep trail leads down.
-
-> drop bell
-You can't see any such thing.
-
-> drop book
-You can't see any such thing.
-
-> drop candles
-You can't see any such thing.
-
-> drop blue cake
-You can't see any such thing.
-
-> drop eat-me cake
-You can't see any such thing.
-
-> drop sack
-You can't see any such thing.
-
-> inventory
-You are carrying:
-  ivory torch, blue crystal sphere
-
-> east
-Chasm
-
-A chasm runs southwest to northeast. You are on the east edge.
-
-> up
-You can't go that way.
-
-> take nasty knife
-You can't see any such thing.
-
-> take brick
-You can't see any such thing.
-
-> take shiny wire
-You can't see any such thing.
-
-> down
-You can't go that way.
-
-> west
-You can't go that way.
-
-> drop brick
-You can't see any such thing.
-
-> drop shiny wire
-You can't see any such thing.
-
-> open trophy case
-You can't see any such thing.
-
-> take egg
-You can't see any such thing.
-
-> turn on lantern
-You can't see any such thing.
-
-> open trap door
-You can't see any such thing.
-
-> down
-You can't go that way.
-
-> east
-North/South Passage
-
-This is a wide passage running north and south. The walls are damp and cold.
-
-> south
-You can't go that way.
-
-> east
-You can't go that way.
-
-> west
-You can't go that way.
-
-> up
-You can't go that way.
-
-> southwest
-Round Room
-
-You are in a circular room with passages off in eight directions.
-
-You can see steel box here.
-
-> east
 Grail Room
 
 You are in a small chamber with walls of granite. A narrow passage exits to the west.
 
-Winding Passage
-
-This is a winding passage through the rock. It leads northwest and east.
-
-You can see stone pedestal, grail here.
-
-> south
-You can't go that way.
-
-> northeast
-You can't go that way.
-
-> up
-You can't go that way.
-
-> give egg to thief
-You can't see any such thing.
-
-> down
-You can't go that way.
-
-> wait
-Time passes...
-
-> wait
-Time passes...
-
-> up
-You can't go that way.
-
-> attack thief with knife
-You can't see any such thing.
-
-> drop knife
-You can't see any such thing.
-
-> take canary
-You can't see any such thing.
-
-> take egg
-You can't see any such thing.
-
-> take chalice
-You can't see any such thing.
-
-> take torch
-You already have ivory torch.
-
-> break frame
-You can't see any such thing.
-
-> take frame piece
-You can't see any such thing.
-
-> down
-You can't go that way.
-
-> north
-Narrow Crawlway
-
-This is a narrow crawlway. Passages lead north, south, and southwest.
-
-> east
-You can't go that way.
-
-> look
-Narrow Crawlway
-
-This is a narrow crawlway. Passages lead north, south, and southwest.
-
-> wind canary
-You can't see any such thing.
-
-> take bauble
-You can't see any such thing.
-
-> open trophy case
-You can't see any such thing.
-
-> put canary in trophy case
-You can't see any such thing.
-
-> put bauble in trophy case
-You can't see any such thing.
-
-> put chalice in trophy case
-You can't see any such thing.
-
-> put egg in trophy case
-You can't see any such thing.
-
-> take grail
-You can't see any such thing.
-
-> take trident
-You can't see any such thing.
-
-> take bag of coins
-You can't see any such thing.
-
-> take jade figurine
-You can't see any such thing.
-
-> open trophy case
-You can't see any such thing.
-
-> put grail in trophy case
-You can't see any such thing.
-
-> put trident in trophy case
-You can't see any such thing.
-
-> put bag of coins in trophy case
-You can't see any such thing.
-
-> put jade in trophy case
-You can't see any such thing.
-
-> drop frame piece
-You can't see any such thing.
-
-> inventory
-You are carrying:
-  ivory torch, blue crystal sphere
-
-> look
-Narrow Crawlway
-
-This is a narrow crawlway. Passages lead north, south, and southwest.
-
-> push east wall
-There are no walls to push here.
-
-> south
-Winding Passage
-
-This is a winding passage through the rock. It leads northwest and east.
-
-> southwest
-You can't go that way.
-
-> push south wall
-There are no walls to push here.
-
-> east
-Mirror Room
-
-You are in a large room with a great mirror on the wall. Passages lead northeast and west.
-
-You can see enormous mirror here.
-
-> east
-Cave
-
-This is a tiny cave with entrances west and north, and a dark, forbidding staircase leading down.
-
-> push south wall
-There are no walls to push here.
-
-> north
-You can't go that way.
-
-> north
-You can't go that way.
-
-> east
-You can't go that way.
-
-> push south wall
-There are no walls to push here.
-
-> take card
-You can't see any such thing.
-
-> push south wall
-There are no walls to push here.
-
-> east
-You can't go that way.
-
-> northeast
-You can't go that way.
-
-> push west wall
-There are no walls to push here.
-
-> push west wall
-There are no walls to push here.
-
-> push west wall
-There are no walls to push here.
-
-> push west wall
-There are no walls to push here.
-
-> northeast
-You can't go that way.
-
-> northeast
-You can't go that way.
-
-> north
-You can't go that way.
-
-> push east wall
-There are no walls to push here.
-
-> southwest
-You can't go that way.
-
-> south
-You can't go that way.
-
-> southeast
-You can't go that way.
-
-> northeast
-You can't go that way.
-
-> north
-You can't go that way.
-
-> push west wall
-There are no walls to push here.
-
-> northwest
-You can't go that way.
-
-> push south wall
-There are no walls to push here.
-
-> push south wall
-There are no walls to push here.
-
-> west
-Mirror Room
-
-You are in a large room with a great mirror on the wall. Passages lead northeast and west.
-
-You can see enormous mirror here.
-
-> northwest
-You can't go that way.
-
-> northwest
-You can't go that way.
-
-> push south wall
-There are no walls to push here.
-
-> southeast
-You can't go that way.
-
-> southeast
-You can't go that way.
-
-> southeast
-You can't go that way.
-
-> northeast
-Narrow Crawlway
-
-This is a narrow crawlway. Passages lead north, south, and southwest.
-
-> push west wall
-There are no walls to push here.
-
-> push west wall
-There are no walls to push here.
-
-> southwest
-Mirror Room
-
-You are in a large room with a great mirror on the wall. Passages lead northeast and west.
-
-You can see enormous mirror here.
-
-> push north wall
-There are no walls to push here.
-
-> push north wall
-There are no walls to push here.
-
-> push north wall
-There are no walls to push here.
-
-> northwest
-You can't go that way.
-
-> up
-You can't go that way.
-
-> look
-Mirror Room
-
-You are in a large room with a great mirror on the wall. Passages lead northeast and west.
-
-You can see enormous mirror here.
-
-> up
-You can't go that way.
-
-> west
-Winding Passage
-
-This is a winding passage through the rock. It leads northwest and east.
-
-> down
-You can't go that way.
-
-> north
-Narrow Crawlway
-
-This is a narrow crawlway. Passages lead north, south, and southwest.
-
-> east
-You can't go that way.
-
-> open trophy case
-You can't see any such thing.
-
-> put gold card in trophy case
-You can't see any such thing.
-
-> inventory
-You are carrying:
-  ivory torch, blue crystal sphere
-
-> look
-Narrow Crawlway
-
-This is a narrow crawlway. Passages lead north, south, and southwest.
-
-> take guidebook
-You can't see any such thing.
-
-> take matchbook
-You can't see any such thing.
-
-> take brick
-You can't see any such thing.
-
-> take shiny wire
-You can't see any such thing.
-
-> inventory
-You are carrying:
-  ivory torch, blue crystal sphere
-
-> down
-You can't go that way.
-
-> east
-You can't go that way.
-
-> north
-You can't go that way.
-
-> north
-You can't go that way.
-
-> west
-Grail Room
-
-You are in a small chamber with walls of granite. A narrow passage exits to the west.
-
-You can see stone pedestal, grail here.
-
-> northwest
-You can't go that way.
-
-> turn on lantern
-You can't see any such thing.
-
-> up
+>up
 Temple
 
 This is the interior of a large temple of ancient construction. Flickering torches cast shadows on the walls. A stairway leads down.
 
-> throw torch at glacier
-You can't see any such thing.
-
-> west
-You can't go that way.
-
-> take ruby
-You can't see any such thing.
-
-> west
-You can't go that way.
-
-> south
-You can't go that way.
-
-> enter balloon
-You can't see any such thing.
-
-> open receptacle
-You can't see any such thing.
-
-> burn guidebook
-You can't see any such thing.
-
-> put guidebook in receptacle
-You can't see any such thing.
-
-> wait
-Time passes...
-
-> wait
-Time passes...
-
-> wait
-Time passes...
-
-> tie braided wire to hook
-You can't see any such thing.
-
-> exit
-You're not inside anything.
-
-> take coin
-You can't see any such thing.
-
-> south
-You can't go that way.
-
-> take book
-You can't see any such thing.
-
-> take stamp
-You can't see any such thing.
-
-> north
-You can't go that way.
-
-> enter balloon
-You can't see any such thing.
-
-> untie braided wire from hook
-You can't see any such thing.
-
-> wait
-Time passes...
-
-> wait
-Time passes...
-
-> wait
-Time passes...
-
-> wait
-Time passes...
-
-> wait
-Time passes...
-
-> wait
-Time passes...
-
-> tie braided wire to hook
-You can't see any such thing.
-
-> exit
-You're not inside anything.
-
-> south
-You can't go that way.
-
-> put brick in hole
-You can't see any such thing.
-
-> burn wire
-You can't see any such thing.
-
-> north
-You can't go that way.
-
-> wait
-Time passes...
-
-> south
-You can't go that way.
-
-> take crown
-You can't see any such thing.
-
-> north
-You can't go that way.
-
-> enter balloon
-You can't see any such thing.
-
-> close receptacle
-You can't see any such thing.
-
-> untie wire
-You can't see any such thing.
-
-> wait
-Time passes...
-
-> wait
-Time passes...
-
-> wait
-Time passes...
-
-> wait
-Time passes...
-
-> wait
-Time passes...
-
-> wait
-Time passes...
-
-> wait
-Time passes...
-
-> wait
-Time passes...
-
-> wait
-Time passes...
-
-> wait
-Time passes...
-
-> wait
-Time passes...
-
-> wait
-Time passes...
-
-> exit
-You're not inside anything.
-
-> north
-You can't go that way.
-
-> west
-You can't go that way.
-
-> south
-You can't go that way.
-
-> north
-You can't go that way.
-
-> take torch
-You already have ivory torch.
-
-> north
-You can't go that way.
-
-> east
+>east
 Altar
 
 This is the altar room of the temple. A large stone altar dominates the room.
 
 You can see stone altar, brass bell, black book, pair of candles here.
 
-> east
-You can't go that way.
+>take bell
+Taken.
 
-> west
+>take book
+Taken.
+
+>take candles
+Taken.
+
+>west
 Temple
 
 This is the interior of a large temple of ancient construction. Flickering torches cast shadows on the walls. A stairway leads down.
 
-> south
-You can't go that way.
-
-> west
-You can't go that way.
-
-> west
-You can't go that way.
-
-> up
-You can't go that way.
-
-> open trophy case
-You can't see any such thing.
-
-> put ruby in trophy case
-You can't see any such thing.
-
-> put coin in trophy case
-You can't see any such thing.
-
-> put stamp in trophy case
-You can't see any such thing.
-
-> put crown in trophy case
-You can't see any such thing.
-
-> put trunk in trophy case
-You can't see any such thing.
-
-> put torch in trophy case
-You can't see any such thing.
-
-> inventory
-You are carrying:
-  ivory torch, blue crystal sphere
-
-> look
-Temple
-
-This is the interior of a large temple of ancient construction. Flickering torches cast shadows on the walls. A stairway leads down.
-
-> score
-You have scored 188 out of 616, earning you the rank of Amateur.
-
-> gdt
-A BOOMING VOICE CALLS OUT, "WHO SUMMONS THE GAME DEBUGGING TOOL?"
-
-GDT ready. Type HE for help, EX to exit.
-
-> ds ledger
-=== SCORE LEDGER ===
-
-TROPHY (50 pts):
-  trophy:i1j = +15 - Placed the stack of zorkmid bills in the trophy case
-  trophy:i17 = +10 - Placed the platinum bar in the trophy case
-  trophy:i0g = +7 - Placed the painting in the trophy case
-  trophy:i18 = +7 - Placed the gold coffin in the trophy case
-  trophy:c09 = +5 - Placed the leather bag of coins in the trophy case
-  trophy:i1i = +5 - Placed the portrait in the trophy case
-  trophy:i2o = +1 - Placed the Don Woods stamp in the trophy case
-
-ROOM (50 pts):
-  room:r0h = +25 - Visited room
-  room:r05 = +10 - Visited room
-  room:r4c = +10 - Visited room
-  room:r0m = +5 - Visited room
-
-BONUS (88 pts):
-  i0p = +15 - trunk
-  i0h = +14 - ivory torch
-  i17 = +12 - platinum bar
-  c09 = +10 - leather bag of coins
-  i0j = +10 - blue crystal sphere
-  i1i = +10 - portrait
-  i1j = +10 - stack of zorkmid bills
-  i0g = +4 - painting
-  i18 = +3 - gold coffin
-
-Total: 188/616 (20 entries)
-
-> ex
-Returning to game.
-
-> take incense
-You can't see any such thing.
-
-> take frame piece
-You can't see any such thing.
-
-> inventory
-You are carrying:
-  ivory torch, blue crystal sphere
-
-> open trap door
-You can't see any such thing.
-
-> down
+>down
 Grail Room
 
 You are in a small chamber with walls of granite. A narrow passage exits to the west.
 
 You can see stone pedestal, grail here.
 
-> east
+>east
 Narrow Crawlway
 
 This is a narrow crawlway. Passages lead north, south, and southwest.
 
-> north
-You can't go that way.
-
-> north
-You can't go that way.
-
-> east
-You can't go that way.
-
-> east
-You can't go that way.
-
-> northeast
-You can't go that way.
-
-> east
-You can't go that way.
-
-> south
-Winding Passage
-
-This is a winding passage through the rock. It leads northwest and east.
-
-> burn incense
-You can't see any such thing.
-
-> pray
-If you pray hard enough, your prayers may be answered.
-
-> drop frame piece
-You can't see any such thing.
-
-> look
-Winding Passage
-
-This is a winding passage through the rock. It leads northwest and east.
-
-> take canvas
-You can't see any such thing.
-
-> open trophy case
-You can't see any such thing.
-
-> put canvas in trophy case
-You can't see any such thing.
-
-> score
-You have scored 188 out of 616, earning you the rank of Amateur.
-
-> gdt
-A BOOMING VOICE CALLS OUT, "WHO SUMMONS THE GAME DEBUGGING TOOL?"
-
-GDT ready. Type HE for help, EX to exit.
-
-> ds ledger
-=== SCORE LEDGER ===
-
-TROPHY (50 pts):
-  trophy:i1j = +15 - Placed the stack of zorkmid bills in the trophy case
-  trophy:i17 = +10 - Placed the platinum bar in the trophy case
-  trophy:i0g = +7 - Placed the painting in the trophy case
-  trophy:i18 = +7 - Placed the gold coffin in the trophy case
-  trophy:c09 = +5 - Placed the leather bag of coins in the trophy case
-  trophy:i1i = +5 - Placed the portrait in the trophy case
-  trophy:i2o = +1 - Placed the Don Woods stamp in the trophy case
-
-ROOM (50 pts):
-  room:r0h = +25 - Visited room
-  room:r05 = +10 - Visited room
-  room:r4c = +10 - Visited room
-  room:r0m = +5 - Visited room
-
-BONUS (88 pts):
-  i0p = +15 - trunk
-  i0h = +14 - ivory torch
-  i17 = +12 - platinum bar
-  c09 = +10 - leather bag of coins
-  i0j = +10 - blue crystal sphere
-  i1i = +10 - portrait
-  i1j = +10 - stack of zorkmid bills
-  i0g = +4 - painting
-  i18 = +3 - gold coffin
-
-Total: 188/616 (20 entries)
-
-> ex
-Returning to game.
-
-> down
-You can't go that way.
-
-> turn on lantern
-You can't see any such thing.
-
-> east
+>southwest
 Mirror Room
 
 You are in a large room with a great mirror on the wall. Passages lead northeast and west.
 
 You can see enormous mirror here.
 
-> north
+>east
+Cave
+
+This is a tiny cave with entrances west and north, and a dark, forbidding staircase leading down.
+
+>down
+Entrance to Hades
+
+You are at the entrance to Hades, the land of the dead. An eerie mist swirls around you. Ghostly figures seem to hover in the air, blocking passage to the east. A corridor leads north.
+
+>ring bell
+The bell produces a clear, resonant tone.
+
+>read book
+Black book reads:
+The book is written in a strange language, but one passage stands out:
+
+"To banish the spirits of the dead, one must perform the Ritual of Exorcism:
+Ring the bell, read the book aloud, light the candles with a flame.
+Only then shall the gates of Hades be opened to the living."
+
+>turn on candles
+The pair of candles switches on, banishing the darkness.
+The spirits shriek in terror and vanish in a blinding flash of light!
+The way to the south is now clear.
+
+>wait
+Time passes...
+
+>east
+Land of the Dead
+
+You have entered the Land of the Dead. The air is cold and still. Ghostly shapes drift silently in the darkness. This is not a place for the living. A faint glow emanates from the north.
+
+>west
+Entrance to Hades
+
+You are at the entrance to Hades, the land of the dead. An eerie mist swirls around you. A passage leads east into darkness, and a corridor leads north.
+
+>up
+Cave
+
+This is a tiny cave with entrances west and north, and a dark, forbidding staircase leading down.
+
+>west
+Mirror Room
+
+You are in a large room with a great mirror on the wall. Passages lead northeast and west.
+
+You can see enormous mirror here.
+
+>northeast
 Narrow Crawlway
 
 This is a narrow crawlway. Passages lead north, south, and southwest.
 
-> east
-You can't go that way.
-
-> southeast
-You can't go that way.
-
-> east
-You can't go that way.
-
-> rub mirror
-You can't see any such thing.
-
-> east
-You can't go that way.
-
-> down
-You can't go that way.
-
-> east
-You can't go that way.
-
-> east
-You can't go that way.
-
-> turn off lantern
-You can't see any such thing.
-
-> wait
-Time passes...
-
-> wait
-Time passes...
-
-> wait
-Time passes...
-
-> west
+>west
 Grail Room
 
 You are in a small chamber with walls of granite. A narrow passage exits to the west.
 
 You can see stone pedestal, grail here.
 
-> push stone button
+>west
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+Winding Passage
+
+This is a winding passage through the rock. It leads northwest and east.
+
+>northwest
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+>north
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+>north
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+Grail Room
+
+You are in a small chamber with walls of granite. A narrow passage exits to the west.
+
+>west
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+Deep Canyon
+
+You are in a deep canyon with sheer walls rising on all sides. A narrow path leads north.
+
+>southeast
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+Winding Passage
+
+This is a winding passage through the rock. It leads northwest and east.
+
+>northwest
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+East-West Passage
+
+This is a narrow east-west passageway. There is a narrow stairway leading down at the north end of the room.
+
+>east
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+Grail Room
+
+You are in a small chamber with walls of granite. A narrow passage exits to the west.
+
+>west
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+Grail Room
+
+You are in a small chamber with walls of granite. A narrow passage exits to the west.
+
+>west
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+Maze
+
+You are in a maze of twisty little passages, all alike.
+
+>west
+Troll Room
+
+This is a small room with passages off in all directions. Bloodstains and deep scratches (perhaps made by an axe) mar the walls.
+
+You can see elvish sword here.
+
+>west
+Cellar
+
+This is a dark and damp cellar with a narrow passageway leading east, and a crawlway to the south. To the west is the bottom of a steep metal ramp which is unclimbable.
+
+You can see steep metal ramp here.
+
+>up
+Living Room
+
+This is the living room. There is a door to the east. To the west is a wooden door with strange gothic lettering, which appears to be nailed shut.
+
+You can see trophy case, large oriental rug, wooden door, trap door, incense, skeleton key, guidebook, matchbook, large brochure, wrench, screwdriver, trunk, hand pump here.
+
+>inventory
+You are carrying:
+  ivory torch, brass lantern, brass bell, black book, pair of candles
+
+>look
+Living Room
+
+This is the living room. There is a door to the east. To the west is a wooden door with strange gothic lettering, which appears to be nailed shut.
+
+You can see trophy case, trap door, large oriental rug, wooden door, guidebook, matchbook, wrench, screwdriver, trunk, hand pump, skeleton key, incense, large brochure here.
+In trophy case you see portrait, painting, platinum bar, Don Woods stamp, gold coffin.
+
+>drop lantern
+Dropped.
+
+>drop bell
+Dropped.
+The candles are burning low.
+
+>drop book
+Dropped.
+
+>drop candles
+Dropped.
+
+>take pump
+Taken.
+
+>inventory
+You are carrying:
+  ivory torch, hand pump
+
+>down
+Cellar
+
+This is a dark and damp cellar with a narrow passageway leading east, and a crawlway to the south. To the west is the bottom of a steep metal ramp which is unclimbable.
+
+You can see steep metal ramp here.
+
+>east
+Troll Room
+
+This is a small room with passages off in all directions. Bloodstains and deep scratches (perhaps made by an axe) mar the walls.
+
+You can see elvish sword here.
+
+>north
+East-West Passage
+
+This is a narrow east-west passageway. There is a narrow stairway leading down at the north end of the room.
+
+>north
+Deep Ravine
+
+You are in a deep ravine at a point where a crack opens to the east. A passage leads south, and a steep trail leads down.
+
+>east
+Chasm
+
+A chasm runs southwest to northeast. You are on the east edge.
+
+>east
+North/South Passage
+
+This is a wide passage running north and south. The walls are damp and cold.
+
+The candles flicker.
+
+>northeast
+Loud Room
+
+This is a large room with a ceiling which cannot be detected from the ground. A narrow passage leads east; a stairway leads up. The room is extremely noisy.
+
+>up
+Damp Cave
+
+This cave is extremely damp. A stairway leads down.
+
+>east
+Flood Control Dam #3
+
+You are standing on the top of the Flood Control Dam #3, which was quite a tourist attraction in times far distant. From here, a wide passage leads north and south.
+
+You can see bolt here.
+
+>down
+Dam Base
+
+You are at the base of the dam. A stairway leads up.
+
+You can see pile of plastic, sharp stick, Frigid River here.
+
+>inflate boat with pump
+The boat inflates and rises to its full size.
+The candles sputter and go out.
+
+>drop pump
+Dropped.
+
+>put stick in boat
+(first taking the sharp stick)
+Taken.
+You put sharp stick in magic boat.
+
+>board boat
+You get into magic boat.
+
+>launch
+You are now on the river.
+
+>down
+Frigid River
+
+The river turns a corner here making it impossible to see the dam. The White Cliffs loom on the east bank, and large rocks prevent landing on the west.
+
+You can see red buoy, magic boat here.
+
+>take buoy
+Taken.
+
+>open buoy
+You open red buoy.
+Inside the red buoy you see large emerald.
+
+>take emerald
+Taken.
+
+>drop buoy
+You drop the red buoy in the magic boat.
+
+>look
+Frigid River
+
+The river turns a corner here making it impossible to see the dam. The White Cliffs loom on the east bank, and large rocks prevent landing on the west.
+
+You can see magic boat here.
+In magic boat you see tan label, sharp stick, yourself, red buoy.
+
+>down
+Frigid River
+
+The river descends here into a valley. There is a narrow beach on the east below the cliffs, and there is some shore on the west which may be suitable. In the distance a faint rumbling can be heard.
+
+You can see magic boat here.
+
+>west
+Rocky Shore
+
+This is the west shore of the river. An entrance to a cave is to the northwest. The shore is very rocky here.
+
+You can see Frigid River, magic boat here.
+
+>disembark
+You get out of magic boat.
+
+>northwest
+Small Cave
+
+This is a small cave whose exits are on the south and northwest.
+
+You can see shovel, guano here.
+
+>take shovel
+Taken.
+
+>south
+Rocky Shore
+
+This is the west shore of the river. An entrance to a cave is to the northwest. The shore is very rocky here.
+
+You can see Frigid River, magic boat here.
+
+>board boat
+You get into magic boat.
+
+>launch
+You are now on the river.
+
+>down
+Frigid River
+
+The river is running faster here, and the sound ahead appears to be that of rushing water. On the west shore is a sandy beach. A small area of beach can also be seen below the cliffs.
+
+You can see magic boat here.
+
+>west
+Sandy Beach
+
+This is a large sandy beach at the shore of the river, which is flowing quickly by. A path runs beside the river to the south here.
+
+You can see Frigid River, seedy-looking thief, magic boat here.
+
+>disembark
+You get out of magic boat.
+
+>take stick
+Taken.
+
+>dig
+You dig some sand away. You could swear the sand looks a bit different here.
+
+>dig
+You dig some sand away. You could swear the sand looks a bit different here.
+
+>dig
+You dig some sand away. You could swear the sand looks a bit different here.
+
+>dig
+Your shovel strikes something solid! Digging more carefully, you uncover a beautiful statue.
+
+>take statue
+Taken.
+
+>drop shovel
+Dropped.
+
+>south
+Shore
+
+This is the shore of the river. The river here seems somewhat treacherous. A path travels from north to south here, the south end quickly turning around a sharp corner.
+
+You can see Frigid River here.
+
+>south
+Aragain Falls
+
+You are at the top of Aragain Falls, an enormous waterfall with a drop of about 450 feet. The only path here is on the north end.
+
+You can see rainbow, barrel here.
+
+>wave stick
+Suddenly, the rainbow appears to become solid and, I venture, walkable (I think the giveaway was the stairs and bannister).
+
+>east
+On the Rainbow
+
+You are on top of a rainbow (I bet you never thought you would walk on a rainbow), with a magnificent view of the falls. The rainbow travels east-west here.
+
+>east
+End of Rainbow
+
+You are on a small, rocky beach on the continuation of the Frigid River past the falls. The beach is narrow due to the presence of the White Cliffs. The river canyon opens here, and sunlight shines in from above. A rainbow crosses over the falls to the west, and a narrow path continues to the southeast.
+
+You can see pot of gold here.
+
+>take pot
+Taken.
+
+>southeast
+Canyon Bottom
+
+You are beneath the walls of the river canyon which may be climbed here. The canyon runs north-south along the river. You can see the massive walls of the White Cliffs rising to the east.
+
+>up
+Rocky Ledge
+
+You are on a ledge about halfway up the wall of the river canyon. You can see from here that the path continues from the bottom of the canyon up to the cliff above. There is a small path going down.
+
+>up
+Canyon View
+
+You are at the top of the Great Canyon, on its west wall. From here there is a marvelous view of the canyon and parts of the Frigid River upstream. Across the canyon, the walls of the White Cliffs join the mighty ramparts of the Flathead Mountains to the east. Following the Canyon, you can see a small path at the bottom of the canyon. There is a path here which goes west into the forest.
+
+>west
+Forest Path
+
+The forest thins out, and the path becomes clearer.
+
+>west
+Forest
+
+This is a dimly lit forest, with large trees all around.
+
+>west
+Clearing
+
+You are in a clearing, with a forest surrounding you on all sides. A path leads south. On the ground is a pile of leaves.
+
+You can see pile of leaves here.
+
+>south
+Forest Path
+
+This is a path winding through a dimly lit forest. The path heads north-south here. One particularly large tree with some low branches stands at the side of the path.
+
+You can see large tree here.
+
+>south
+North of House
+
+You are facing the north side of a white house. There is no door here, and all the windows are barred.
+
+You can see white house here.
+
+>east
+Behind House
+
+You are behind the white house. In one corner of the house there is a small window which is slightly ajar.
+
+You can see window, white house here.
+
+>west
+Kitchen
+
+This is the kitchen of the white house. A table seems to have been used recently for the preparation of food. A passage leads to the west, and a dark staircase can be seen leading upward. To the east is a small window which is open.
+
+You can see kitchen table, elongated brown sack, glass bottle here.
+
+>west
+Living Room
+
+This is the living room. There is a door to the east. To the west is a wooden door with strange gothic lettering, which appears to be nailed shut.
+
+You can see trophy case, large oriental rug, wooden door, trap door, incense, skeleton key, guidebook, matchbook, large brochure, wrench, screwdriver, trunk, brass lantern, brass bell, black book, burned-out candles here.
+
+>open trophy case
+trophy case is already open.
+
+>put emerald in trophy case
+You put large emerald in trophy case.
+
+>put statue in trophy case
+You put beautiful statue in trophy case.
+
+>put pot in trophy case
+You put pot of gold in trophy case.
+
+>drop stick
+Dropped.
+
+>inventory
+You are carrying:
+  ivory torch
+
+>look
+Living Room
+
+This is the living room. There is a door to the east. To the west is a wooden door with strange gothic lettering, which appears to be nailed shut.
+
+You can see trophy case, brass lantern, trap door, large oriental rug, wooden door, guidebook, matchbook, wrench, screwdriver, trunk, sharp stick, brass bell, black book, burned-out candles, skeleton key, incense, large brochure here.
+In trophy case you see portrait, painting, platinum bar, Don Woods stamp, gold coffin, large emerald, beautiful statue, pot of gold.
+
+>east
+Kitchen
+
+This is the kitchen of the white house. A table seems to have been used recently for the preparation of food. A passage leads to the west, and a dark staircase can be seen leading upward. To the east is a small window which is open.
+
+You can see kitchen table, elongated brown sack, glass bottle here.
+
+>east
+Behind House
+
+You are behind the white house. In one corner of the house there is a small window which is slightly ajar.
+
+You can see window, white house here.
+
+>north
+North of House
+
+You are facing the north side of a white house. There is no door here, and all the windows are barred.
+
+You can see white house here.
+
+>north
+Forest Path
+
+This is a path winding through a dimly lit forest. The path heads north-south here. One particularly large tree with some low branches stands at the side of the path.
+
+You can see large tree here.
+A songbird chirps in the distance.
+
+>up
+Up a Tree
+
+You are about ten feet above the ground nestled among some large branches. The nearest branch above you is beyond your reach. On one of the branches is a small bird's nest.
+
+You can see small bird's nest here.
+A songbird chirps in the distance.
+
+>take egg
+Taken.
+
+>inventory
+You are carrying:
+  ivory torch, jewel-encrusted egg
+
+>examine egg
+A beautiful jewel-encrusted egg. It appears to open somehow.
+A songbird chirps in the distance.
+
+>down
+Forest Path
+
+This is a path winding through a dimly lit forest. The path heads north-south here. One particularly large tree with some low branches stands at the side of the path.
+
+You can see large tree here.
+
+>south
+North of House
+
+You are facing the north side of a white house. There is no door here, and all the windows are barred.
+
+You can see white house here.
+
+>east
+Behind House
+
+You are behind the white house. In one corner of the house there is a small window which is slightly ajar.
+
+You can see window, white house here.
+
+>west
+Kitchen
+
+This is the kitchen of the white house. A table seems to have been used recently for the preparation of food. A passage leads to the west, and a dark staircase can be seen leading upward. To the east is a small window which is open.
+
+You can see kitchen table, elongated brown sack, glass bottle here.
+
+>west
+Living Room
+
+This is the living room. There is a door to the east. To the west is a wooden door with strange gothic lettering, which appears to be nailed shut.
+
+You can see trophy case, large oriental rug, wooden door, trap door, incense, skeleton key, guidebook, matchbook, large brochure, wrench, screwdriver, trunk, brass lantern, brass bell, black book, burned-out candles, sharp stick here.
+
+>open trophy case
+trophy case is already open.
+
+>put egg in trophy case
+You put jewel-encrusted egg in trophy case.
+
+>inventory
+You are carrying:
+  ivory torch
+
+>look
+Living Room
+
+This is the living room. There is a door to the east. To the west is a wooden door with strange gothic lettering, which appears to be nailed shut.
+
+You can see trophy case, brass lantern, trap door, large oriental rug, wooden door, guidebook, matchbook, wrench, screwdriver, trunk, sharp stick, brass bell, black book, burned-out candles, skeleton key, incense, large brochure here.
+In trophy case you see portrait, painting, platinum bar, Don Woods stamp, gold coffin, large emerald, beautiful statue, pot of gold, jewel-encrusted egg.
+
+>east
+Kitchen
+
+This is the kitchen of the white house. A table seems to have been used recently for the preparation of food. A passage leads to the west, and a dark staircase can be seen leading upward. To the east is a small window which is open.
+
+You can see kitchen table, elongated brown sack, glass bottle here.
+
+>take bottle
+Taken.
+
+>west
+Living Room
+
+This is the living room. There is a door to the east. To the west is a wooden door with strange gothic lettering, which appears to be nailed shut.
+
+You can see trophy case, large oriental rug, wooden door, trap door, incense, skeleton key, guidebook, matchbook, large brochure, wrench, screwdriver, trunk, brass lantern, brass bell, black book, burned-out candles, sharp stick here.
+
+>open trap door
+trap door is already open.
+
+>down
+Cellar
+
+This is a dark and damp cellar with a narrow passageway leading east, and a crawlway to the south. To the west is the bottom of a steep metal ramp which is unclimbable.
+
+You can see steep metal ramp here.
+
+>east
+Troll Room
+
+This is a small room with passages off in all directions. Bloodstains and deep scratches (perhaps made by an axe) mar the walls.
+
+You can see elvish sword here.
+
+>north
+East-West Passage
+
+This is a narrow east-west passageway. There is a narrow stairway leading down at the north end of the room.
+
+>east
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+Grail Room
+
+You are in a small chamber with walls of granite. A narrow passage exits to the west.
+
+>west
+(navigated: Grail Room -> Round Room)
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+>look
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+>southeast
+Riddle Room
+
+This is a room which is bare on all sides. There is an exit down. To the east is a great door made of stone. Above the stone, the following words are written: 'No man shall enter this room without solving this riddle:
+
+What is tall as a house,
+round as a cup,
+and all the king's horses can't draw it up?'
+
+(Reply via 'ANSWER "answer"')
+
+You can see riddle inscription here.
+
+>answer "a well"
+There is a loud rumble as the stone door swings open, revealing a passage to the east!
+
+>east
+Broom Closet
+
+This is a former broom closet. The exits are to the east and west.
+
+You can see pearl necklace here.
+
+>take necklace
+Taken.
+
+>east
+Well Bottom
+
+You are at the bottom of a well. The walls are too smooth to climb.
+
+You can see well, bucket here.
+
+>enter bucket
+You get into bucket.
+
+>pour water
+The bucket becomes heavy with water and slowly rises to the top of the well, carrying you with it!
+
+>look
+Top of Well
+
+You are at the top of a well. A bucket hangs from a rope here.
+
+You can see well, bucket here.
+In bucket you see yourself, quantity of water.
+
+>exit bucket
+You get out of bucket.
+
+>east
+Tea Room
+
+This is a small room with a table. On the table are cakes of various sorts. Passages lead to the west, northwest, and east.
+
+You can see dusty table, piece of paper, eat-me cake, blue cake, red cake, orange cake here.
+
+>take blue cake
+Taken.
+
+>take red cake
+Taken.
+
+>eat eat-me cake
+(first taking the eat-me cake)
+Taken.
+You eat eat-me cake. It's quite tasty.
+Suddenly the room seems to be getting much larger. Or maybe you are getting much smaller... In fact, you seem to have shrunk to the size of a mouse!
+
+>look
+Posts Room
+
+This is a room with very large and very tall wooden posts in each corner. The room is otherwise featureless.
+
+>east
+Pool Room
+
+This is a large room, one half of which is depressed. There is a large leak in the ceiling through which brown colored goop is falling. The only exit is to the west.
+
+You can see pool of goop here.
+
+>throw red cake at pool
+You throw red cake at pool of goop. It hits!
+The red cake sails through the air and lands with a splash in the pool of goop. As it dissolves, the pool begins to evaporate! In a few moments, the pool is gone, revealing something on the floor.
+
+>take spices
+Taken.
+
+>west
+Posts Room
+
+This is a room with very large and very tall wooden posts in each corner. The room is otherwise featureless.
+
+>eat blue cake
+You eat blue cake. It's quite tasty.
+Suddenly, the room around you seems to be getting much smaller. Or maybe you are getting much bigger... In fact, you seem to have grown back to your normal size!
+
+>look
+Tea Room
+
+This is a small room with a table. On the table are cakes of various sorts. Passages lead to the west, northwest, and east.
+
+You can see dusty table, piece of paper, orange cake here.
+
+>northwest
+Low Room
+
+This is a low room with passages leading in several directions.
+
+You can see robot here.
+
+>tell robot to go east
+"Whirr, buzz, click!"
+
+>east
+Machine Room
+
+This is a large room filled with strange machinery. A small triangular button is set into the wall. A passage leads west.
+
+You can see triangular button, robot here.
+
+>tell robot to push button
+"Whirr, buzz, click!"
+The robot extends a thin metal finger and pushes the triangular button.
+You hear a grinding noise from somewhere nearby. The carousel mechanism has stopped spinning!
+
+>tell robot to go south
+"Whirr, buzz, click!"
+
+>south
+Dingy Closet
+
+This is a small, dingy closet. A door leads north.
+
+You can see metal cage, white crystal sphere, robot here.
+
+>take sphere
+As you reach for the sphere, a steel cage falls from the ceiling to entrap you. To make matters worse, poisonous gas starts coming into the room.
+
+>tell robot to raise cage
+The cage shakes and is hurled across the room.
+
+>take sphere
+Taken.
+
+>inventory
+You are carrying:
+  ivory torch, glass bottle, pearl necklace, blue cake, eat-me cake, tin of spices, white crystal sphere
+
+>north
+Machine Room
+
+This is a large room filled with strange machinery. A small triangular button is set into the wall. A passage leads west.
+
+You can see triangular button here.
+
+>west
+Low Room
+
+This is a low room with passages leading in several directions.
+
+As you enter, your compass starts spinning wildly.
+
+>southeast
+Tea Room
+
+This is a small room with a table. On the table are cakes of various sorts. Passages lead to the west, northwest, and east.
+
+Machine Room
+
+This is a large room filled with strange machinery. A small triangular button is set into the wall. A passage leads west.
+
+You can see dusty table, piece of paper, orange cake here.
+You cannot get your bearings...
+
+>west
+Low Room
+
+This is a low room with passages leading in several directions.
+
+As you enter, your compass starts spinning wildly.
+
+>enter bucket
 You can't see any such thing.
 
-> south
+>fill bottle
+There is no water source here.
+
+>exit bucket
+You can't see any such thing.
+
+>west
 You can't go that way.
 
-> south
+>west
 You can't go that way.
 
-> in
+>up
 You can't go that way.
 
-> out
+>north
 You can't go that way.
 
-> south
+>west
 You can't go that way.
 
-> knock
+>west
+You can't go that way.
+
+>west
+You can't go that way.
+
+>up
+You can't go that way.
+
+>open trophy case
+You can't see any such thing.
+
+>put necklace in trophy case
+You can't see any such thing.
+
+>put spices in trophy case
+You can't see any such thing.
+
+>put sphere in trophy case
+You can't see any such thing.
+
+>inventory
+You are carrying:
+  ivory torch, glass bottle, pearl necklace, blue cake, eat-me cake, tin of spices, white crystal sphere
+
+>look
+Low Room
+
+This is a low room with passages leading in several directions.
+
+>take lantern
+You can't see any such thing.
+
+>down
+You can't go that way.
+
+>east
+Machine Room
+
+This is a large room filled with strange machinery. A small triangular button is set into the wall. A passage leads west.
+
+Tea Room
+
+This is a small room with a table. On the table are cakes of various sorts. Passages lead to the west, northwest, and east.
+
+You can see triangular button here.
+You cannot get your bearings...
+
+>north
+You can't go that way.
+
+>east
+Posts Room
+
+This is a room with very large and very tall wooden posts in each corner. The room is otherwise featureless.
+
+>southeast
+You can't go that way.
+
+>east
+Pool Room
+
+This is a large room, one half of which is depressed. The floor of the depression is covered with hardened calciumite. The only exit is to the west.
+
+You can see red cake here.
+
+>rub mirror
+You can't see any such thing.
+
+>west
+Posts Room
+
+This is a room with very large and very tall wooden posts in each corner. The room is otherwise featureless.
+
+>west
+Tea Room
+
+This is a small room with a table. On the table are cakes of various sorts. Passages lead to the west, northwest, and east.
+
+You can see dusty table, piece of paper, orange cake here.
+
+>north
+You can't go that way.
+
+>northeast
+You can't go that way.
+
+>north
+You can't go that way.
+
+>west
+Top of Well
+
+You are at the top of a well. A bucket hangs from a rope here.
+
+You can see well, bucket here.
+
+>drop torch
+Dropped.
+
+>turn on lantern
+You can't see any such thing.
+
+>down
+It is pitch dark. You are likely to be eaten by a grue.
+
+>take bracelet
+You can't see any such thing.
+
+>up
+Top of Well
+
+You are at the top of a well. A bucket hangs from a rope here.
+
+You can see well, bucket, ivory torch here.
+
+>take torch
+Taken.
+
+>turn off lantern
+You can't see any such thing.
+
+>east
+Tea Room
+
+This is a small room with a table. On the table are cakes of various sorts. Passages lead to the west, northwest, and east.
+
+You can see dusty table, piece of paper, orange cake here.
+
+>northeast
+You can't go that way.
+
+>north
+You can't go that way.
+
+>northeast
+You can't go that way.
+
+>northwest
+Low Room
+
+This is a low room with passages leading in several directions.
+
+As you enter, your compass starts spinning wildly.
+
+>down
+You can't go that way.
+
+>down
+You can't go that way.
+
+>northeast
+You can't go that way.
+
+>take coal
+You can't see any such thing.
+
+>south
+You can't go that way.
+
+>south
+You can't go that way.
+
+>southwest
+You can't go that way.
+
+>east
+Machine Room
+
+This is a large room filled with strange machinery. A small triangular button is set into the wall. A passage leads west.
+
+Tea Room
+
+This is a small room with a table. On the table are cakes of various sorts. Passages lead to the west, northwest, and east.
+
+You can see triangular button here.
+You cannot get your bearings...
+
+>put coal in machine
+You can't see any such thing.
+
+>turn switch
+There's no switch here.
+
+>take diamond
+You can't see any such thing.
+
+>northwest
+Low Room
+
+This is a low room with passages leading in several directions.
+
+As you enter, your compass starts spinning wildly.
+
+>northeast
+You can't go that way.
+
+>north
+You can't go that way.
+
+>up
+You can't go that way.
+
+>up
+You can't go that way.
+
+>east
+Machine Room
+
+This is a large room filled with strange machinery. A small triangular button is set into the wall. A passage leads west.
+
+Tea Room
+
+This is a small room with a table. On the table are cakes of various sorts. Passages lead to the west, northwest, and east.
+
+You can see triangular button here.
+You cannot get your bearings...
+
+>east
+Posts Room
+
+This is a room with very large and very tall wooden posts in each corner. The room is otherwise featureless.
+
+>south
+You can't go that way.
+
+>west
+Tea Room
+
+This is a small room with a table. On the table are cakes of various sorts. Passages lead to the west, northwest, and east.
+
+You can see dusty table, piece of paper, orange cake here.
+
+>south
+You can't go that way.
+
+>east
+Posts Room
+
+This is a room with very large and very tall wooden posts in each corner. The room is otherwise featureless.
+
+>east
+Pool Room
+
+This is a large room, one half of which is depressed. The floor of the depression is covered with hardened calciumite. The only exit is to the west.
+
+You can see red cake here.
+
+>rub mirror
+You can't see any such thing.
+
+>west
+Posts Room
+
+This is a room with very large and very tall wooden posts in each corner. The room is otherwise featureless.
+
+>northwest
+You can't go that way.
+
+>west
+Tea Room
+
+This is a small room with a table. On the table are cakes of various sorts. Passages lead to the west, northwest, and east.
+
+You can see dusty table, piece of paper, orange cake here.
+
+>west
+Top of Well
+
+You are at the top of a well. A bucket hangs from a rope here.
+
+You can see well, bucket here.
+
+>west
+You can't go that way.
+
+>up
+You can't go that way.
+
+>inventory
+You are carrying:
+  glass bottle, pearl necklace, blue cake, eat-me cake, tin of spices, white crystal sphere, ivory torch
+
+>open trophy case
+You can't see any such thing.
+
+>put diamond in trophy case
+You can't see any such thing.
+
+>put bracelet in trophy case
+You can't see any such thing.
+
+>inventory
+You are carrying:
+  glass bottle, pearl necklace, blue cake, eat-me cake, tin of spices, white crystal sphere, ivory torch
+
+>look
+Top of Well
+
+You are at the top of a well. A bucket hangs from a rope here.
+
+You can see well, bucket here.
+In bucket you see quantity of water.
+
+>east
+Tea Room
+
+This is a small room with a table. On the table are cakes of various sorts. Passages lead to the west, northwest, and east.
+
+You can see dusty table, piece of paper, orange cake here.
+
+>take brown sack
+You can't see any such thing.
+
+>west
+Top of Well
+
+You are at the top of a well. A bucket hangs from a rope here.
+
+You can see well, bucket here.
+
+>take screwdriver
+You can't see any such thing.
+
+>down
+Well Bottom
+
+You are at the bottom of a well. The walls are too smooth to climb.
+
+You can see well here.
+
+>east
+You can't go that way.
+
+>north
+You can't go that way.
+
+>east
+You can't go that way.
+
+>open box
+You can't see any such thing.
+
+>take violin
+You can't see any such thing.
+
+>east
+You can't go that way.
+
+>west
+Broom Closet
+
+This is a former broom closet. The exits are to the east and west.
+
+>northwest
+You can't go that way.
+
+>northwest
+You can't go that way.
+
+>north
+You can't go that way.
+
+>north
+You can't go that way.
+
+>north
+You can't go that way.
+
+>southeast
+You can't go that way.
+
+>south
+You can't go that way.
+
+>south
+You can't go that way.
+
+>up
+You can't go that way.
+
+>southeast
+You can't go that way.
+
+>west
+Riddle Room
+
+This is a room which is bare on all sides. There is an exit down. To the east is a great door made of stone. Above the stone, the following words are written: 'No man shall enter this room without solving this riddle:
+
+What is tall as a house,
+round as a cup,
+and all the king's horses can't draw it up?'
+
+(Reply via 'ANSWER "answer"')
+
+You can see riddle inscription here.
+
+>west
+You can't go that way.
+
+>west
+You can't go that way.
+
+>up
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+>open trophy case
+You can't see any such thing.
+
+>put violin in trophy case
+You can't see any such thing.
+
+>down
+Riddle Room
+
+This is a room which is bare on all sides. There is an exit down. To the east is a great door made of stone. Above the stone, the following words are written: 'No man shall enter this room without solving this riddle:
+
+What is tall as a house,
+round as a cup,
+and all the king's horses can't draw it up?'
+
+(Reply via 'ANSWER "answer"')
+
+You can see riddle inscription here.
+
+>east
+Broom Closet
+
+This is a former broom closet. The exits are to the east and west.
+
+>south
+You can't go that way.
+
+>east
+Well Bottom
+
+You are at the bottom of a well. The walls are too smooth to climb.
+
+You can see well here.
+
+>west
+Broom Closet
+
+This is a former broom closet. The exits are to the east and west.
+
+>up
+You can't go that way.
+
+>north
+You can't go that way.
+
+>west
+Riddle Room
+
+This is a room which is bare on all sides. There is an exit down. To the east is a great door made of stone. Above the stone, the following words are written: 'No man shall enter this room without solving this riddle:
+
+What is tall as a house,
+round as a cup,
+and all the king's horses can't draw it up?'
+
+(Reply via 'ANSWER "answer"')
+
+You can see riddle inscription here.
+
+>south
+You can't go that way.
+
+>west
+You can't go that way.
+
+>west
+You can't go that way.
+
+>up
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+>east
+You can't go that way.
+
+>east
+You can't go that way.
+
+>north
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>west
+East-West Passage
+
+This is a narrow east-west passageway. There is a narrow stairway leading down at the north end of the room.
+
+>take welcome mat
+You can't see any such thing.
+
+>south
+You can't go that way.
+
+>east
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>west
+East-West Passage
+
+This is a narrow east-west passageway. There is a narrow stairway leading down at the north end of the room.
+
+>west
+Troll Room
+
+This is a small room with passages off in all directions. Bloodstains and deep scratches (perhaps made by an axe) mar the walls.
+
+You can see elvish sword here.
+
+>down
+You can't go that way.
+
+>east
+North/South Crawlway
+
+This is a north-south crawlway; a passage also goes to the east. There is a hole above, but it provides no opportunities for climbing.
+
+>east
+Troll Room
+
+This is a small room with passages off in all directions. Bloodstains and deep scratches (perhaps made by an axe) mar the walls.
+
+You can see elvish sword here.
+
+>up
+You can't go that way.
+
+>west
+Cellar
+
+This is a dark and damp cellar with a narrow passageway leading east, and a crawlway to the south. To the west is the bottom of a steep metal ramp which is unclimbable.
+
+You can see steep metal ramp here.
+
+>look
+Cellar
+
+This is a dark and damp cellar with a narrow passageway leading east, and a crawlway to the south. To the west is the bottom of a steep metal ramp which is unclimbable.
+
+You can see steep metal ramp here.
+
+>north
+You can't go that way.
+
+>put mat under door
+You don't have a mat.
+
+>push key with screwdriver
+You don't have anything suitable to push the key out.
+
+>take mat
+You can't see any such thing.
+
+>unlock door with key
+You can't see any such thing.
+
+>open door
+You can't see any such thing.
+
+>north
+You can't go that way.
+
+>look
+Cellar
+
+This is a dark and damp cellar with a narrow passageway leading east, and a crawlway to the south. To the west is the bottom of a steep metal ramp which is unclimbable.
+
+You can see steep metal ramp here.
+
+>drop screwdriver
+You can't see any such thing.
+
+>drop mat
+You can't see any such thing.
+
+>drop key
+You can't see any such thing.
+
+>take blue crystal sphere
+You can't see any such thing.
+
+>south
+West of Chasm
+
+You are on the west edge of a great chasm. The remains of a collapsed bridge dangle into the darkness below. A narrow ledge runs along the north wall of the chasm, providing precarious passage to the east. To the south, an ornate doorway leads into what appears to be a building.
+
+>east
+East of Chasm
+
+You are on the east edge of a great chasm. A wooden bridge once spanned the gap, but it has long since collapsed. Far below, you can hear the faint sound of rushing water. A narrow ledge runs along the north wall of the chasm.
+
+>down
+You can't go that way.
+
+>east
+You can't go that way.
+
+>north
+You can't go that way.
+
+>east
+You can't go that way.
+
+>southeast
+You can't go that way.
+
+>east
+You can't go that way.
+
+>rub mirror
+You can't see any such thing.
+
+>west
+West of Chasm
+
+You are on the west edge of a great chasm. The remains of a collapsed bridge dangle into the darkness below. A narrow ledge runs along the north wall of the chasm, providing precarious passage to the east. To the south, an ornate doorway leads into what appears to be a building.
+
+>west
+Cellar
+
+This is a dark and damp cellar with a narrow passageway leading east, and a crawlway to the south. To the west is the bottom of a steep metal ramp which is unclimbable.
+
+You can see steep metal ramp here.
+
+>north
+You can't go that way.
+
+>northwest
+You can't go that way.
+
+>south
+West of Chasm
+
+You are on the west edge of a great chasm. The remains of a collapsed bridge dangle into the darkness below. A narrow ledge runs along the north wall of the chasm, providing precarious passage to the east. To the south, an ornate doorway leads into what appears to be a building.
+
+>south
+Gallery
+
+This is an art gallery. Most of the paintings have been stolen by vandals with exceptional taste. The vandals left through either the north or west exits.
+
+>down
+You can't go that way.
+
+>down
+You can't go that way.
+
+>down
+You can't go that way.
+
+>east
+You can't go that way.
+
+>south
+Studio
+
+This is what appears to have been an artist's studio. The walls and floors are splattered with paints of 69 different colors. Strangely enough, nothing of value is hanging here. At the north and northwest of the room are open doors (also covered with paint). An extremely dark and narrow chimney leads up from a fireplace; although you might be able to get up it, it seems unlikely you could get back down.
+
+You can see chimney, paint here.
+
+>take red sphere
+You can't see any such thing.
+
+>north
+North/South Crawlway
+
+This is a north-south crawlway; a passage also goes to the east. There is a hole above, but it provides no opportunities for climbing.
+
+>up
+Torch Room
+
+This is a large room with a prominent doorway leading to a down staircase. To the west is a narrow twisting tunnel, covered with a thin layer of dust. Above you is a large dome painted with scenes depicting elfin hacking rites. Up around the edge of the dome (20 feet up) is a wooden railing. In the center of the room there is a white marble pedestal.
+
+>down
+North/South Crawlway
+
+This is a north-south crawlway; a passage also goes to the east. There is a hole above, but it provides no opportunities for climbing.
+
+>down
+You can't go that way.
+
+>up
+Torch Room
+
+This is a large room with a prominent doorway leading to a down staircase. To the west is a narrow twisting tunnel, covered with a thin layer of dust. Above you is a large dome painted with scenes depicting elfin hacking rites. Up around the edge of the dome (20 feet up) is a wooden railing. In the center of the room there is a white marble pedestal.
+
+>put blue crystal sphere in trophy case
+You can't see any such thing.
+
+>put red crystal sphere in trophy case
+You can't see any such thing.
+
+>inventory
+You are carrying:
+  glass bottle, pearl necklace, blue cake, eat-me cake, tin of spices, white crystal sphere, ivory torch
+
+>look
+Torch Room
+
+This is a large room with a prominent doorway leading to a down staircase. To the west is a narrow twisting tunnel, covered with a thin layer of dust. Above you is a large dome painted with scenes depicting elfin hacking rites. Up around the edge of the dome (20 feet up) is a wooden railing. In the center of the room there is a white marble pedestal.
+
+>drop blue cake
+Dropped.
+
+>drop eat-me cake
+Dropped.
+
+>inventory
+You are carrying:
+  glass bottle, pearl necklace, tin of spices, white crystal sphere, ivory torch
+
+>east
+You can't go that way.
+
+>up
+Dome Room
+
+This is the periphery of a large dome, which forms the ceiling of another room below. Protecting you from a precipitous drop is a wooden railing which circles the dome.
+
+You can see railing, large coil of rope here.
+
+>take nasty knife
+You can't see any such thing.
+
+>take brick
+You can't see any such thing.
+
+>take shiny wire
+You can't see any such thing.
+
+>down
+Torch Room
+
+This is a large room with a prominent doorway leading to a down staircase. To the west is a narrow twisting tunnel, covered with a thin layer of dust. Above you is a large dome painted with scenes depicting elfin hacking rites. Up around the edge of the dome (20 feet up) is a wooden railing. In the center of the room there is a white marble pedestal.
+
+You can see blue cake, eat-me cake here.
+
+>west
+Tiny Room
+
+This is a tiny room with passages leading east and west.
+
+You can see small door, small key here.
+
+>drop brick
+You can't see any such thing.
+
+>drop shiny wire
+You can't see any such thing.
+
+>open trophy case
+You can't see any such thing.
+
+>take egg
+You can't see any such thing.
+
+>turn on lantern
+You can't see any such thing.
+
+>open trap door
+You can't see any such thing.
+
+>down
+You can't go that way.
+
+>east
+Torch Room
+
+This is a large room with a prominent doorway leading to a down staircase. To the west is a narrow twisting tunnel, covered with a thin layer of dust. Above you is a large dome painted with scenes depicting elfin hacking rites. Up around the edge of the dome (20 feet up) is a wooden railing. In the center of the room there is a white marble pedestal.
+
+You can see blue cake, eat-me cake here.
+
+>south
+You can't go that way.
+
+>east
+You can't go that way.
+
+>west
+Tiny Room
+
+This is a tiny room with passages leading east and west.
+
+You can see small door, small key here.
+
+>up
+You can't go that way.
+
+>southwest
+You can't go that way.
+
+>east
+Torch Room
+
+This is a large room with a prominent doorway leading to a down staircase. To the west is a narrow twisting tunnel, covered with a thin layer of dust. Above you is a large dome painted with scenes depicting elfin hacking rites. Up around the edge of the dome (20 feet up) is a wooden railing. In the center of the room there is a white marble pedestal.
+
+You can see blue cake, eat-me cake here.
+
+>south
+You can't go that way.
+
+>northeast
+You can't go that way.
+
+>up
+Dome Room
+
+This is the periphery of a large dome, which forms the ceiling of another room below. Protecting you from a precipitous drop is a wooden railing which circles the dome.
+
+You can see railing, large coil of rope here.
+
+>give egg to thief
+You can't see any such thing.
+
+>down
+Torch Room
+
+This is a large room with a prominent doorway leading to a down staircase. To the west is a narrow twisting tunnel, covered with a thin layer of dust. Above you is a large dome painted with scenes depicting elfin hacking rites. Up around the edge of the dome (20 feet up) is a wooden railing. In the center of the room there is a white marble pedestal.
+
+You can see blue cake, eat-me cake here.
+
+>wait
+Time passes...
+
+>wait
+Time passes...
+
+>up
+Dome Room
+
+This is the periphery of a large dome, which forms the ceiling of another room below. Protecting you from a precipitous drop is a wooden railing which circles the dome.
+
+You can see railing, large coil of rope here.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>attack thief with knife
+You can't see any such thing.
+
+>take canary
+You can't see any such thing.
+
+>take egg
+You can't see any such thing.
+
+>take chalice
+You can't see any such thing.
+
+>break frame
+You can't see any such thing.
+
+>take frame piece
+You can't see any such thing.
+
+>down
+Torch Room
+
+This is a large room with a prominent doorway leading to a down staircase. To the west is a narrow twisting tunnel, covered with a thin layer of dust. Above you is a large dome painted with scenes depicting elfin hacking rites. Up around the edge of the dome (20 feet up) is a wooden railing. In the center of the room there is a white marble pedestal.
+
+You can see blue cake, eat-me cake here.
+
+>north
+You can't go that way.
+
+>east
+You can't go that way.
+
+>east
+You can't go that way.
+
+>east
+You can't go that way.
+
+>north
+You can't go that way.
+
+>north
+You can't go that way.
+
+>wind canary
+You can't see any such thing.
+
+>take bauble
+You can't see any such thing.
+
+>south
+You can't go that way.
+
+>east
+You can't go that way.
+
+>west
+Tiny Room
+
+This is a tiny room with passages leading east and west.
+
+You can see small door, small key here.
+
+>west
+You can't go that way.
+
+>open trophy case
+You can't see any such thing.
+
+>put canary in trophy case
+You can't see any such thing.
+
+>put bauble in trophy case
+You can't see any such thing.
+
+>put chalice in trophy case
+You can't see any such thing.
+
+>put egg in trophy case
+You can't see any such thing.
+
+>open trap door
+You can't see any such thing.
+
+>down
+You can't go that way.
+
+>east
+Torch Room
+
+This is a large room with a prominent doorway leading to a down staircase. To the west is a narrow twisting tunnel, covered with a thin layer of dust. Above you is a large dome painted with scenes depicting elfin hacking rites. Up around the edge of the dome (20 feet up) is a wooden railing. In the center of the room there is a white marble pedestal.
+
+You can see blue cake, eat-me cake here.
+
+>south
+You can't go that way.
+
+>east
+You can't go that way.
+
+>west
+Tiny Room
+
+This is a tiny room with passages leading east and west.
+
+You can see small door, small key here.
+
+>up
+You can't go that way.
+
+>southwest
+You can't go that way.
+
+>east
+Torch Room
+
+This is a large room with a prominent doorway leading to a down staircase. To the west is a narrow twisting tunnel, covered with a thin layer of dust. Above you is a large dome painted with scenes depicting elfin hacking rites. Up around the edge of the dome (20 feet up) is a wooden railing. In the center of the room there is a white marble pedestal.
+
+You can see blue cake, eat-me cake here.
+
+>south
+You can't go that way.
+
+>northeast
+You can't go that way.
+
+>up
+Dome Room
+
+This is the periphery of a large dome, which forms the ceiling of another room below. Protecting you from a precipitous drop is a wooden railing which circles the dome.
+
+You can see railing, large coil of rope here.
+
+>down
+Torch Room
+
+This is a large room with a prominent doorway leading to a down staircase. To the west is a narrow twisting tunnel, covered with a thin layer of dust. Above you is a large dome painted with scenes depicting elfin hacking rites. Up around the edge of the dome (20 feet up) is a wooden railing. In the center of the room there is a white marble pedestal.
+
+You can see blue cake, eat-me cake here.
+
+>north
+You can't go that way.
+
+>east
+You can't go that way.
+
+>open trophy case
+You can't see any such thing.
+
+>drop frame piece
+You can't see any such thing.
+
+>inventory
+You are carrying:
+  glass bottle, pearl necklace, tin of spices, white crystal sphere, ivory torch
+
+>look
+Torch Room
+
+This is a large room with a prominent doorway leading to a down staircase. To the west is a narrow twisting tunnel, covered with a thin layer of dust. Above you is a large dome painted with scenes depicting elfin hacking rites. Up around the edge of the dome (20 feet up) is a wooden railing. In the center of the room there is a white marble pedestal.
+
+You can see eat-me cake, blue cake here.
+
+>open trap door
+You can't see any such thing.
+
+>down
+North/South Crawlway
+
+This is a north-south crawlway; a passage also goes to the east. There is a hole above, but it provides no opportunities for climbing.
+
+>east
+Troll Room
+
+This is a small room with passages off in all directions. Bloodstains and deep scratches (perhaps made by an axe) mar the walls.
+
+You can see elvish sword here.
+
+>south
+Maze
+
+You are in a maze of twisty little passages, all alike.
+
+>east
+Maze
+
+You are in a maze of twisty little passages, all alike.
+
+>west
+Maze
+
+You are in a maze of twisty little passages, all alike.
+
+>up
+Maze
+
+You are in a maze of twisty little passages, all alike.
+
+You can see skeleton, rusty knife here.
+
+>southwest
+Maze
+
+You are in a maze of twisty little passages, all alike.
+
+>east
+Maze
+
+You are in a maze of twisty little passages, all alike.
+
+>south
+Maze
+
+You are in a maze of twisty little passages, all alike.
+
+>northeast
+Cyclops Room
+
+This room has an exit on the northwest, and a staircase leading up.
+
+You can see huge cyclops here.
+
+>up
+Treasure Room
+
+This is a large room, whose north wall is solid marble. A doorway leads south, and a narrow chimney leads up.
+
+You hear a scream of anguish as you violate the robber's hideaway. Using passages unknown to you, he rushes to its defense.
+"My, what a lovely ivory torch!" The thief snatches it away.
+
+>east
+It is pitch dark. You are likely to be eaten by a grue.
+
+>down
+Oh, no! You have walked into the slavering fangs of a lurking grue!
+
+    **** You have died ****
+You have lost 10 points for dying.
+
+>down
+Oh, no! You have walked into the slavering fangs of a lurking grue!
+
+    **** You have died ****
+You have died too many times. The Great Underground Empire claims another victim.
+
+    **** GAME OVER ****
+You have died too many times. The Great Underground Empire claims another victim.
+
+    **** GAME OVER ****
+
+>push east wall
+There are no walls to push here.
+
+>south
+Oh, no! You have walked into the slavering fangs of a lurking grue!
+
+    **** You have died ****
+
+>southwest
+Oh, no! You have walked into the slavering fangs of a lurking grue!
+
+    **** You have died ****
+
+>push south wall
+There are no walls to push here.
+
+>east
+Oh, no! You have walked into the slavering fangs of a lurking grue!
+
+    **** You have died ****
+
+>east
+Oh, no! You have walked into the slavering fangs of a lurking grue!
+
+    **** You have died ****
+
+>push south wall
+There are no walls to push here.
+
+>north
+Oh, no! You have walked into the slavering fangs of a lurking grue!
+
+    **** You have died ****
+
+>north
+Oh, no! You have walked into the slavering fangs of a lurking grue!
+
+    **** You have died ****
+
+>east
+Oh, no! You have walked into the slavering fangs of a lurking grue!
+
+    **** You have died ****
+
+>push south wall
+There are no walls to push here.
+
+>take card
+You can't see any such thing.
+
+>push south wall
+There are no walls to push here.
+
+>east
+Oh, no! You have walked into the slavering fangs of a lurking grue!
+
+    **** You have died ****
+
+>northeast
+Oh, no! You have walked into the slavering fangs of a lurking grue!
+
+    **** You have died ****
+
+>push west wall
+There are no walls to push here.
+
+>push west wall
+There are no walls to push here.
+
+>push west wall
+There are no walls to push here.
+
+>push west wall
+There are no walls to push here.
+
+>northeast
+Oh, no! You have walked into the slavering fangs of a lurking grue!
+
+    **** You have died ****
+
+>northeast
+Oh, no! You have walked into the slavering fangs of a lurking grue!
+
+    **** You have died ****
+
+>north
+Oh, no! You have walked into the slavering fangs of a lurking grue!
+
+    **** You have died ****
+
+>push east wall
+There are no walls to push here.
+
+>southwest
+You can't go that way.
+
+>south
+Oh, no! You have walked into the slavering fangs of a lurking grue!
+
+    **** You have died ****
+
+>southeast
+Oh, no! You have walked into the slavering fangs of a lurking grue!
+
+    **** You have died ****
+
+>northeast
+Oh, no! You have walked into the slavering fangs of a lurking grue!
+
+    **** You have died ****
+
+>north
+Oh, no! You have walked into the slavering fangs of a lurking grue!
+
+    **** You have died ****
+
+>push west wall
+There are no walls to push here.
+
+>northwest
+Oh, no! You have walked into the slavering fangs of a lurking grue!
+
+    **** You have died ****
+
+>push south wall
+There are no walls to push here.
+
+>push south wall
+There are no walls to push here.
+
+>west
+Treasure Room
+
+This is a large room, whose north wall is solid marble. A doorway leads south, and a narrow chimney leads up.
+
+You hear a scream of anguish as you violate the robber's hideaway. Using passages unknown to you, he rushes to its defense.
+The thief lunges at you with his stiletto!
+You dodge as the thief comes in low.
+
+>northwest
+You can't go that way.
+
+>northwest
+You can't go that way.
+The thief lunges at you with his stiletto!
+The stiletto touches your forehead, and the blood obscures your vision.
+
+>push south wall
+There are no walls to push here.
+
+The thief lunges at you with his stiletto!
+Shifting in the midst of a thrust, the thief knocks you unconscious with the haft of his stiletto.
+
+>southeast
+You can't go that way.
+The thief lunges at you with his stiletto!
+The thief bows formally, raises his stiletto, and with a wry grin, ends the battle and your life.
+
+>southeast
+You can't go that way.
+
+>southeast
+You can't go that way.
+The thief lunges at you with his stiletto!
+Finishing you off, a lightning throw right to the heart.
+
+>northeast
+You can't go that way.
+The thief lunges at you with his stiletto!
+The thief comes in from the side, feints, and inserts the blade into your ribs.
+
+>push west wall
+There are no walls to push here.
+
+>push west wall
+There are no walls to push here.
+
+>southwest
+You can't go that way.
+The thief lunges at you with his stiletto!
+The thief comes in from the side, feints, and inserts the blade into your ribs.
+
+>push north wall
+There are no walls to push here.
+
+The thief lunges at you with his stiletto!
+You parry a lightning thrust, and the thief salutes you with a grim nod.
+
+>push north wall
+There are no walls to push here.
+
+The thief lunges at you with his stiletto!
+A quick thrust pinks your left arm, and blood starts to trickle down.
+
+>push north wall
+There are no walls to push here.
+
+The thief lunges at you with his stiletto!
+The thief knocks you out.
+
+>northwest
+You can't go that way.
+The thief lunges at you with his stiletto!
+You dodge as the thief comes in low.
+
+>up
+You can't go that way.
+The thief lunges at you with his stiletto!
+The thief comes in from the side, feints, and inserts the blade into your ribs.
+
+>look
+Treasure Room
+
+This is a large room, whose north wall is solid marble. A doorway leads south, and a narrow chimney leads up.
+
+You can see seedy-looking thief here.
+The thief lunges at you with his stiletto!
+The thief knocks you out.
+
+>up
+You can't go that way.
+
+>west
+You can't go that way.
+The thief lunges at you with his stiletto!
+The thief comes in from the side, feints, and inserts the blade into your ribs.
+
+>down
+It is pitch dark. You are likely to be eaten by a grue.
+
+>north
+It is pitch dark. You are likely to be eaten by a grue.
+
+>east
+Living Room
+
+This is the living room. There is a door to the east. To the west is a wooden door with strange gothic lettering, which appears to be nailed shut.
+
+You can see trophy case, large oriental rug, wooden door, trap door, incense, skeleton key, guidebook, matchbook, large brochure, wrench, screwdriver, trunk, brass lantern, brass bell, black book, burned-out candles, sharp stick here.
+
+>open trophy case
+trophy case is already open.
+
+>inventory
+You are carrying:
+  glass bottle, pearl necklace, tin of spices, white crystal sphere
+
+>look
+Living Room
+
+This is the living room. There is a door to the east. To the west is a wooden door with strange gothic lettering, which appears to be nailed shut.
+
+You can see trophy case, brass lantern, trap door, large oriental rug, wooden door, guidebook, matchbook, wrench, screwdriver, trunk, sharp stick, brass bell, black book, burned-out candles, skeleton key, incense, large brochure here.
+In trophy case you see portrait, painting, platinum bar, Don Woods stamp, gold coffin, large emerald, beautiful statue, pot of gold, jewel-encrusted egg.
+
+>take guidebook
+Taken.
+
+>take matchbook
+Taken.
+
+>take brick
+You can't see any such thing.
+
+>take shiny wire
+You can't see any such thing.
+
+>inventory
+You are carrying:
+  glass bottle, pearl necklace, tin of spices, white crystal sphere, guidebook, matchbook
+
+>down
+It is pitch dark. You are likely to be eaten by a grue.
+
+>east
+Oh, no! You have walked into the slavering fangs of a lurking grue!
+
+    **** You have died ****
+
+>north
+Oh, no! You have walked into the slavering fangs of a lurking grue!
+
+    **** You have died ****
+
+>north
+Oh, no! You have walked into the slavering fangs of a lurking grue!
+
+    **** You have died ****
+
+>west
+You can't go that way.
+
+>northwest
+Oh, no! You have walked into the slavering fangs of a lurking grue!
+
+    **** You have died ****
+
+>turn on lantern
+You can't see any such thing.
+
+>up
+Living Room
+
+This is the living room. There is a door to the east. To the west is a wooden door with strange gothic lettering, which appears to be nailed shut.
+
+You can see trophy case, large oriental rug, wooden door, trap door, incense, skeleton key, large brochure, wrench, screwdriver, trunk, brass lantern, brass bell, black book, burned-out candles, sharp stick here.
+
+>throw torch at glacier
+You can't see any such thing.
+
+>west
+It is pitch dark. You are likely to be eaten by a grue.
+
+>take ruby
+You can't see any such thing.
+
+>west
+Oh, no! You have walked into the slavering fangs of a lurking grue!
+
+    **** You have died ****
+
+>south
+Oh, no! You have walked into the slavering fangs of a lurking grue!
+
+    **** You have died ****
+
+>enter balloon
+You can't see any such thing.
+
+>open receptacle
+You can't see any such thing.
+
+>burn guidebook
+You burn the {target}.
+
+>put guidebook in receptacle
+You can't see any such thing.
+
+>wait
+Time passes...
+
+>wait
+Time passes...
+The thief lunges at you with his stiletto!
+The stiletto severs your jugular. It looks like the end.
+
+>wait
+Time passes...
+
+>tie braided wire to hook
+You can't see any such thing.
+
+>exit
+You're not inside anything.
+
+>take coin
+You can't see any such thing.
+
+>south
+It is pitch dark. You are likely to be eaten by a grue.
+
+>take book
+You already have guidebook.
+
+>take stamp
+You can't see any such thing.
+
+>north
+Oh, no! You have walked into the slavering fangs of a lurking grue!
+
+    **** You have died ****
+
+>enter balloon
+You can't see any such thing.
+
+>untie braided wire from hook
+You can't see any such thing.
+
+>wait
+Time passes...
+
+>wait
+Time passes...
+
+>wait
+Time passes...
+
+>wait
+Time passes...
+
+>wait
+Time passes...
+
+>wait
+Time passes...
+
+>tie braided wire to hook
+You can't see any such thing.
+
+>exit
+You're not inside anything.
+"My, what a lovely pearl necklace!" The thief snatches it away.
+
+>south
+Oh, no! You have walked into the slavering fangs of a lurking grue!
+
+    **** You have died ****
+The thief lunges at you with his stiletto!
+A quick thrust pinks your left arm, and blood starts to trickle down.
+
+>put brick in hole
+You can't see any such thing.
+
+>burn wire
+You can't see any such thing.
+
+>north
+Oh, no! You have walked into the slavering fangs of a lurking grue!
+
+    **** You have died ****
+The thief lunges at you with his stiletto!
+The thief stabs nonchalantly with his stiletto and misses.
+
+>wait
+Time passes...
+The thief lunges at you with his stiletto!
+The stiletto severs your jugular. It looks like the end.
+
+>south
+Oh, no! You have walked into the slavering fangs of a lurking grue!
+
+    **** You have died ****
+The thief lunges at you with his stiletto!
+Shifting in the midst of a thrust, the thief knocks you unconscious with the haft of his stiletto.
+
+>take crown
+You can't see any such thing.
+
+>north
+Oh, no! You have walked into the slavering fangs of a lurking grue!
+
+    **** You have died ****
+
+>enter balloon
+You can't see any such thing.
+
+>close receptacle
+You can't see any such thing.
+
+>untie wire
+You can't see any such thing.
+
+>wait
+Time passes...
+The thief lunges at you with his stiletto!
+You are forced back, and trip over your own feet, falling heavily to the floor.
+
+>wait
+Time passes...
+The thief lunges at you with his stiletto!
+The thief, a man of good breeding, refrains from attacking a helpless opponent.
+
+>wait
+Time passes...
+The thief lunges at you with his stiletto!
+The thief, noticing you begin to stir, reluctantly finishes you off.
+
+>wait
+Time passes...
+The thief lunges at you with his stiletto!
+The thief entertains himself by rifling your pack.
+
+>wait
+Time passes...
+The thief, badly wounded, stumbles away into the darkness.
+
+>wait
+Time passes...
+
+>wait
+Time passes...
+
+>wait
+Time passes...
+
+>wait
+Time passes...
+
+>wait
+Time passes...
+
+>wait
+Time passes...
+
+>wait
+Time passes...
+
+>exit
+You're not inside anything.
+
+>north
+Oh, no! You have walked into the slavering fangs of a lurking grue!
+
+    **** You have died ****
+
+>west
+Oh, no! You have walked into the slavering fangs of a lurking grue!
+
+    **** You have died ****
+
+>south
+Oh, no! You have walked into the slavering fangs of a lurking grue!
+
+    **** You have died ****
+
+>north
+Oh, no! You have walked into the slavering fangs of a lurking grue!
+
+    **** You have died ****
+
+>take torch
+You can't see any such thing.
+
+>north
+Oh, no! You have walked into the slavering fangs of a lurking grue!
+
+    **** You have died ****
+
+>east
+You can't go that way.
+
+>east
+You can't go that way.
+
+>west
+Oh, no! You have walked into the slavering fangs of a lurking grue!
+
+    **** You have died ****
+
+>south
+Oh, no! You have walked into the slavering fangs of a lurking grue!
+
+    **** You have died ****
+
+>west
+Oh, no! You have walked into the slavering fangs of a lurking grue!
+
+    **** You have died ****
+
+>west
+Oh, no! You have walked into the slavering fangs of a lurking grue!
+
+    **** You have died ****
+
+>up
+Treasure Room
+
+This is a large room, whose north wall is solid marble. A doorway leads south, and a narrow chimney leads up.
+
+You hear a scream of anguish as you violate the robber's hideaway. Using passages unknown to you, he rushes to its defense.
+The thief lunges at you with his stiletto!
+The stiletto severs your jugular. It looks like the end.
+
+>open trophy case
+You can't see any such thing.
+
+>put ruby in trophy case
+You can't see any such thing.
+
+>put coin in trophy case
+You can't see any such thing.
+
+>put stamp in trophy case
+You can't see any such thing.
+
+>put crown in trophy case
+You can't see any such thing.
+
+>put trunk in trophy case
+You can't see any such thing.
+
+>put torch in trophy case
+You can't see any such thing.
+
+>inventory
+You are carrying:
+  glass bottle, tin of spices, white crystal sphere, guidebook, matchbook
+The thief lunges at you with his stiletto!
+The thief slowly approaches, strikes like a snake, and leaves you wounded.
+
+>look
+Treasure Room
+
+This is a large room, whose north wall is solid marble. A doorway leads south, and a narrow chimney leads up.
+
+You can see seedy-looking thief here.
+The thief lunges at you with his stiletto!
+You dodge as the thief comes in low.
+
+>score
+You have scored 281 out of 616, earning you the rank of Amateur.
+
+>gdt
+A BOOMING VOICE CALLS OUT, "WHO SUMMONS THE GAME DEBUGGING TOOL?"
+
+GDT ready. Type HE for help, EX to exit.
+The thief lunges at you with his stiletto!
+Finishing you off, a lightning throw right to the heart.
+
+GDT>
+
+>ds ledger
+=== SCORE LEDGER ===
+
+TROPHY (68 pts):
+  trophy:i29 = +13 - Placed the beautiful statue in the trophy case
+  trophy:i17 = +10 - Placed the platinum bar in the trophy case
+  trophy:i26 = +10 - Placed the pot of gold in the trophy case
+  trophy:i28 = +10 - Placed the large emerald in the trophy case
+  trophy:i0g = +7 - Placed the painting in the trophy case
+  trophy:i18 = +7 - Placed the gold coffin in the trophy case
+  trophy:c06 = +5 - Placed the jewel-encrusted egg in the trophy case
+  trophy:i1i = +5 - Placed the portrait in the trophy case
+  trophy:i2o = +1 - Placed the Don Woods stamp in the trophy case
+
+ROOM (115 pts):
+  room:r4t = +30 - Visited room
+  room:r0h = +25 - Visited room
+  room:r4d = +25 - Visited room
+  room:r05 = +10 - Visited room
+  room:r35 = +10 - Visited room
+  room:r4c = +10 - Visited room
+  room:r0m = +5 - Visited room
+
+BONUS (98 pts):
+  i0p = +15 - trunk
+  i0h = +14 - ivory torch
+  i17 = +12 - platinum bar
+  i1i = +10 - portrait
+  i1j = +10 - stack of zorkmid bills
+  i26 = +10 - pot of gold
+  i29 = +10 - beautiful statue
+  i1t = +9 - pearl necklace
+  i25 = +6 - white crystal sphere
+  c06 = +5 - jewel-encrusted egg
+  i22 = +5 - tin of spices
+  i28 = +5 - large emerald
+  i0g = +4 - painting
+  i18 = +3 - gold coffin
+  death-penalty-1 = -10 - Death penalty
+  death-penalty-2 = -10 - Death penalty
+
+Total: 281/616 (32 entries)
+
+GDT>
+
+>ex
+Returning to game.
+
+>take incense
+You can't see any such thing.
+
+>take frame piece
+You can't see any such thing.
+
+>inventory
+You are carrying:
+  glass bottle, tin of spices, white crystal sphere, guidebook, matchbook
+The thief lunges at you with his stiletto!
+The thief stabs nonchalantly with his stiletto and misses.
+
+>open trap door
+You can't see any such thing.
+
+>down
+It is pitch dark. You are likely to be eaten by a grue.
+
+>east
+Oh, no! You have walked into the slavering fangs of a lurking grue!
+
+    **** You have died ****
+
+>north
+It is pitch dark. You are likely to be eaten by a grue.
+
+>north
+Oh, no! You have walked into the slavering fangs of a lurking grue!
+
+    **** You have died ****
+
+>east
+Living Room
+
+This is the living room. There is a door to the east. To the west is a wooden door with strange gothic lettering, which appears to be nailed shut.
+
+You can see trophy case, large oriental rug, wooden door, trap door, incense, skeleton key, large brochure, wrench, screwdriver, trunk, brass lantern, brass bell, black book, burned-out candles, sharp stick here.
+
+>east
+Kitchen
+
+This is the kitchen of the white house. A table seems to have been used recently for the preparation of food. A passage leads to the west, and a dark staircase can be seen leading upward. To the east is a small window which is open.
+
+You can see kitchen table, elongated brown sack here.
+
+>northeast
+You can't go that way.
+
+>east
+Behind House
+
+You are behind the white house. In one corner of the house there is a small window which is slightly ajar.
+
+You can see window, white house here.
+
+>south
+South of House
+
+You are facing the south side of a white house. There is no door here, and all the windows are barred.
+
+You can see white house here.
+
+>burn incense
+You can't see any such thing.
+
+>pray
+If you pray hard enough, your prayers may be answered.
+
+>drop frame piece
+You can't see any such thing.
+
+>north
+You can't go that way.
+
+>west
+West of House
+
+This is an open field west of a white house with a boarded front door.
+
+You can see small mailbox, front door, welcome mat, white house here.
+
+>west
+You can't go that way.
+
+>north
+North of House
+
+You are facing the north side of a white house. There is no door here, and all the windows are barred.
+
+You can see white house here.
+
+>south
+You can't go that way.
+
+>south
+You can't go that way.
+
+>west
+West of House
+
+This is an open field west of a white house with a boarded front door.
+
+You can see small mailbox, front door, welcome mat, white house here.
+
+>east
+You can't go that way.
+
+>south
+South of House
+
+You are facing the south side of a white house. There is no door here, and all the windows are barred.
+
+You can see white house here.
+
+>northwest
+You can't go that way.
+
+>look
+South of House
+
+You are facing the south side of a white house. There is no door here, and all the windows are barred.
+
+You can see white house here.
+
+>take canvas
+You can't see any such thing.
+
+>south
+You can't go that way.
+
+>north
+You can't go that way.
+
+>east
+Behind House
+
+You are behind the white house. In one corner of the house there is a small window which is slightly ajar.
+
+You can see window, white house here.
+
+>west
+Kitchen
+
+This is the kitchen of the white house. A table seems to have been used recently for the preparation of food. A passage leads to the west, and a dark staircase can be seen leading upward. To the east is a small window which is open.
+
+You can see kitchen table, elongated brown sack here.
+
+>up
+It is pitch dark. You are likely to be eaten by a grue.
+
+>open trophy case
+You can't see any such thing.
+
+>put canvas in trophy case
+You can't see any such thing.
+
+>score
+You have scored 281 out of 616, earning you the rank of Amateur.
+
+>gdt
+A BOOMING VOICE CALLS OUT, "WHO SUMMONS THE GAME DEBUGGING TOOL?"
+
+GDT ready. Type HE for help, EX to exit.
+
+GDT>
+
+>ds ledger
+=== SCORE LEDGER ===
+
+TROPHY (68 pts):
+  trophy:i29 = +13 - Placed the beautiful statue in the trophy case
+  trophy:i17 = +10 - Placed the platinum bar in the trophy case
+  trophy:i26 = +10 - Placed the pot of gold in the trophy case
+  trophy:i28 = +10 - Placed the large emerald in the trophy case
+  trophy:i0g = +7 - Placed the painting in the trophy case
+  trophy:i18 = +7 - Placed the gold coffin in the trophy case
+  trophy:c06 = +5 - Placed the jewel-encrusted egg in the trophy case
+  trophy:i1i = +5 - Placed the portrait in the trophy case
+  trophy:i2o = +1 - Placed the Don Woods stamp in the trophy case
+
+ROOM (115 pts):
+  room:r4t = +30 - Visited room
+  room:r0h = +25 - Visited room
+  room:r4d = +25 - Visited room
+  room:r05 = +10 - Visited room
+  room:r35 = +10 - Visited room
+  room:r4c = +10 - Visited room
+  room:r0m = +5 - Visited room
+
+BONUS (98 pts):
+  i0p = +15 - trunk
+  i0h = +14 - ivory torch
+  i17 = +12 - platinum bar
+  i1i = +10 - portrait
+  i1j = +10 - stack of zorkmid bills
+  i26 = +10 - pot of gold
+  i29 = +10 - beautiful statue
+  i1t = +9 - pearl necklace
+  i25 = +6 - white crystal sphere
+  c06 = +5 - jewel-encrusted egg
+  i22 = +5 - tin of spices
+  i28 = +5 - large emerald
+  i0g = +4 - painting
+  i18 = +3 - gold coffin
+  death-penalty-1 = -10 - Death penalty
+  death-penalty-2 = -10 - Death penalty
+
+Total: 281/616 (32 entries)
+
+GDT>
+
+>ex
+Returning to game.
+
+>down
+Kitchen
+
+This is the kitchen of the white house. A table seems to have been used recently for the preparation of food. A passage leads to the west, and a dark staircase can be seen leading upward. To the east is a small window which is open.
+
+You can see kitchen table, elongated brown sack here.
+
+>turn on lantern
+You can't see any such thing.
+
+>east
+Behind House
+
+You are behind the white house. In one corner of the house there is a small window which is slightly ajar.
+
+You can see window, white house here.
+
+>north
+North of House
+
+You are facing the north side of a white house. There is no door here, and all the windows are barred.
+
+You can see white house here.
+
+>east
+Behind House
+
+You are behind the white house. In one corner of the house there is a small window which is slightly ajar.
+
+You can see window, white house here.
+
+>southeast
+You can't go that way.
+
+>east
+Clearing
+
+You are in a clearing, with a forest surrounding you on all sides. A path leads south. On the ground is a pile of leaves.
+
+You can see pile of leaves here.
+
+>rub mirror
+You can't see any such thing.
+
+>east
+Forest
+
+This is a dimly lit forest, with large trees all around.
+
+>down
+You can't go that way.
+
+>east
+Forest Path
+
+The forest thins out, and the path becomes clearer.
+
+A songbird chirps in the distance.
+
+>east
+Canyon View
+
+You are at the top of the Great Canyon, on its west wall. From here there is a marvelous view of the canyon and parts of the Frigid River upstream. Across the canyon, the walls of the White Cliffs join the mighty ramparts of the Flathead Mountains to the east. Following the Canyon, you can see a small path at the bottom of the canyon. There is a path here which goes west into the forest.
+
+>turn off lantern
+You can't see any such thing.
+
+>wait
+Time passes...
+
+>wait
+Time passes...
+
+>wait
+Time passes...
+Leaves rustle in the undergrowth.
+
+>west
+Forest Path
+
+The forest thins out, and the path becomes clearer.
+
+>push stone button
+You can't see any such thing.
+
+>south
+Twisting Path
+
+You are on a twisting path through a dense forest. The path splits here.
+
+>south
+You can't go that way.
+
+>in
+You can't go that way.
+A gentle breeze stirs the branches.
+
+>out
+You can't go that way.
+
+>south
+You can't go that way.
+
+>knock
 You knock, but no one answers.
 
-> answer temple
-You must first knock on the door to begin the challenge.
+>north
+Forest Path
 
-> answer forest
-You must first knock on the door to begin the challenge.
+The forest thins out, and the path becomes clearer.
 
-> answer 30003
-You must first knock on the door to begin the challenge.
-
-> answer flask
-You must first knock on the door to begin the challenge.
-
-> answer rub
-You must first knock on the door to begin the challenge.
-
-> answer bones
-You must first knock on the door to begin the challenge.
-
-> answer rusty knife
-You must first knock on the door to begin the challenge.
-
-> answer no
-You must first knock on the door to begin the challenge.
-
-> answer temple
-You must first knock on the door to begin the challenge.
-
-> answer forest
-You must first knock on the door to begin the challenge.
-
-> answer 30003
-You must first knock on the door to begin the challenge.
-
-> answer flask
-You must first knock on the door to begin the challenge.
-
-> answer rub
-You must first knock on the door to begin the challenge.
-
-> answer bones
-You must first knock on the door to begin the challenge.
-
-> answer rusty knife
-You must first knock on the door to begin the challenge.
-
-> answer no
-You must first knock on the door to begin the challenge.
-
-> answer temple
-You must first knock on the door to begin the challenge.
-
-> answer forest
-You must first knock on the door to begin the challenge.
-
-> answer 30003
-You must first knock on the door to begin the challenge.
-
-> answer flask
-You must first knock on the door to begin the challenge.
-
-> answer rub
-You must first knock on the door to begin the challenge.
-
-> answer bones
-You must first knock on the door to begin the challenge.
-
-> answer rusty knife
-You must first knock on the door to begin the challenge.
-
-> answer no
-You must first knock on the door to begin the challenge.
-
-> north
+>north
 You can't go that way.
 
-> north
+>north
 You can't go that way.
 
-> north
-You can't go that way.
-
-> set dial to 4
+>set dial to 4
 There is no button here to push.
 
-> push dial button
+>push dial button
 There is no button here to push.
 
-> down
+>down
 You can't go that way.
 
-> open bronze door
+>open bronze door
 You can't see any such thing.
 
-> south
-You can't go that way.
+>south
+Twisting Path
 
+You are on a twisting path through a dense forest. The path splits here.

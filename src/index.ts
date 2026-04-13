@@ -43,6 +43,8 @@ import { customActions, GDT_ACTION_ID, GDT_COMMAND_ACTION_ID, GDTEventTypes, isG
 // Import scheduler module
 import { registerScheduledEvents, DungeoSchedulerMessages, FloodingMessages, BalloonHandlerMessages, registerTrollRecoveryDaemon, SwordGlowMessages } from './scheduler';
 import { setSchedulerForGDT, setEngineForKL } from './actions/gdt/commands';
+import { GDT_INPUT_MODE_ID } from './actions/gdt/types';
+import { gdtInputModeHandler } from './actions/gdt/gdt-input-handler';
 
 // Import handlers
 import { registerBatHandler, BatMessages, registerExorcismHandler, ExorcismMessages, registerRoundRoomHandler, RoundRoomMessages, registerRealityAlteredHandler, registerRealityAlteredDaemon, RealityAlteredMessages, registerEndgameTriggerHandler, EndgameTriggerMessages, registerLaserPuzzleHandler, LaserPuzzleMessages, registerInsideMirrorHandler, InsideMirrorMessages, registerVictoryHandler, VictoryMessages, createDeathPenaltyHandler, DeathPenaltyMessages, registerTrapdoorHandler, TrapdoorMessages } from './handlers';
@@ -66,6 +68,9 @@ import { createFrigidRiverRegion, connectFrigidRiverToDam, connectRainbowToCanyo
 import { createMazeRegion, connectMazeToClearing, connectCyclopsToLivingRoom, connectMazeToTrollRoom, connectMazeToRoundRoom, createMazeObjects, MazeRoomIds } from './regions/maze';
 import { createRoyalPuzzleRegion, connectRoyalPuzzleToTreasureRoom, RoyalPuzzleRoomIds } from './regions/royal-puzzle';
 import { createEndgameRegion, createEndgameObjects, EndgameRoomIds } from './regions/endgame';
+
+// Import audio setup
+import { initializeAudio, registerAudioHandler } from './audio/audio-setup';
 
 // Import handlers
 import { registerRoyalPuzzleHandler, initializePuzzleState, createPuzzleCommandTransformer, PuzzleHandlerMessages } from './handlers/royal-puzzle';
@@ -193,7 +198,7 @@ export class DungeoStory implements Story {
   initializeWorld(world: WorldModel): void {
     this.world = world;
 
-    // Create system entity with story metadata (replaces (world as any) casts)
+    // Create system entity with story metadata (replaces ad-hoc world property casts)
     const storyInfoEntity = world.createEntity('story-info', EntityType.OBJECT);
     storyInfoEntity.add(new StoryInfoTrait({
       title: config.title,
@@ -575,6 +580,19 @@ export class DungeoStory implements Story {
     // Set max score via score ledger (ADR-129)
     world.setMaxScore(616);
 
+    // Initialize audio atmospheres for underground rooms (ADR-138)
+    initializeAudio(
+      this.undergroundIds as unknown as Record<string, string>,
+      [
+        ...Object.values(this.coalMineIds),
+        ...Object.values(this.templeIds),
+        ...Object.values(this.wellRoomIds),
+        ...Object.values(this.mazeIds),
+        ...Object.values(this.royalPuzzleIds),
+        ...Object.values(this.endgameIds),
+      ],
+    );
+
     // Set initial player location to West of House
     const player = world.getPlayer();
     if (player) {
@@ -752,6 +770,12 @@ export class DungeoStory implements Story {
    * Delegates to orchestration module for all engine registrations.
    */
   onEngineReady(engine: GameEngine): void {
+    // Register GDT input mode handler (ADR-137)
+    engine.registerInputMode(GDT_INPUT_MODE_ID, gdtInputModeHandler);
+
+    // Register audio event handler for room atmosphere changes (ADR-138)
+    registerAudioHandler(engine.getEventProcessor());
+
     initializeOrchestration(
       engine,
       this.world,

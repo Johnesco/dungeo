@@ -109,28 +109,14 @@ Troll Room
 This is a small room with passages off in all directions. Bloodstains and deep scratches (perhaps made by an axe) mar the walls.
 
 You can see nasty-looking troll here.
-The troll swings; the blade turns on your armor but crashes broadside into your head.
-Your sword has begun to glow very brightly.
+Your elvish sword is knocked out of your hands, but you parried the blow.
 
 >attack troll with sword
-You are still recovering from a staggering blow.
-The troll's swing almost knocks you over as you barely parry in time.
-Your sword has begun to glow very brightly.
-
->attack troll with sword
-The force of your blow knocks the troll back, stunned.
-The troll slowly regains his composure.
-
->attack troll with sword
-The troll is battered into unconsciousness.
-
->attack troll with sword
-The troll takes a final blow and slumps to the floor dead.
+Taken.
+The fatal blow strikes the troll square in the heart: He dies.
 
 Almost as soon as the troll breathes his last, a cloud of sinister black smoke envelops him, and when the fog lifts, the carcass has disappeared.
 With the troll dispatched, the passage to the north is now clear.
-
-Your sword is no longer glowing.
 
 >north
 East-West Passage
@@ -355,10 +341,6 @@ Taken.
 Maze
 
 You are in a maze of twisty little passages, all alike.
-
-You can see seedy-looking thief here.
-The thief lunges at you with his stiletto!
-The thief stabs nonchalantly with his stiletto and misses.
 
 >east
 Maze
@@ -1025,6 +1007,22 @@ Engravings Cave
 
 You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
 
+Maze
+
+You are in a maze of twisty little passages, all alike.
+
+>northeast
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
 >north
 Round Room
 
@@ -1037,11 +1035,115 @@ Engravings Cave
 
 You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
 
-North/South Passage
+Maze
 
-This is a wide passage running north and south. The walls are damp and cold.
+You are in a maze of twisty little passages, all alike.
 
->southwest
+>northeast
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+East-West Passage
+
+This is a narrow east-west passageway. There is a narrow stairway leading down at the north end of the room.
+
+>east
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+>north
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+>north
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+Maze
+
+You are in a maze of twisty little passages, all alike.
+
+>northeast
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+Winding Passage
+
+This is a winding passage through the rock. It leads northwest and east.
+
+>northwest
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+Maze
+
+You are in a maze of twisty little passages, all alike.
+
+>northeast
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+Deep Canyon
+
+You are in a deep canyon with sheer walls rising on all sides. A narrow path leads north.
+
+>southeast
 Round Room
 
 You are in a circular room with passages off in eight directions.
@@ -1193,6 +1295,54 @@ Engravings Cave
 
 You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
 
+North/South Passage
+
+This is a wide passage running north and south. The walls are damp and cold.
+
+>southwest
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+Winding Passage
+
+This is a winding passage through the rock. It leads northwest and east.
+
+>northwest
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+Winding Passage
+
+This is a winding passage through the rock. It leads northwest and east.
+
+>northwest
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
 Grail Room
 
 You are in a small chamber with walls of granite. A narrow passage exits to the west.
@@ -1209,11 +1359,723 @@ Engravings Cave
 
 You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
 
+Deep Canyon
+
+You are in a deep canyon with sheer walls rising on all sides. A narrow path leads north.
+
+>southeast
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+>north
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+>north
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+East-West Passage
+
+This is a narrow east-west passageway. There is a narrow stairway leading down at the north end of the room.
+
+>east
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+>north
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+East-West Passage
+
+This is a narrow east-west passageway. There is a narrow stairway leading down at the north end of the room.
+
+>east
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+East-West Passage
+
+This is a narrow east-west passageway. There is a narrow stairway leading down at the north end of the room.
+
+>east
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+East-West Passage
+
+This is a narrow east-west passageway. There is a narrow stairway leading down at the north end of the room.
+
+>east
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+The candles are burning low.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+East-West Passage
+
+This is a narrow east-west passageway. There is a narrow stairway leading down at the north end of the room.
+
+>east
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+>north
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
 North/South Passage
 
 This is a wide passage running north and south. The walls are damp and cold.
 
 >southwest
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+Grail Room
+
+You are in a small chamber with walls of granite. A narrow passage exits to the west.
+
+>west
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+>north
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+The candles flicker.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+East-West Passage
+
+This is a narrow east-west passageway. There is a narrow stairway leading down at the north end of the room.
+
+>east
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+>north
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+North/South Passage
+
+This is a wide passage running north and south. The walls are damp and cold.
+
+The candles sputter and go out.
+
+>southwest
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+Grail Room
+
+You are in a small chamber with walls of granite. A narrow passage exits to the west.
+
+>west
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+>north
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+East-West Passage
+
+This is a narrow east-west passageway. There is a narrow stairway leading down at the north end of the room.
+
+>east
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+North/South Passage
+
+This is a wide passage running north and south. The walls are damp and cold.
+
+>southwest
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+Winding Passage
+
+This is a winding passage through the rock. It leads northwest and east.
+
+>northwest
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+Grail Room
+
+You are in a small chamber with walls of granite. A narrow passage exits to the west.
+
+>west
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+Deep Canyon
+
+You are in a deep canyon with sheer walls rising on all sides. A narrow path leads north.
+
+>southeast
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+Deep Canyon
+
+You are in a deep canyon with sheer walls rising on all sides. A narrow path leads north.
+
+>southeast
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+Deep Canyon
+
+You are in a deep canyon with sheer walls rising on all sides. A narrow path leads north.
+
+>southeast
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+Winding Passage
+
+This is a winding passage through the rock. It leads northwest and east.
+
+>northwest
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+Deep Canyon
+
+You are in a deep canyon with sheer walls rising on all sides. A narrow path leads north.
+
+>southeast
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+North/South Passage
+
+This is a wide passage running north and south. The walls are damp and cold.
+
+>southwest
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+Deep Canyon
+
+You are in a deep canyon with sheer walls rising on all sides. A narrow path leads north.
+
+>southeast
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+Winding Passage
+
+This is a winding passage through the rock. It leads northwest and east.
+
+>northwest
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+Winding Passage
+
+This is a winding passage through the rock. It leads northwest and east.
+
+>northwest
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+Winding Passage
+
+This is a winding passage through the rock. It leads northwest and east.
+
+>northwest
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+North/South Passage
+
+This is a wide passage running north and south. The walls are damp and cold.
+
+>southwest
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+East-West Passage
+
+This is a narrow east-west passageway. There is a narrow stairway leading down at the north end of the room.
+
+>east
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+Deep Canyon
+
+You are in a deep canyon with sheer walls rising on all sides. A narrow path leads north.
+
+>southeast
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+Deep Canyon
+
+You are in a deep canyon with sheer walls rising on all sides. A narrow path leads north.
+
+>southeast
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+Grail Room
+
+You are in a small chamber with walls of granite. A narrow passage exits to the west.
+
+>west
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+>north
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+Grail Room
+
+You are in a small chamber with walls of granite. A narrow passage exits to the west.
+
+>west
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+>north
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+North/South Passage
+
+This is a wide passage running north and south. The walls are damp and cold.
+
+>southwest
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+>north
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+East-West Passage
+
+This is a narrow east-west passageway. There is a narrow stairway leading down at the north end of the room.
+
+>east
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+Deep Canyon
+
+You are in a deep canyon with sheer walls rising on all sides. A narrow path leads north.
+
+>southeast
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+North/South Passage
+
+This is a wide passage running north and south. The walls are damp and cold.
+
+>southwest
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+North/South Passage
+
+This is a wide passage running north and south. The walls are damp and cold.
+
+>southwest
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+Deep Canyon
+
+You are in a deep canyon with sheer walls rising on all sides. A narrow path leads north.
+
+>southeast
+Round Room
+
+You are in a circular room with passages off in eight directions.
+
+You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+>north
 Round Room
 
 You are in a circular room with passages off in eight directions.
@@ -1252,7 +2114,7 @@ You can see trophy case, large oriental rug, wooden door, trap door, incense, sk
 
 >inventory
 You are carrying:
-  ivory torch, brass lantern, brass bell, black book, pair of candles
+  ivory torch, brass lantern, brass bell, black book, burned-out candles
 
 >look
 Living Room
@@ -1325,8 +2187,6 @@ Damp Cave
 
 This cave is extremely damp. A stairway leads down.
 
-The candles are burning low.
-
 >east
 Flood Control Dam #3
 
@@ -1370,7 +2230,6 @@ Taken.
 
 >open buoy
 You open red buoy.
-The candles flicker.
 Inside the red buoy you see large emerald.
 
 >take emerald
@@ -1400,7 +2259,6 @@ Rocky Shore
 This is the west shore of the river. An entrance to a cave is to the northwest. The shore is very rocky here.
 
 You can see Frigid River, magic boat here.
-The candles sputter and go out.
 
 >disembark
 You get out of magic boat.
@@ -1629,6 +2487,7 @@ You can see small bird's nest here.
 
 >take egg
 Taken.
+A gentle breeze stirs the branches.
 
 >inventory
 You are carrying:
@@ -1636,7 +2495,6 @@ You are carrying:
 
 >examine egg
 A beautiful jewel-encrusted egg. It appears to open somehow.
-A songbird chirps in the distance.
 
 >down
 Forest Path
@@ -1736,6 +2594,18 @@ Round Room
 You are in a circular room with passages off in eight directions.
 
 You can see steel box here.
+
+>south
+Engravings Cave
+
+You are in a cave with strange engravings on the walls. A passage leads north, and stairs lead down.
+
+Deep Canyon
+
+You are in a deep canyon with sheer walls rising on all sides. A narrow path leads north.
+
+>southeast
+(navigated: Deep Canyon -> Round Room)
 
 >south
 Engravings Cave
@@ -2006,9 +2876,9 @@ Machine Room
 
 This is a large room filled with strange machinery. A small triangular button is set into the wall. A passage leads west.
 
-Tea Room
+Machine Room
 
-This is a small room with a table. On the table are cakes of various sorts. Passages lead to the west, northwest, and east.
+This is a large room filled with strange machinery. A small triangular button is set into the wall. A passage leads west.
 
 You can see triangular button here.
 You cannot get your bearings...
@@ -2017,34 +2887,26 @@ You cannot get your bearings...
 You can't go that way.
 
 >east
-Posts Room
-
-This is a room with very large and very tall wooden posts in each corner. The room is otherwise featureless.
+You can't go that way.
 
 >southeast
 You can't go that way.
 
 >east
-Pool Room
-
-This is a large room, one half of which is depressed. The floor of the depression is covered with hardened calciumite. The only exit is to the west.
-
-You can see red cake here.
+You can't go that way.
 
 >rub mirror
 You can't see any such thing.
 
 >west
-Posts Room
+Low Room
 
-This is a room with very large and very tall wooden posts in each corner. The room is otherwise featureless.
+This is a low room with passages leading in several directions.
+
+As you enter, your compass starts spinning wildly.
 
 >west
-Tea Room
-
-This is a small room with a table. On the table are cakes of various sorts. Passages lead to the west, northwest, and east.
-
-You can see dusty table, piece of paper, orange cake here.
+You can't go that way.
 
 >north
 You can't go that way.
@@ -2056,11 +2918,7 @@ You can't go that way.
 You can't go that way.
 
 >west
-Top of Well
-
-You are at the top of a well. A bucket hangs from a rope here.
-
-You can see well, bucket here.
+You can't go that way.
 
 >drop torch
 Dropped.
@@ -2069,17 +2927,13 @@ Dropped.
 You can't see any such thing.
 
 >down
-It is pitch dark. You are likely to be eaten by a grue.
+You can't go that way.
 
 >take bracelet
 You can't see any such thing.
 
 >up
-Top of Well
-
-You are at the top of a well. A bucket hangs from a rope here.
-
-You can see well, bucket, ivory torch here.
+You can't go that way.
 
 >take torch
 Taken.
@@ -2088,11 +2942,16 @@ Taken.
 You can't see any such thing.
 
 >east
+Machine Room
+
+This is a large room filled with strange machinery. A small triangular button is set into the wall. A passage leads west.
+
 Tea Room
 
 This is a small room with a table. On the table are cakes of various sorts. Passages lead to the west, northwest, and east.
 
-You can see dusty table, piece of paper, orange cake here.
+You can see triangular button here.
+You cannot get your bearings...
 
 >northeast
 You can't go that way.
@@ -2404,6 +3263,62 @@ Machine Room
 
 This is a large room filled with strange machinery. A small triangular button is set into the wall. A passage leads west.
 
+Machine Room
+
+This is a large room filled with strange machinery. A small triangular button is set into the wall. A passage leads west.
+
+You can see triangular button here.
+You cannot get your bearings...
+
+>east
+You can't go that way.
+
+>north
+You can't go that way.
+
+>west
+Low Room
+
+This is a low room with passages leading in several directions.
+
+As you enter, your compass starts spinning wildly.
+
+>take welcome mat
+You can't see any such thing.
+
+>south
+You can't go that way.
+
+>east
+Machine Room
+
+This is a large room filled with strange machinery. A small triangular button is set into the wall. A passage leads west.
+
+Machine Room
+
+This is a large room filled with strange machinery. A small triangular button is set into the wall. A passage leads west.
+
+You can see triangular button here.
+You cannot get your bearings...
+
+>west
+Low Room
+
+This is a low room with passages leading in several directions.
+
+As you enter, your compass starts spinning wildly.
+
+>west
+You can't go that way.
+
+>down
+You can't go that way.
+
+>east
+Machine Room
+
+This is a large room filled with strange machinery. A small triangular button is set into the wall. A passage leads west.
+
 Tea Room
 
 This is a small room with a table. On the table are cakes of various sorts. Passages lead to the west, northwest, and east.
@@ -2416,71 +3331,22 @@ Posts Room
 
 This is a room with very large and very tall wooden posts in each corner. The room is otherwise featureless.
 
->north
-You can't go that way.
-
->west
-Tea Room
-
-This is a small room with a table. On the table are cakes of various sorts. Passages lead to the west, northwest, and east.
-
-You can see dusty table, piece of paper, orange cake here.
-
->take welcome mat
-You can't see any such thing.
-
->south
-You can't go that way.
-
->east
-Posts Room
-
-This is a room with very large and very tall wooden posts in each corner. The room is otherwise featureless.
-
->west
-Tea Room
-
-This is a small room with a table. On the table are cakes of various sorts. Passages lead to the west, northwest, and east.
-
-You can see dusty table, piece of paper, orange cake here.
-
->west
-Top of Well
-
-You are at the top of a well. A bucket hangs from a rope here.
-
-You can see well, bucket here.
-
->down
-Well Bottom
-
-You are at the bottom of a well. The walls are too smooth to climb.
-
-You can see well here.
-
->east
-You can't go that way.
-
->east
-You can't go that way.
-
 >up
-Top of Well
-
-You are at the top of a well. A bucket hangs from a rope here.
-
-You can see well, bucket here.
+You can't go that way.
 
 >west
-You can't go that way.
+Tea Room
+
+This is a small room with a table. On the table are cakes of various sorts. Passages lead to the west, northwest, and east.
+
+You can see dusty table, piece of paper, orange cake here.
 
 >look
-Top of Well
+Tea Room
 
-You are at the top of a well. A bucket hangs from a rope here.
+This is a small room with a table. On the table are cakes of various sorts. Passages lead to the west, northwest, and east.
 
-You can see well, bucket here.
-In bucket you see quantity of water.
+You can see dusty table, piece of paper, orange cake here.
 
 >north
 You can't go that way.
@@ -2504,12 +3370,11 @@ You can't see any such thing.
 You can't go that way.
 
 >look
-Top of Well
+Tea Room
 
-You are at the top of a well. A bucket hangs from a rope here.
+This is a small room with a table. On the table are cakes of various sorts. Passages lead to the west, northwest, and east.
 
-You can see well, bucket here.
-In bucket you see quantity of water.
+You can see dusty table, piece of paper, orange cake here.
 
 >drop screwdriver
 You can't see any such thing.
@@ -2527,21 +3392,11 @@ You can't see any such thing.
 You can't go that way.
 
 >east
-Tea Room
-
-This is a small room with a table. On the table are cakes of various sorts. Passages lead to the west, northwest, and east.
-
-You can see dusty table, piece of paper, orange cake here.
-
->down
-You can't go that way.
-
->east
 Posts Room
 
 This is a room with very large and very tall wooden posts in each corner. The room is otherwise featureless.
 
->north
+>down
 You can't go that way.
 
 >east
@@ -2550,6 +3405,12 @@ Pool Room
 This is a large room, one half of which is depressed. The floor of the depression is covered with hardened calciumite. The only exit is to the west.
 
 You can see red cake here.
+
+>north
+You can't go that way.
+
+>east
+You can't go that way.
 
 >southeast
 You can't go that way.
@@ -2602,21 +3463,29 @@ Machine Room
 
 This is a large room filled with strange machinery. A small triangular button is set into the wall. A passage leads west.
 
-Tea Room
+Machine Room
 
-This is a small room with a table. On the table are cakes of various sorts. Passages lead to the west, northwest, and east.
+This is a large room filled with strange machinery. A small triangular button is set into the wall. A passage leads west.
 
 You can see triangular button here.
 You cannot get your bearings...
 
 >south
-You can't go that way.
+Dingy Closet
+
+This is a small, dingy closet. A door leads north.
+
+You can see metal cage, robot here.
 
 >take red sphere
 You can't see any such thing.
 
 >north
-You can't go that way.
+Machine Room
+
+This is a large room filled with strange machinery. A small triangular button is set into the wall. A passage leads west.
+
+You can see triangular button here.
 
 >up
 You can't go that way.
@@ -2641,11 +3510,11 @@ You are carrying:
   glass bottle, pearl necklace, blue cake, eat-me cake, tin of spices, white crystal sphere, ivory torch
 
 >look
-Tea Room
+Machine Room
 
-This is a small room with a table. On the table are cakes of various sorts. Passages lead to the west, northwest, and east.
+This is a large room filled with strange machinery. A small triangular button is set into the wall. A passage leads west.
 
-You can see dusty table, piece of paper, orange cake here.
+You can see triangular button here.
 
 >drop blue cake
 Dropped.
@@ -2658,9 +3527,7 @@ You are carrying:
   glass bottle, pearl necklace, tin of spices, white crystal sphere, ivory torch
 
 >east
-Posts Room
-
-This is a room with very large and very tall wooden posts in each corner. The room is otherwise featureless.
+You can't go that way.
 
 >up
 You can't go that way.
@@ -2678,11 +3545,11 @@ You can't see any such thing.
 You can't go that way.
 
 >west
-Tea Room
+Low Room
 
-This is a small room with a table. On the table are cakes of various sorts. Passages lead to the west, northwest, and east.
+This is a low room with passages leading in several directions.
 
-You can see dusty table, piece of paper, orange cake, blue cake, eat-me cake here.
+As you enter, your compass starts spinning wildly.
 
 >drop brick
 You can't see any such thing.
@@ -2706,24 +3573,29 @@ You can't see any such thing.
 You can't go that way.
 
 >east
-Posts Room
+Machine Room
 
-This is a room with very large and very tall wooden posts in each corner. The room is otherwise featureless.
+This is a large room filled with strange machinery. A small triangular button is set into the wall. A passage leads west.
+
+Machine Room
+
+This is a large room filled with strange machinery. A small triangular button is set into the wall. A passage leads west.
+
+You can see triangular button, blue cake, eat-me cake here.
+You cannot get your bearings...
 
 >south
-You can't go that way.
+Dingy Closet
+
+This is a small, dingy closet. A door leads north.
+
+You can see metal cage, robot here.
 
 >east
-Pool Room
-
-This is a large room, one half of which is depressed. The floor of the depression is covered with hardened calciumite. The only exit is to the west.
-
-You can see red cake here.
+You can't go that way.
 
 >west
-Posts Room
-
-This is a room with very large and very tall wooden posts in each corner. The room is otherwise featureless.
+You can't go that way.
 
 >up
 You can't go that way.
@@ -2732,11 +3604,7 @@ You can't go that way.
 You can't go that way.
 
 >east
-Pool Room
-
-This is a large room, one half of which is depressed. The floor of the depression is covered with hardened calciumite. The only exit is to the west.
-
-You can see red cake here.
+You can't go that way.
 
 >south
 You can't go that way.
@@ -3081,7 +3949,11 @@ You can't see any such thing.
 You can't go that way.
 
 >north
-You can't go that way.
+Machine Room
+
+This is a large room filled with strange machinery. A small triangular button is set into the wall. A passage leads west.
+
+You can see triangular button, blue cake, eat-me cake here.
 
 >east
 You can't go that way.
@@ -3105,22 +3977,20 @@ You can't see any such thing.
 You can't see any such thing.
 
 >south
-You can't go that way.
+Dingy Closet
+
+This is a small, dingy closet. A door leads north.
+
+You can see metal cage, robot here.
 
 >east
 You can't go that way.
 
 >west
-Posts Room
-
-This is a room with very large and very tall wooden posts in each corner. The room is otherwise featureless.
+You can't go that way.
 
 >west
-Tea Room
-
-This is a small room with a table. On the table are cakes of various sorts. Passages lead to the west, northwest, and east.
-
-You can see dusty table, piece of paper, orange cake, blue cake, eat-me cake here.
+You can't go that way.
 
 >open trophy case
 You can't see any such thing.
@@ -3144,24 +4014,16 @@ You can't see any such thing.
 You can't go that way.
 
 >east
-Posts Room
-
-This is a room with very large and very tall wooden posts in each corner. The room is otherwise featureless.
+You can't go that way.
 
 >south
 You can't go that way.
 
 >east
-Pool Room
-
-This is a large room, one half of which is depressed. The floor of the depression is covered with hardened calciumite. The only exit is to the west.
-
-You can see red cake here.
+You can't go that way.
 
 >west
-Posts Room
-
-This is a room with very large and very tall wooden posts in each corner. The room is otherwise featureless.
+You can't go that way.
 
 >up
 You can't go that way.
@@ -3170,11 +4032,7 @@ You can't go that way.
 You can't go that way.
 
 >east
-Pool Room
-
-This is a large room, one half of which is depressed. The floor of the depression is covered with hardened calciumite. The only exit is to the west.
-
-You can see red cake here.
+You can't go that way.
 
 >south
 You can't go that way.
@@ -3189,7 +4047,11 @@ You can't go that way.
 You can't go that way.
 
 >north
-You can't go that way.
+Machine Room
+
+This is a large room filled with strange machinery. A small triangular button is set into the wall. A passage leads west.
+
+You can see triangular button, blue cake, eat-me cake here.
 
 >east
 You can't go that way.
@@ -3205,11 +4067,11 @@ You are carrying:
   glass bottle, pearl necklace, tin of spices, white crystal sphere, ivory torch
 
 >look
-Pool Room
+Machine Room
 
-This is a large room, one half of which is depressed. The floor of the depression is covered with hardened calciumite. The only exit is to the west.
+This is a large room filled with strange machinery. A small triangular button is set into the wall. A passage leads west.
 
-You can see red cake here.
+You can see eat-me cake, blue cake, triangular button here.
 
 >open trap door
 You can't see any such thing.
@@ -3221,15 +4083,17 @@ You can't go that way.
 You can't go that way.
 
 >south
-You can't go that way.
+Dingy Closet
+
+This is a small, dingy closet. A door leads north.
+
+You can see metal cage, robot here.
 
 >east
 You can't go that way.
 
 >west
-Posts Room
-
-This is a room with very large and very tall wooden posts in each corner. The room is otherwise featureless.
+You can't go that way.
 
 >up
 You can't go that way.
@@ -3238,11 +4102,7 @@ You can't go that way.
 You can't go that way.
 
 >east
-Pool Room
-
-This is a large room, one half of which is depressed. The floor of the depression is covered with hardened calciumite. The only exit is to the west.
-
-You can see red cake here.
+You can't go that way.
 
 >south
 You can't go that way.
@@ -3284,7 +4144,11 @@ You can't go that way.
 There are no walls to push here.
 
 >north
-You can't go that way.
+Machine Room
+
+This is a large room filled with strange machinery. A small triangular button is set into the wall. A passage leads west.
+
+You can see triangular button, blue cake, eat-me cake here.
 
 >north
 You can't go that way.
@@ -3335,7 +4199,11 @@ There are no walls to push here.
 You can't go that way.
 
 >south
-You can't go that way.
+Dingy Closet
+
+This is a small, dingy closet. A door leads north.
+
+You can see metal cage, robot here.
 
 >southeast
 You can't go that way.
@@ -3344,7 +4212,11 @@ You can't go that way.
 You can't go that way.
 
 >north
-You can't go that way.
+Machine Room
+
+This is a large room filled with strange machinery. A small triangular button is set into the wall. A passage leads west.
+
+You can see triangular button, blue cake, eat-me cake here.
 
 >push west wall
 There are no walls to push here.
@@ -3359,9 +4231,11 @@ There are no walls to push here.
 There are no walls to push here.
 
 >west
-Posts Room
+Low Room
 
-This is a room with very large and very tall wooden posts in each corner. The room is otherwise featureless.
+This is a low room with passages leading in several directions.
+
+As you enter, your compass starts spinning wildly.
 
 >northwest
 You can't go that way.
@@ -3373,7 +4247,16 @@ You can't go that way.
 There are no walls to push here.
 
 >southeast
-You can't go that way.
+Tea Room
+
+This is a small room with a table. On the table are cakes of various sorts. Passages lead to the west, northwest, and east.
+
+Tea Room
+
+This is a small room with a table. On the table are cakes of various sorts. Passages lead to the west, northwest, and east.
+
+You can see dusty table, piece of paper, orange cake here.
+You cannot get your bearings...
 
 >southeast
 You can't go that way.
@@ -3403,25 +4286,25 @@ There are no walls to push here.
 There are no walls to push here.
 
 >northwest
-You can't go that way.
+Low Room
+
+This is a low room with passages leading in several directions.
+
+As you enter, your compass starts spinning wildly.
 
 >up
 You can't go that way.
 
 >look
-Posts Room
+Low Room
 
-This is a room with very large and very tall wooden posts in each corner. The room is otherwise featureless.
+This is a low room with passages leading in several directions.
 
 >up
 You can't go that way.
 
 >west
-Tea Room
-
-This is a small room with a table. On the table are cakes of various sorts. Passages lead to the west, northwest, and east.
-
-You can see dusty table, piece of paper, orange cake, blue cake, eat-me cake here.
+You can't go that way.
 
 >down
 You can't go that way.
@@ -3430,9 +4313,16 @@ You can't go that way.
 You can't go that way.
 
 >east
-Posts Room
+Machine Room
 
-This is a room with very large and very tall wooden posts in each corner. The room is otherwise featureless.
+This is a large room filled with strange machinery. A small triangular button is set into the wall. A passage leads west.
+
+Machine Room
+
+This is a large room filled with strange machinery. A small triangular button is set into the wall. A passage leads west.
+
+You can see triangular button, blue cake, eat-me cake here.
+You cannot get your bearings...
 
 >open trophy case
 You can't see any such thing.
@@ -3442,9 +4332,11 @@ You are carrying:
   glass bottle, pearl necklace, tin of spices, white crystal sphere, ivory torch
 
 >look
-Posts Room
+Machine Room
 
-This is a room with very large and very tall wooden posts in each corner. The room is otherwise featureless.
+This is a large room filled with strange machinery. A small triangular button is set into the wall. A passage leads west.
+
+You can see eat-me cake, blue cake, triangular button here.
 
 >take guidebook
 You can't see any such thing.
@@ -3466,11 +4358,7 @@ You are carrying:
 You can't go that way.
 
 >east
-Pool Room
-
-This is a large room, one half of which is depressed. The floor of the depression is covered with hardened calciumite. The only exit is to the west.
-
-You can see red cake here.
+You can't go that way.
 
 >north
 You can't go that way.
@@ -3479,9 +4367,11 @@ You can't go that way.
 You can't go that way.
 
 >west
-Posts Room
+Low Room
 
-This is a room with very large and very tall wooden posts in each corner. The room is otherwise featureless.
+This is a low room with passages leading in several directions.
+
+As you enter, your compass starts spinning wildly.
 
 >northwest
 You can't go that way.
@@ -3496,21 +4386,13 @@ You can't go that way.
 You can't see any such thing.
 
 >west
-Tea Room
-
-This is a small room with a table. On the table are cakes of various sorts. Passages lead to the west, northwest, and east.
-
-You can see dusty table, piece of paper, orange cake, blue cake, eat-me cake here.
+You can't go that way.
 
 >take ruby
 You can't see any such thing.
 
 >west
-Top of Well
-
-You are at the top of a well. A bucket hangs from a rope here.
-
-You can see well, bucket here.
+You can't go that way.
 
 >south
 You can't go that way.
@@ -3678,11 +4560,16 @@ You already have ivory torch.
 You can't go that way.
 
 >east
+Machine Room
+
+This is a large room filled with strange machinery. A small triangular button is set into the wall. A passage leads west.
+
 Tea Room
 
 This is a small room with a table. On the table are cakes of various sorts. Passages lead to the west, northwest, and east.
 
-You can see dusty table, piece of paper, orange cake, blue cake, eat-me cake here.
+You can see triangular button, blue cake, eat-me cake here.
+You cannot get your bearings...
 
 >east
 Posts Room
@@ -3694,7 +4581,7 @@ Tea Room
 
 This is a small room with a table. On the table are cakes of various sorts. Passages lead to the west, northwest, and east.
 
-You can see dusty table, piece of paper, orange cake, blue cake, eat-me cake here.
+You can see dusty table, piece of paper, orange cake here.
 
 >south
 You can't go that way.
@@ -3873,8 +4760,7 @@ and all the king's horses can't draw it up?'
 
 (Reply via 'ANSWER "answer"')
 
-You can see riddle inscription, seedy-looking thief here.
-The thief, badly wounded, stumbles away into the darkness.
+You can see riddle inscription here.
 
 >north
 You can't go that way.
@@ -3898,7 +4784,6 @@ You can't go that way.
 
 >northwest
 You can't go that way.
-The thief, badly wounded, stumbles away into the darkness.
 
 >look
 Broom Closet
@@ -3919,9 +4804,7 @@ Well Bottom
 
 You are at the bottom of a well. The walls are too smooth to climb.
 
-You can see well, seedy-looking thief here.
-The thief lunges at you with his stiletto!
-The thief attacks, and you fall back desperately.
+You can see well here.
 
 >west
 Broom Closet
@@ -4017,8 +4900,6 @@ You can't go that way.
 
 >east
 You can't go that way.
-The thief lunges at you with his stiletto!
-The thief attacks, and you fall back desperately.
 
 >rub mirror
 You can't see any such thing.
@@ -4028,17 +4909,12 @@ You can't go that way.
 
 >down
 You can't go that way.
-The thief lunges at you with his stiletto!
-The thief, forgetting his essentially genteel upbringing, cuts your throat.
 
 >east
 You can't go that way.
-The thief lunges at you with his stiletto!
-The thief, forgetting his essentially genteel upbringing, cuts your throat.
 
 >east
 You can't go that way.
-The thief, badly wounded, stumbles away into the darkness.
 
 >turn off lantern
 You can't see any such thing.
@@ -4051,8 +4927,6 @@ Time passes...
 
 >wait
 Time passes...
-The thief lunges at you with his stiletto!
-The thief, forgetting his essentially genteel upbringing, cuts your throat.
 
 >west
 Broom Closet
@@ -4067,17 +4941,12 @@ You can't go that way.
 
 >south
 You can't go that way.
-The thief lunges at you with his stiletto!
-A quick thrust pinks your left arm, and blood starts to trickle down.
 
 >in
 You can't go that way.
-The thief lunges at you with his stiletto!
-The stiletto flashes faster than you can follow, and blood wells from your leg.
 
 >out
 You can't go that way.
-The thief, badly wounded, stumbles away into the darkness.
 
 >south
 You can't go that way.
